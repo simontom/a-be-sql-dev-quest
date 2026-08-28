@@ -1,5 +1,8 @@
 # Banner Campaign DB — Local Testing with Docker
 
+> [!NOTE]
+> What is not **written** is **sooner forgotten**.
+
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
@@ -140,7 +143,8 @@ db/
 ├── 03-indexes.sql
 ├── 04-query-campaign-balance.sql   ← Query b: campaign balance
 ├── 05-query-daily-balance.sql      ← Query c: weekday FIX balance
-└── 06-erd.md                       ← ER diagram
+├── 06-erd.md                       ← ER diagram
+└── 08-test-constraints.sql         ← Constraint & trigger unit tests
 ```
 
 ---

@@ -76,16 +76,19 @@ Invoke-SqlScript "3/6 Indexes"     "03-indexes.sql"
 # Step 3: Run Seed Data
 Invoke-SqlScript "4/6 Seed Data"   "docker-init\07-seed-data.sql"
 
-# Step 4: Run Analytical Queries
+# Step 4: Run Constraint & Trigger Unit Tests
+Invoke-SqlScript "5/7 Constraint Tests" "08-test-constraints.sql"
+
+# Step 5: Run Analytical Queries
 Write-Host ""
 Write-Host "============================================================" -ForegroundColor Green
-Write-Host " [5/6] Query b: Campaign Balance (04-query-campaign-balance.sql)" -ForegroundColor Green
+Write-Host " [6/7] Query b: Campaign Balance (04-query-campaign-balance.sql)" -ForegroundColor Green
 Write-Host "============================================================" -ForegroundColor Green
 & sqlcmd @baseArgs -d $Database -i "04-query-campaign-balance.sql"
 
 Write-Host ""
 Write-Host "============================================================" -ForegroundColor Green
-Write-Host " [6/6] Query c: Daily Balance for FIX Banners (05-query-daily-balance.sql)" -ForegroundColor Green
+Write-Host " [7/7] Query c: Daily Balance for FIX Banners (05-query-daily-balance.sql)" -ForegroundColor Green
 Write-Host "============================================================" -ForegroundColor Green
 & sqlcmd @baseArgs -d $Database -i "05-query-daily-balance.sql"
 

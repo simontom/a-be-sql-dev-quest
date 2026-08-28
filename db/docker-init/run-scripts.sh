@@ -42,6 +42,9 @@ run_script "Indexes"     /sql/03-indexes.sql
 # --- Seed Data ---------------------------------------------
 run_script "Seed"        /docker-init/07-seed-data.sql
 
+# --- Constraint & Trigger Tests ---------------------------
+run_script "Tests"       /sql/08-test-constraints.sql
+
 # --- Analytical Queries (output to console) ----------------
 echo ""
 echo "=============================================="

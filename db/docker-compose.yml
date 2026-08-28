@@ -1,0 +1,47 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: bannery-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "BanneryQuest#2026"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+      - ./docker-init:/docker-init:ro
+      - .:/sql:ro
+    healthcheck:
+      test:
+        - "CMD"
+        - "/opt/mssql-tools18/bin/sqlcmd"
+        - "-S"
+        - "localhost"
+        - "-U"
+        - "sa"
+        - "-P"
+        - "BanneryQuest#2026"
+        - "-C"
+        - "-Q"
+        - "SELECT 1"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  # One-shot initializer: runs SQL scripts after MSSQL is healthy
+  db-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: bannery-db-init
+    depends_on:
+      mssql:
+        condition: service_healthy
+    volumes:
+      - ./docker-init:/docker-init:ro
+      - .:/sql:ro
+    command: /bin/bash /docker-init/run-scripts.sh
+    restart: "no"
+
+volumes:
+  mssql-data:

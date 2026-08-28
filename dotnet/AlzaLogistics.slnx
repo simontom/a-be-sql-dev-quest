@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AlzaLogistics.Console/AlzaLogistics.Console.csproj" />
+    <Project Path="src/AlzaLogistics.Core/AlzaLogistics.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AlzaLogistics.Benchmarks/AlzaLogistics.Benchmarks.csproj" />
+    <Project Path="tests/AlzaLogistics.Tests/AlzaLogistics.Tests.csproj" />
+  </Folder>
+</Solution>

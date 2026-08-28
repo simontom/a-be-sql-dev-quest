@@ -1,0 +1,100 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+Unable to find .sln or .csproj file. Will use current directory D:\Work\Coding\a-be-sql-dev-quest\dotnet to search for project file. If you don't use .sln file on purpose it should not be a problem.
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\obj\Release\net10.0/" /p:OutDir="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0/" /p:OutputPath="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0/" in D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549
+// command took 1.62 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\obj\Release\net10.0/" /p:OutDir="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0/" /p:OutputPath="D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0/" --output "D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0/" in D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549
+// command took 7.62 sec and exited with 0
+// ***** Done, took 00:00:09 (9.34 sec)   *****
+// Found 1 benchmarks:
+//   PlanningBenchmarks.'100K packages, 240 trips, greedy only': Dry(IterationCount=1, LaunchCount=1, RunStrategy=ColdStart, UnrollFactor=1, WarmupCount=1)
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: PlanningBenchmarks.'100K packages, 240 trips, greedy only': Dry(IterationCount=1, LaunchCount=1, RunStrategy=ColdStart, UnrollFactor=1, WarmupCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 11a64c88-170d-4615-84b5-a1d8115bc549.dll --anonymousPipes 1140 1396 --benchmarkName AlzaLogistics.Benchmarks.PlanningBenchmarks.Plan_100K_GreedyOnly --job Dry --benchmarkId 0 in D:\Work\Coding\a-be-sql-dev-quest\dotnet\tests\AlzaLogistics.Benchmarks\bin\Release\net10.0\11a64c88-170d-4615-84b5-a1d8115bc549\bin\Release\net10.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 10.0.11 (10.0.1126.37416), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Dry(IterationCount=1, LaunchCount=1, RunStrategy=ColdStart, UnrollFactor=1, WarmupCount=1)
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 74066800.00 ns, 74.0668 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 74066800.00 ns, 74.0668 ms/op
+// GC:  0 0 0 14041288 1
+// Threading:  0 0 1
+
+// AfterAll
+// Benchmark Process 26132 has exited with code 0.
+
+Mean = 74.067 ms, StdErr = 0.000 ms (0.00%), N = 1, StdDev = 0.000 ms
+Min = 74.067 ms, Q1 = 74.067 ms, Median = 74.067 ms, Q3 = 74.067 ms, Max = 74.067 ms
+IQR = 0.000 ms, LowerFence = 74.067 ms, UpperFence = 74.067 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2026-08-28 10:44 (0h 0m from now) **
+Successfully reverted power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\AlzaLogistics.Benchmarks.PlanningBenchmarks-report.csv
+  BenchmarkDotNet.Artifacts\results\AlzaLogistics.Benchmarks.PlanningBenchmarks-report-github.md
+  BenchmarkDotNet.Artifacts\results\AlzaLogistics.Benchmarks.PlanningBenchmarks-report.html
+
+// * Detailed results *
+PlanningBenchmarks.'100K packages, 240 trips, greedy only': Dry(IterationCount=1, LaunchCount=1, RunStrategy=ColdStart, UnrollFactor=1, WarmupCount=1)
+Runtime = .NET 10.0.11 (10.0.1126.37416), X64 RyuJIT AVX2; GC = Concurrent Workstation
+Mean = 74.067 ms, StdErr = 0.000 ms (0.00%), N = 1, StdDev = 0.000 ms
+Min = 74.067 ms, Q1 = 74.067 ms, Median = 74.067 ms, Q3 = 74.067 ms, Max = 74.067 ms
+IQR = 0.000 ms, LowerFence = 74.067 ms, UpperFence = 74.067 ms
+ConfidenceInterval = [NaN ms; NaN ms] (CI 99.9%), Margin = NaN ms (NaN% of Mean)
+Skewness = NaN, Kurtosis = NaN, MValue = 2
+-------------------- Histogram --------------------
+[74.067 ms ; 74.067 ms) | @
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.7663/22H2/2022Update)
+Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+.NET SDK 10.0.400
+  [Host] : .NET 10.0.11 (10.0.1126.37416), X64 RyuJIT AVX2
+  Dry    : .NET 10.0.11 (10.0.1126.37416), X64 RyuJIT AVX2
+
+Job=Dry  IterationCount=1  LaunchCount=1  
+RunStrategy=ColdStart  UnrollFactor=1  WarmupCount=1  
+
+| Method                                  | Mean     | Error | Allocated |
+|---------------------------------------- |---------:|------:|----------:|
+| '100K packages, 240 trips, greedy only' | 74.07 ms |    NA |  13.39 MB |
+
+// * Warnings *
+MinIterationTime
+  PlanningBenchmarks.'100K packages, 240 trips, greedy only': Dry -> The minimum observed iteration time is 74.067ms which is very small. It's recommended to increase it to at least 100ms using more operations.
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ms      : 1 Millisecond (0.001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:00 (0.7 sec), executed benchmarks: 1
+
+Global total time: 00:00:10 (10.43 sec), executed benchmarks: 1
+// * Artifacts cleanup *
+Artifacts cleanup is finished

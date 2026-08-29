@@ -29,4 +29,8 @@ public class PlanSettings : CommandSettings
     [Description("Time budget in milliseconds for Local Search.")]
     [DefaultValue(200)]
     public int LocalSearchBudgetMs { get; set; } = 200;
+
+    [CommandOption("-o|--export-dir")]
+    [Description("Directory path to export the planning results (trips, unassigned packages, summary).")]
+    public string ExportDirectory { get; set; } = string.Empty;
 }

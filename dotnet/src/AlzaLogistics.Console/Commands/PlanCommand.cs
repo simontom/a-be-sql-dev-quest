@@ -10,10 +10,12 @@ namespace AlzaLogistics.Console.Commands;
 public class PlanCommand : AsyncCommand<PlanSettings>
 {
     private readonly IPackageStorage _packageStorage;
+    private readonly IResultExporter _resultExporter;
 
     public PlanCommand()
     {
         _packageStorage = new JsonPackageStorage();
+        _resultExporter = new JsonResultExporter();
     }
 
     protected override async Task<int> ExecuteAsync(CommandContext context, PlanSettings settings, CancellationToken cancellationToken)
@@ -75,6 +77,13 @@ public class PlanCommand : AsyncCommand<PlanSettings>
             var result = service.Plan(request);
             ConsoleReporter.PrintResultSummary(result);
             ConsoleReporter.PrintTopTrips(result);
+
+            if (!string.IsNullOrWhiteSpace(settings.ExportDirectory))
+            {
+                AnsiConsole.MarkupLine($"[blue]Exporting results to {settings.ExportDirectory}...[/]");
+                await _resultExporter.ExportAsync(result, settings.ExportDirectory, cancellationToken);
+                AnsiConsole.MarkupLine("[green]Export complete.[/]");
+            }
         }
         else
         {
@@ -109,6 +118,17 @@ public class PlanCommand : AsyncCommand<PlanSettings>
 
             var lowResult = service.Plan(lowRequest);
             ConsoleReporter.PrintResultSummary(lowResult);
+
+            if (!string.IsNullOrWhiteSpace(settings.ExportDirectory))
+            {
+                AnsiConsole.MarkupLine($"[blue]Exporting High Demand results...[/]");
+                await _resultExporter.ExportAsync(result, Path.Combine(settings.ExportDirectory, "HighDemand"), cancellationToken);
+                
+                AnsiConsole.MarkupLine($"[blue]Exporting Low Demand results...[/]");
+                await _resultExporter.ExportAsync(lowResult, Path.Combine(settings.ExportDirectory, "LowDemand"), cancellationToken);
+                
+                AnsiConsole.MarkupLine("[green]Export complete.[/]");
+            }
         }
 
         return 0;

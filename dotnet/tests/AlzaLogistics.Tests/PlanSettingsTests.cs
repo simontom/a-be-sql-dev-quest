@@ -16,5 +16,6 @@ public class PlanSettingsTests
         Assert.Equal("All", settings.DayArg);
         Assert.Equal(200, settings.LocalSearchBudgetMs);
         Assert.Equal(string.Empty, settings.InputFilePath);
+        Assert.Equal(string.Empty, settings.ExportDirectory);
     }
 }

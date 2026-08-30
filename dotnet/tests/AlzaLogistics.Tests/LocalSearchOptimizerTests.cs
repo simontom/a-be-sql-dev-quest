@@ -75,4 +75,50 @@ public class LocalSearchOptimizerTests
 
         Assert.Equal(100m, trips[0].TotalProfit);
     }
+
+    [Fact]
+    public void Optimize_WithMandatoryAndStandard_SwapsStandardOnly()
+    {
+        // Trip contains:
+        // 1. Mandatory package with profit 10 (low profit)
+        // 2. Standard package with profit 50
+        // Candidate: Standard package with profit 300
+        // Expected: Mandatory is preserved, Standard is replaced by Candidate
+        var trip = new Trip(0, maxVolumeM3: 2.0, maxWeightKg: 200.0);
+        var mandatory = new Package(1, 10.0, 0.5, 10m, Priority.Mandatory);
+        var standardLow = new Package(2, 10.0, 0.5, 50m, Priority.Standard);
+        trip.TryAdd(in mandatory);
+        trip.TryAdd(in standardLow);
+
+        var candidate = new Package(3, 10.0, 0.5, 300m, Priority.Standard);
+        var unassigned = new List<Package> { candidate };
+
+        var trips = new[] { trip };
+        LocalSearchOptimizer.Optimize(trips, unassigned, timeBudgetMs: 1000);
+
+        // Profit should be 10 (mandatory) + 300 (candidate) = 310
+        Assert.Equal(310m, trip.TotalProfit);
+        Assert.Contains(trip.Packages, p => p.Id == 1 && p.Priority == Priority.Mandatory);
+        Assert.Contains(trip.Packages, p => p.Id == 3);
+        Assert.Contains(unassigned, p => p.Id == 2);
+    }
+
+    [Fact]
+    public void Optimize_TripContainsOnlyMandatory_NoSwapOccurs()
+    {
+        // Trip has only mandatory packages, none can be evicted
+        var trip = new Trip(0, maxVolumeM3: 1.0, maxWeightKg: 100.0);
+        var mandatory = new Package(1, 10.0, 0.5, 10m, Priority.Mandatory);
+        trip.TryAdd(in mandatory);
+
+        var candidate = new Package(2, 10.0, 0.5, 500m, Priority.Standard);
+        var unassigned = new List<Package> { candidate };
+
+        var trips = new[] { trip };
+        LocalSearchOptimizer.Optimize(trips, unassigned, timeBudgetMs: 1000);
+
+        Assert.Equal(10m, trip.TotalProfit);
+        Assert.Single(unassigned);
+        Assert.Equal(2, unassigned[0].Id);
+    }
 }

@@ -41,7 +41,29 @@ public sealed class PackageGenerator(int seed = 42)
             var profitFactor = 0.6 * sizeFactor + 0.4 * _random.NextDouble();
             var profit = MinProfitCzk + (decimal)(profitFactor * (double)(MaxProfitCzk - MinProfitCzk));
 
-            packages[i] = new Package(i, Math.Round(weight, 3), Math.Round(volume, 4), Math.Round(profit, 2));
+            // Priority assignment: 90% Standard, 8% Elevated, 2% Mandatory
+            var priorityRnd = _random.NextDouble();
+            var priority = Priority.Standard;
+            if (priorityRnd > 0.98) priority = Priority.Mandatory;
+            else if (priorityRnd > 0.90) priority = Priority.Elevated;
+
+            // DaysWaiting assignment: most are 0, some wait 1-3 days
+            var daysWaiting = 0;
+            if (priority == Priority.Standard)
+            {
+                var waitingRnd = _random.NextDouble();
+                if (waitingRnd > 0.95) daysWaiting = 3;
+                else if (waitingRnd > 0.85) daysWaiting = 2;
+                else if (waitingRnd > 0.60) daysWaiting = 1;
+            }
+
+            packages[i] = new Package(
+                i, 
+                Math.Round(weight, 3), 
+                Math.Round(volume, 4), 
+                Math.Round(profit, 2),
+                priority,
+                daysWaiting);
         }
 
         return packages;

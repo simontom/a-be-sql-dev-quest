@@ -29,6 +29,7 @@ public class JsonResultExporterTests : IDisposable
         {
             Trips = new[] { trip },
             UnassignedPackages = new[] { package2 },
+            UnassignedMandatoryPackages = [],
             TotalPackages = 2,
             AlgorithmName = "TestAlgorithm",
             ElapsedTime = TimeSpan.FromMilliseconds(10)

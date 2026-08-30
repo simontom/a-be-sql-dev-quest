@@ -9,11 +9,12 @@ public sealed class PlanningResult
 {
     public required Trip[] Trips { get; init; }
     public required Package[] UnassignedPackages { get; init; }
+    public required Package[] UnassignedMandatoryPackages { get; init; } = [];
     public required int TotalPackages { get; init; }
     public required TimeSpan ElapsedTime { get; init; }
     public required string AlgorithmName { get; init; }
 
-    public int AssignedPackageCount => TotalPackages - UnassignedPackages.Length;
+    public int AssignedPackageCount => TotalPackages - UnassignedPackages.Length - UnassignedMandatoryPackages.Length;
     public decimal TotalProfit => Trips.Sum(t => t.TotalProfit);
     private double AverageVolumeUtilization => Trips.Length > 0 ? Trips.Average(t => t.VolumeUtilization) : 0;
     private double AverageWeightUtilization => Trips.Length > 0 ? Trips.Average(t => t.WeightUtilization) : 0;
@@ -28,6 +29,10 @@ public sealed class PlanningResult
         sb.AppendLine($"  Total packages:     {TotalPackages:N0}");
         sb.AppendLine($"  Assigned:           {AssignedPackageCount:N0} ({(double)AssignedPackageCount / TotalPackages:P1})");
         sb.AppendLine($"  Unassigned:         {UnassignedPackages.Length:N0}");
+        if (UnassignedMandatoryPackages.Length > 0)
+        {
+            sb.AppendLine($"  * WARNING:          Unassigned Mandatory: {UnassignedMandatoryPackages.Length:N0}");
+        }
         sb.AppendLine($"  Total profit:       {TotalProfit:N2} CZK");
         sb.AppendLine($"  Trips used:         {Trips.Count(t => t.PackageCount > 0)}/{Trips.Length}");
         sb.AppendLine($"  Avg volume util:    {AverageVolumeUtilization:P1}");

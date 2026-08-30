@@ -60,22 +60,43 @@ no optimization needed. This is O(n).
 
 ---
 
-## 3. Simplifications and Constraints
+## 3. Simplifications and Architecture Considerations
 
-1. **Identical trips**: All 240 trips are treated as interchangeable bins with equal capacity. 
-   Geographic routing and AlzaBox assignments are outside the scope of this capacity optimization.
+### Geographic Routing & Route Partitioning
 
-2. **No package-trip affinity**: Any package can be assigned to any trip. In a real system, 
-   geographic constraints would partition packages into route-compatible subsets first.
+In real-world enterprise logistics (such as Alza's delivery network), planning operates across **three decoupled pipeline stages**:
 
-3. **Single-pass allocation**: Packages are allocated in one planning run per day. 
-   No re-planning between the two daily trips is modeled.
+```
+[ Stage 1: Route Partitioning ]  -->  [ Stage 2: Capacity Optimization ]  -->  [ Stage 3: Trip Sequencing ]
+  Group packages by AlzaBox /           (OUR MODULE)                            Calculate physical stop
+  postal zone & assign van pool         MDMKP: Profit, Priority, Aging          order via TSP/VRP solver
+```
 
-4. **Deterministic**: No randomized algorithms (e.g., simulated annealing) in the primary path — 
-   the greedy + local search produces deterministic results for the same input.
+1. **Stage 1 — Geographic Zoning & Route Partitioning**: Packages are partitioned by destination region (e.g., *Prague 4*, *Brno-Center*, or specific AlzaBox clusters) and assigned a sub-fleet of vans.
+2. **Stage 2 — Capacity Optimization (Our Module)**: When demand in a zone exceeds vehicle capacity, our **Multi-Dimensional Multi-Container Knapsack Planner (MDMKP)** decides which packages are loaded today versus deferred, maximizing profit while honoring business SLAs and preventing starvation.
+3. **Stage 3 — Route Sequencing (TSP / VRP)**: Once the winning packages are selected for a specific van, a routing engine (e.g., OSRM or a Traveling Salesperson solver) calculates the physical turn-by-turn stop sequence.
 
-5. **Positive profits only**: As per spec, all profits are positive. Zero or negative profit 
-   packages would require special handling.
+#### Why Decouple Knapsack from Routing?
+Combining street-level addresses, turn-by-turn distance matrices, and capacity planning turns the problem into a monolithic **Capacitated Vehicle Routing Problem (CVRP)**. CVRP is computationally intractable for 200,000+ packages within a sub-second budget. 
+
+Decoupling route partitioning into independent knapsack sub-problems ($K$ zones) allows each zone's capacity to be solved concurrently in parallel via `PlanningService.Plan()`:
+```csharp
+var zoneResults = packages
+    .GroupBy(p => p.ZoneId)
+    .AsParallel()
+    .Select(g => planningService.Plan(new PlanningRequest {
+        Packages = g.ToArray(),
+        TripCount = zoneTripCounts[g.Key]
+    }));
+```
+
+### Other Simplifications and Constraints
+
+1. **Identical trips**: All 240 trips are treated as interchangeable bins with equal capacity (7 m³, 5,500 kg).
+2. **Single-pass daily allocation**: Packages are allocated in one planning run per day.
+3. **Deterministic execution**: Pure heuristic scoring + introsort ensures reproducible planning results.
+4. **Positive profits**: All profits are positive as per specification.
+5. **Separation of State**: The planner is purely functional; state tracking (`DaysWaiting++`) is managed by the outer database/workflow layer.
 
 ---
 
@@ -161,7 +182,14 @@ AlzaLogistics.Core/
 
 ## 7. Testing
 
-- **34 unit tests** covering all components (xUnit)
-- **Test categories**: struct behavior, capacity enforcement, algorithm correctness, 
-  constraint integrity at scale (5K-10K packages), edge cases (empty input, oversized packages)
+- **66 unit tests** covering all components (xUnit)
+- **Test categories**:
+  - Struct behavior and zero-allocation semantics
+  - Capacity enforcement (volume & weight bounds)
+  - Algorithm correctness (greedy density scoring, First-Fit-Decreasing)
+  - Priority tiers (`Mandatory` phase bypass vs. `Standard`/`Elevated`)
+  - Starvation prevention & aging boost escalation
+  - Local Search optimizer correctness (in-place swap, mandatory package preservation)
+  - Edge cases (oversized packages, `TripCount = 0`, negative `DaysWaiting`, exact capacity fit, deterministic tie-breaking)
+  - Constraint integrity at scale (5K–10K packages)
 - **BenchmarkDotNet suite**: 4 scenarios (100K/250K/500K packages) with memory diagnostics

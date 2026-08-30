@@ -48,18 +48,25 @@ public static class LocalSearchOptimizer
                         continue;
                     }
 
-                    // Find the lowest-profit package in this trip
+                    // Find the lowest-profit non-mandatory package in this trip
                     var tripPackages = trip.Packages;
-                    var worstIdx = 0;
-                    var worstProfit = tripPackages[0].ProfitCzk;
+                    var worstIdx = -1;
+                    var worstProfit = decimal.MaxValue;
 
-                    for (var p = 1; p < tripPackages.Count; p++)
+                    for (var p = 0; p < tripPackages.Count; p++)
                     {
+                        if (tripPackages[p].Priority == Priority.Mandatory) continue;
+
                         if (tripPackages[p].ProfitCzk < worstProfit)
                         {
                             worstProfit = tripPackages[p].ProfitCzk;
                             worstIdx = p;
                         }
+                    }
+
+                    if (worstIdx == -1)
+                    {
+                        continue; // No swappable non-mandatory packages in this trip
                     }
 
                     var worstPkg = tripPackages[worstIdx];

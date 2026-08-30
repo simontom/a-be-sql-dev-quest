@@ -10,7 +10,9 @@ public readonly record struct Package(
     int Id,
     double WeightKg,
     double VolumeM3,
-    decimal ProfitCzk) : IComparable<Package>
+    decimal ProfitCzk,
+    Priority Priority = Priority.Standard,
+    int DaysWaiting = 0) : IComparable<Package>
 {
     /// <summary>
     /// Compare by profit descending (higher profit first) for sorting.

@@ -1,45 +1,73 @@
 using AlzaLogistics.Core.Model;
+using Spectre.Console;
 
 namespace AlzaLogistics.Console;
 
 /// <summary>
-/// Formats and renders console output tables, headers, and planning summaries.
+/// Formats and renders console output tables, headers, and planning summaries using Spectre.Console.
 /// </summary>
 public static class ConsoleReporter
 {
     public static void PrintHeader()
     {
-        System.Console.WriteLine("╔═══════════════════════════════════════════════════════╗");
-        System.Console.WriteLine("║  AlzaLogistics - Optimal Delivery Capacity Planning   ║");
-        System.Console.WriteLine("║  Quest 2: Doručení teleportem                         ║");
-        System.Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
-        System.Console.WriteLine();
+        AnsiConsole.Write(
+            new FigletText("AlzaLogistics")
+                .Centered()
+                .Color(Color.Blue));
+                
+        AnsiConsole.MarkupLine("[bold blue]Quest 2: Doručení teleportem[/]");
+        AnsiConsole.WriteLine();
     }
 
-    public static void PrintConfiguration(CommandLineOptions options)
+    public static void PrintConfiguration(int packageCount, int tripCount, string dayLabel, int localSearchBudgetMs)
     {
-        System.Console.WriteLine("Configuration:");
-        System.Console.WriteLine($"  - Packages:               {options.PackageCount:N0}");
-        System.Console.WriteLine($"  - Delivery Trips:         {options.TripCount}");
-        System.Console.WriteLine($"  - Mode / Day:             {options.DayLabel}");
-        System.Console.WriteLine($"  - Local Search Budget:    {options.LocalSearchBudgetMs} ms");
-        System.Console.WriteLine();
+        var grid = new Grid();
+        grid.AddColumn();
+        grid.AddColumn();
+        
+        grid.AddRow("[bold]Configuration:[/]", "");
+        grid.AddRow("  - Packages:", $"{packageCount:N0}");
+        grid.AddRow("  - Delivery Trips:", $"{tripCount}");
+        grid.AddRow("  - Mode / Day:", $"{dayLabel}");
+        grid.AddRow("  - Local Search Budget:", $"{localSearchBudgetMs} ms");
+        
+        AnsiConsole.Write(grid);
+        AnsiConsole.WriteLine();
     }
 
     public static void PrintSamplePackages(Package[] packages, int count = 5)
     {
-        System.Console.WriteLine();
-        System.Console.WriteLine($"Sample packages (first {Math.Min(count, packages.Length)}):");
-        System.Console.WriteLine($"  {"ID",-8} {"Weight (kg)",-14} {"Volume (m³)",-14} {"Profit (CZK)",-14}");
-        System.Console.WriteLine($"  {new string('-', 50)}");
-        
+        AnsiConsole.WriteLine();
+        var table = new Table();
+        table.Title($"Sample packages (first {Math.Min(count, packages.Length)})");
+        table.AddColumn("ID");
+        table.AddColumn("Weight (kg)");
+        table.AddColumn("Volume (m³)");
+        table.AddColumn(new TableColumn("Profit (CZK)").RightAligned());
+
         for (var i = 0; i < Math.Min(count, packages.Length); i++)
         {
             var p = packages[i];
-            System.Console.WriteLine($"  {p.Id,-8} {p.WeightKg,-14:F3} {p.VolumeM3,-14:F4} {p.ProfitCzk,-14:F2}");
+            table.AddRow(
+                p.Id.ToString(), 
+                p.WeightKg.ToString("F3"), 
+                p.VolumeM3.ToString("F4"), 
+                p.ProfitCzk.ToString("N2")
+            );
         }
         
-        System.Console.WriteLine();
+        AnsiConsole.Write(table);
+        AnsiConsole.WriteLine();
+    }
+
+    public static void PrintResultSummary(PlanningResult result)
+    {
+        var panel = new Panel(result.GetSummary())
+        {
+            Header = new PanelHeader("Planning Summary"),
+            Expand = true
+        };
+        AnsiConsole.Write(panel);
     }
 
     public static void PrintTopTrips(PlanningResult result, int count = 5)
@@ -55,14 +83,28 @@ public static class ConsoleReporter
             return;
         }
 
-        System.Console.WriteLine();
-        System.Console.WriteLine($"Top {topTrips.Length} trips by profit:");
-        System.Console.WriteLine($"  {"Trip",-8} {"Packages",-10} {"Profit (CZK)",-16} {"Vol Util",-12} {"Wt Util",-12}");
-        System.Console.WriteLine($"  {new string('-', 58)}");
+        AnsiConsole.WriteLine();
+        
+        var table = new Table();
+        table.Title($"Top {topTrips.Length} trips by profit");
+        table.AddColumn("Trip");
+        table.AddColumn(new TableColumn("Packages").Centered());
+        table.AddColumn(new TableColumn("Profit (CZK)").RightAligned());
+        table.AddColumn("Vol Util");
+        table.AddColumn("Wt Util");
 
         foreach (var trip in topTrips)
         {
-            System.Console.WriteLine($"  {trip.Id,-8} {trip.PackageCount,-10} {trip.TotalProfit,-16:N2} {trip.VolumeUtilization,-12:P1} {trip.WeightUtilization,-12:P1}");
+            table.AddRow(
+                trip.Id.ToString(), 
+                trip.PackageCount.ToString(), 
+                $"[green]{trip.TotalProfit:N2}[/]", 
+                $"{trip.VolumeUtilization:P1}", 
+                $"{trip.WeightUtilization:P1}"
+            );
         }
+        
+        AnsiConsole.Write(table);
+        AnsiConsole.WriteLine();
     }
 }

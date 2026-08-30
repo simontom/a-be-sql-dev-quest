@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\AlzaLogistics.Core\AlzaLogistics.Core.csproj" />
+    <ProjectReference Include="..\..\src\AlzaLogistics.Console\AlzaLogistics.Console.csproj" />
   </ItemGroup>
 
   <ItemGroup>

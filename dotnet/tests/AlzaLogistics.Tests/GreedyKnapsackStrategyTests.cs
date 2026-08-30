@@ -240,4 +240,97 @@ public class GreedyKnapsackStrategyTests
         Assert.Equal(a.Id, result.Trips[0].Packages[0].Id);
         Assert.Equal(c.Id, result.UnassignedPackages[0].Id);
     }
+
+    [Fact]
+    public void ZeroTripCount_AllPackagesGoToUnassigned()
+    {
+        var standard = new Package(0, 10.0, 0.1, 100m, Priority.Standard);
+        var mandatory = new Package(1, 10.0, 0.1, 100m, Priority.Mandatory);
+
+        var request = new PlanningRequest
+        {
+            Packages = [standard, mandatory],
+            TripCount = 0,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        Assert.Equal(0, result.AssignedPackageCount);
+        Assert.Single(result.UnassignedPackages);
+        Assert.Equal(standard.Id, result.UnassignedPackages[0].Id);
+        Assert.Single(result.UnassignedMandatoryPackages);
+        Assert.Equal(mandatory.Id, result.UnassignedMandatoryPackages[0].Id);
+        Assert.Equal(0m, result.TotalProfit);
+    }
+
+    [Fact]
+    public void OversizedMandatoryPackage_GoesToUnassignedMandatory()
+    {
+        // Mandatory package that is larger than the trip max capacity
+        var oversized = new Package(0, 6000.0, 8.0, 500m, Priority.Mandatory);
+
+        var request = new PlanningRequest
+        {
+            Packages = [oversized],
+            TripCount = 1,
+            TripMaxVolumeM3 = 7.0,
+            TripMaxWeightKg = 5500.0,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        Assert.Equal(0, result.AssignedPackageCount);
+        Assert.Empty(result.UnassignedPackages);
+        Assert.Single(result.UnassignedMandatoryPackages);
+        Assert.Equal(oversized.Id, result.UnassignedMandatoryPackages[0].Id);
+    }
+
+    [Fact]
+    public void NegativeDaysWaiting_TreatedAsZero()
+    {
+        // Package with negative DaysWaiting should not reduce its profit score
+        var normal = new Package(0, 100.0, 1.0, 100m, Priority.Standard, 0);
+        var negativeDays = new Package(1, 100.0, 1.0, 100m, Priority.Standard, -5);
+
+        var request = new PlanningRequest
+        {
+            Packages = [negativeDays, normal],
+            TripCount = 1,
+            TripMaxVolumeM3 = 1.0,
+            TripMaxWeightKg = 100.0,
+            AgingBoostLambda = 0.2,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        // Score should be identical, tie-breaker picks index 0 (negativeDays)
+        Assert.Equal(1, result.AssignedPackageCount);
+        Assert.Equal(negativeDays.Id, result.Trips[0].Packages[0].Id);
+    }
+
+    [Fact]
+    public void ExactCapacityFit_ConsumesAllCapacityExactly()
+    {
+        var exact = new Package(0, 5500.0, 7.0, 1000m, Priority.Standard);
+
+        var request = new PlanningRequest
+        {
+            Packages = [exact],
+            TripCount = 1,
+            TripMaxVolumeM3 = 7.0,
+            TripMaxWeightKg = 5500.0,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        Assert.Equal(1, result.AssignedPackageCount);
+        Assert.Equal(0.0, result.Trips[0].RemainingVolumeM3);
+        Assert.Equal(0.0, result.Trips[0].RemainingWeightKg);
+        Assert.Equal(1.0, result.Trips[0].VolumeUtilization);
+        Assert.Equal(1.0, result.Trips[0].WeightUtilization);
+    }
 }

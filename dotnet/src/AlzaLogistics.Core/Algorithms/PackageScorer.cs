@@ -18,10 +18,14 @@ public static class PackageScorer
         int OriginalIndex) : IComparable<ScoredPackage>
     {
         /// <summary>
-        /// Descending sort by score (highest density first).
+        /// Descending sort by score (highest density first), with deterministic tie-breaking on OriginalIndex.
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public int CompareTo(ScoredPackage other) => other.Score.CompareTo(Score);
+        public int CompareTo(ScoredPackage other)
+        {
+            var cmp = other.Score.CompareTo(Score);
+            return cmp != 0 ? cmp : OriginalIndex.CompareTo(other.OriginalIndex);
+        }
     }
 
     /// <summary>
@@ -51,7 +55,7 @@ public static class PackageScorer
             var normalizedWeight = p.WeightKg / tripMaxWeight;
             var cost = alpha * normalizedVolume + beta * normalizedWeight;
 
-            var agingMultiplier = 1.0 + (agingBoostLambda * p.DaysWaiting);
+            var agingMultiplier = 1.0 + Math.Max(0.0, agingBoostLambda) * Math.Max(0, p.DaysWaiting);
 
             // Guard against zero-size packages (assign max score)
             var score = cost > 0

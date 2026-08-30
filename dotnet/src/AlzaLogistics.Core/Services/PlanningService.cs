@@ -22,6 +22,7 @@ public sealed class PlanningService(IPlanningStrategy? highDemandStrategy = null
             {
                 Trips = CreateEmptyTrips(request),
                 UnassignedPackages = [],
+                UnassignedMandatoryPackages = [],
                 TotalPackages = 0,
                 ElapsedTime = TimeSpan.Zero,
                 AlgorithmName = "None (empty input)"
@@ -44,6 +45,7 @@ public sealed class PlanningService(IPlanningStrategy? highDemandStrategy = null
         var sw = System.Diagnostics.Stopwatch.StartNew();
         var trips = CreateTrips(request);
         var unassigned = new List<Package>();
+        var unassignedMandatory = new List<Package>();
         var tripIdx = 0;
 
         for (var i = 0; i < request.Packages.Length; i++)
@@ -60,7 +62,16 @@ public sealed class PlanningService(IPlanningStrategy? highDemandStrategy = null
                 }
             }
             if (!placed)
-                unassigned.Add(request.Packages[i]);
+            {
+                if (request.Packages[i].Priority == Priority.Mandatory)
+                {
+                    unassignedMandatory.Add(request.Packages[i]);
+                }
+                else
+                {
+                    unassigned.Add(request.Packages[i]);
+                }
+            }
         }
 
         sw.Stop();
@@ -68,6 +79,7 @@ public sealed class PlanningService(IPlanningStrategy? highDemandStrategy = null
         {
             Trips = trips,
             UnassignedPackages = unassigned.ToArray(),
+            UnassignedMandatoryPackages = unassignedMandatory.ToArray(),
             TotalPackages = request.Packages.Length,
             ElapsedTime = sw.Elapsed,
             AlgorithmName = "Round-Robin (Low Demand)"

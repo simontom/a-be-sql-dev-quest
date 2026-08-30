@@ -55,6 +55,8 @@ public static class LocalSearchOptimizer
 
                     for (var p = 1; p < tripPackages.Count; p++)
                     {
+                        if (tripPackages[p].Priority == Priority.Mandatory) continue;
+
                         if (tripPackages[p].ProfitCzk < worstProfit)
                         {
                             worstProfit = tripPackages[p].ProfitCzk;
@@ -63,6 +65,10 @@ public static class LocalSearchOptimizer
                     }
 
                     var worstPkg = tripPackages[worstIdx];
+                    if (worstPkg.Priority == Priority.Mandatory)
+                    {
+                        continue; // Cannot swap out mandatory packages (edge case if first package is mandatory)
+                    }
 
                     // Check if swapping yields net improvement and fits
                     if (candidate.ProfitCzk <= worstProfit)

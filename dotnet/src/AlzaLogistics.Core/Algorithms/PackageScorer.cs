@@ -41,7 +41,8 @@ public static class PackageScorer
         double tripMaxVolume,
         double tripMaxWeight,
         double alpha = 0.5,
-        double beta = 0.5)
+        double beta = 0.5,
+        double agingBoostLambda = 0.2)
     {
         for (var i = 0; i < packages.Length; i++)
         {
@@ -50,9 +51,11 @@ public static class PackageScorer
             var normalizedWeight = p.WeightKg / tripMaxWeight;
             var cost = alpha * normalizedVolume + beta * normalizedWeight;
 
+            var agingMultiplier = 1.0 + (agingBoostLambda * p.DaysWaiting);
+
             // Guard against zero-size packages (assign max score)
             var score = cost > 0
-                ? (double)p.ProfitCzk / cost
+                ? ((double)p.ProfitCzk * agingMultiplier) / cost
                 : double.MaxValue;
 
             scoredBuffer[i] = new ScoredPackage(score, i);

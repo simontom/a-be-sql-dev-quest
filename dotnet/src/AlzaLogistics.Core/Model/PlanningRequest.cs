@@ -15,4 +15,9 @@ public sealed class PlanningRequest
     /// Maximum milliseconds allowed for local search refinement. 0 = skip local search.
     /// </summary>
     public int LocalSearchTimeBudgetMs { get; init; } = 100;
+
+    /// <summary>
+    /// Aging multiplier per day waiting. 0.2 = +20% score boost per day.
+    /// </summary>
+    public double AgingBoostLambda { get; init; } = 0.2;
 }

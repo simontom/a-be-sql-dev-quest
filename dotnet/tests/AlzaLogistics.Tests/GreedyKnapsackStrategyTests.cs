@@ -120,7 +120,7 @@ public class GreedyKnapsackStrategyTests
 
         // Verify totals are consistent
         Assert.Equal(5000, result.TotalPackages);
-        Assert.Equal(result.TotalPackages, result.AssignedPackageCount + result.UnassignedPackages.Length);
+        Assert.Equal(result.TotalPackages, result.AssignedPackageCount + result.UnassignedPackages.Length + result.UnassignedMandatoryPackages.Length);
     }
 
     [Fact]
@@ -159,5 +159,85 @@ public class GreedyKnapsackStrategyTests
         Assert.Equal(5, result.AssignedPackageCount);
         Assert.Empty(result.UnassignedPackages);
         Assert.Equal(500m, result.TotalProfit);
+    }
+
+    [Fact]
+    public void MandatoryPackages_PriorityOverDensity()
+    {
+        // Trip can hold exactly one package
+        // Standard package has extremely high profit and fits
+        // Mandatory package has low profit and fits
+        var standardHigh = new Package(0, 100.0, 1.0, 10_000m, Priority.Standard);
+        var mandatoryLow = new Package(1, 100.0, 1.0, 10m, Priority.Mandatory);
+
+        var request = new PlanningRequest
+        {
+            Packages = [standardHigh, mandatoryLow],
+            TripCount = 1,
+            TripMaxVolumeM3 = 2.0,
+            TripMaxWeightKg = 150.0,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        // Only one can fit. Mandatory should win despite lower density.
+        Assert.Equal(1, result.AssignedPackageCount);
+        Assert.Single(result.UnassignedPackages);
+        Assert.Empty(result.UnassignedMandatoryPackages);
+        Assert.Equal(mandatoryLow.Id, result.Trips[0].Packages[0].Id);
+        Assert.Equal(standardHigh.Id, result.UnassignedPackages[0].Id);
+        Assert.Equal(10m, result.TotalProfit);
+    }
+
+    [Fact]
+    public void MandatoryPackages_Overflow_ShouldBeCollected()
+    {
+        // 3 Mandatory packages, trip can only hold 1
+        var a = new Package(0, 5000.0, 6.0, 100m, Priority.Mandatory);
+        var b = new Package(1, 5000.0, 6.0, 200m, Priority.Mandatory);
+        var c = new Package(2, 5000.0, 6.0, 300m, Priority.Mandatory);
+
+        var request = new PlanningRequest
+        {
+            Packages = [a, b, c],
+            TripCount = 1,
+            TripMaxVolumeM3 = 6.0,
+            TripMaxWeightKg = 5000.0,
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        Assert.Equal(1, result.AssignedPackageCount);
+        Assert.Empty(result.UnassignedPackages);
+        Assert.Equal(2, result.UnassignedMandatoryPackages.Length);
+    }
+
+    [Fact]
+    public void Aging_OlderPackages_PriorityOverNewer()
+    {
+        // Two identical packages, but A has waited 5 days and B has waited 0 days.
+        // A should have higher score and be picked over B.
+        // C is a slightly higher profit package but 0 days, A should beat C with enough lambda.
+        var a = new Package(0, 100.0, 1.0, 100m, Priority.Standard, 5);
+        var c = new Package(1, 100.0, 1.0, 150m, Priority.Standard, 0);
+
+        var request = new PlanningRequest
+        {
+            Packages = [a, c],
+            TripCount = 1,
+            TripMaxVolumeM3 = 1.0,
+            TripMaxWeightKg = 100.0,
+            AgingBoostLambda = 0.2, // A gets +100% boost -> effective profit 200 > 150
+            LocalSearchTimeBudgetMs = 0
+        };
+
+        var result = _strategy.Plan(request);
+
+        // A should win
+        Assert.Equal(1, result.AssignedPackageCount);
+        Assert.Equal(a.Id, result.Trips[0].Packages[0].Id);
+        Assert.Equal(c.Id, result.UnassignedPackages[0].Id);
     }
 }

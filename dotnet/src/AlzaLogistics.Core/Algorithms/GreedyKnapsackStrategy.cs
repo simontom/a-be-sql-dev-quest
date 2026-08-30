@@ -41,18 +41,48 @@ public sealed class GreedyKnapsackStrategy : IPlanningStrategy
             var scored = scoredBuffer.AsSpan(0, packages.Length);
             var assigned = assignedBuffer.AsSpan(0, packages.Length);
             assigned.Clear();
+            var unassignedMandatory = new List<Package>();
 
-            // Score and sort packages by profit-density
+            // Phase 1: Assign mandatory packages
+            for (var i = 0; i < packages.Length; i++)
+            {
+                if (packages[i].Priority == Priority.Mandatory)
+                {
+                    ref readonly var pkg = ref packages[i];
+                    var placed = false;
+                    for (var t = 0; t < tripCount; t++)
+                    {
+                        if (trips[t].TryAdd(in pkg))
+                        {
+                            assigned[i] = true;
+                            placed = true;
+                            break;
+                        }
+                    }
+                    if (!placed)
+                    {
+                        unassignedMandatory.Add(pkg);
+                    }
+                }
+            }
+
+            // Phase 2: Score and sort packages by profit-density (with aging)
             PackageScorer.ScoreAndSort(
                 packages.AsSpan(),
                 scored,
                 request.TripMaxVolumeM3,
-                request.TripMaxWeightKg);
+                request.TripMaxWeightKg,
+                0.5, 0.5, request.AgingBoostLambda);
 
-            // Greedy first-fit-decreasing assignment
+            // Greedy first-fit-decreasing assignment for remaining packages
             for (var s = 0; s < scored.Length; s++)
             {
                 var pkgIdx = scored[s].OriginalIndex;
+                if (assigned[pkgIdx])
+                {
+                    continue; // Skip already assigned mandatory packages
+                }
+
                 ref readonly var pkg = ref packages[pkgIdx];
 
                 for (var t = 0; t < tripCount; t++)
@@ -65,11 +95,11 @@ public sealed class GreedyKnapsackStrategy : IPlanningStrategy
                 }
             }
 
-            // Collect unassigned packages
+            // Collect unassigned standard/elevated packages
             var unassigned = new List<Package>();
             for (var i = 0; i < packages.Length; i++)
             {
-                if (!assigned[i])
+                if (!assigned[i] && packages[i].Priority != Priority.Mandatory)
                 {
                     unassigned.Add(packages[i]);
                 }
@@ -87,6 +117,7 @@ public sealed class GreedyKnapsackStrategy : IPlanningStrategy
             {
                 Trips = trips,
                 UnassignedPackages = unassigned.ToArray(),
+                UnassignedMandatoryPackages = unassignedMandatory.ToArray(),
                 TotalPackages = packages.Length,
                 ElapsedTime = sw.Elapsed,
                 AlgorithmName = Name

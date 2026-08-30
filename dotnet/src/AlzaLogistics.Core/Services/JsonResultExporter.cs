@@ -34,6 +34,15 @@ public class JsonResultExporter : IResultExporter
             await JsonSerializer.SerializeAsync(unassignedStream, result.UnassignedPackages, _options, cancellationToken);
         }
 
+        if (result.UnassignedMandatoryPackages.Length > 0)
+        {
+            var unassignedMandatoryFile = Path.Combine(targetDirectory, "unassigned_mandatory.json");
+            await using (var unassignedMandatoryStream = File.Create(unassignedMandatoryFile))
+            {
+                await JsonSerializer.SerializeAsync(unassignedMandatoryStream, result.UnassignedMandatoryPackages, _options, cancellationToken);
+            }
+        }
+
         // Export summary
         var summary = new
         {
@@ -41,6 +50,7 @@ public class JsonResultExporter : IResultExporter
             result.TotalPackages,
             AssignedCount = result.AssignedPackageCount,
             UnassignedCount = result.UnassignedPackages.Length,
+            UnassignedMandatoryCount = result.UnassignedMandatoryPackages.Length,
             result.TotalProfit,
             TripsUsed = result.Trips.Count(t => t.PackageCount > 0),
             TotalTrips = result.Trips.Length,

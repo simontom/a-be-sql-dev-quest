@@ -1,0 +1,10 @@
+{
+  "algorithmName": "Greedy Knapsack (Profit-Density)",
+  "totalPackages": 1000,
+  "assignedCount": 1000,
+  "unassignedCount": 0,
+  "totalProfit": 1971409.09,
+  "tripsUsed": 23,
+  "totalTrips": 240,
+  "elapsedMilliseconds": 8.125
+}

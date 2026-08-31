@@ -1,0 +1,10 @@
+{
+  "algorithmName": "Round-Robin (Low Demand)",
+  "totalPackages": 1000,
+  "assignedCount": 1000,
+  "unassignedCount": 0,
+  "totalProfit": 1971409.09,
+  "tripsUsed": 240,
+  "totalTrips": 240,
+  "elapsedMilliseconds": 0.4013
+}

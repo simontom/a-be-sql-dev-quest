@@ -1,0 +1,8905 @@
+[
+  {
+    "id": 0,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.0009999999999975523,
+    "remainingWeightKg": 1526.5409999999956,
+    "totalProfit": 616468.36,
+    "packages": [
+      {
+        "id": 493,
+        "weightKg": 0.48,
+        "volumeM3": 0.001,
+        "profitCzk": 1898.83
+      },
+      {
+        "id": 124,
+        "weightKg": 0.458,
+        "volumeM3": 0.001,
+        "profitCzk": 1338.45
+      },
+      {
+        "id": 643,
+        "weightKg": 1.235,
+        "volumeM3": 0.001,
+        "profitCzk": 1267.96
+      },
+      {
+        "id": 598,
+        "weightKg": 2.28,
+        "volumeM3": 0.001,
+        "profitCzk": 1693.79
+      },
+      {
+        "id": 809,
+        "weightKg": 0.105,
+        "volumeM3": 0.0039,
+        "profitCzk": 1738.33
+      },
+      {
+        "id": 822,
+        "weightKg": 2.982,
+        "volumeM3": 0.001,
+        "profitCzk": 2057.67
+      },
+      {
+        "id": 559,
+        "weightKg": 0.535,
+        "volumeM3": 0.0012,
+        "profitCzk": 605.18
+      },
+      {
+        "id": 662,
+        "weightKg": 1.876,
+        "volumeM3": 0.0021,
+        "profitCzk": 1405.32
+      },
+      {
+        "id": 855,
+        "weightKg": 1.747,
+        "volumeM3": 0.0022,
+        "profitCzk": 1362.44
+      },
+      {
+        "id": 113,
+        "weightKg": 5.036,
+        "volumeM3": 0.001,
+        "profitCzk": 2165.06
+      },
+      {
+        "id": 20,
+        "weightKg": 1.527,
+        "volumeM3": 0.0011,
+        "profitCzk": 818.96
+      },
+      {
+        "id": 207,
+        "weightKg": 2,
+        "volumeM3": 0.0015,
+        "profitCzk": 1035.28
+      },
+      {
+        "id": 682,
+        "weightKg": 0.278,
+        "volumeM3": 0.0048,
+        "profitCzk": 1291.54
+      },
+      {
+        "id": 21,
+        "weightKg": 2.239,
+        "volumeM3": 0.0034,
+        "profitCzk": 1564.50
+      },
+      {
+        "id": 606,
+        "weightKg": 1.807,
+        "volumeM3": 0.0024,
+        "profitCzk": 1151.14
+      },
+      {
+        "id": 397,
+        "weightKg": 2.639,
+        "volumeM3": 0.0028,
+        "profitCzk": 1504.08
+      },
+      {
+        "id": 278,
+        "weightKg": 0.881,
+        "volumeM3": 0.0029,
+        "profitCzk": 980.35
+      },
+      {
+        "id": 7,
+        "weightKg": 0.793,
+        "volumeM3": 0.0051,
+        "profitCzk": 1471.40
+      },
+      {
+        "id": 723,
+        "weightKg": 6.497,
+        "volumeM3": 0.0011,
+        "profitCzk": 2196.58
+      },
+      {
+        "id": 98,
+        "weightKg": 3.79,
+        "volumeM3": 0.001,
+        "profitCzk": 1358.46
+      },
+      {
+        "id": 648,
+        "weightKg": 0.292,
+        "volumeM3": 0.0045,
+        "profitCzk": 1084.41
+      },
+      {
+        "id": 622,
+        "weightKg": 0.636,
+        "volumeM3": 0.0074,
+        "profitCzk": 1814.76
+      },
+      {
+        "id": 699,
+        "weightKg": 6.859,
+        "volumeM3": 0.001,
+        "profitCzk": 2122.52
+      },
+      {
+        "id": 427,
+        "weightKg": 3.482,
+        "volumeM3": 0.0056,
+        "profitCzk": 2182.60
+      },
+      {
+        "id": 196,
+        "weightKg": 0.167,
+        "volumeM3": 0.0021,
+        "profitCzk": 494.93
+      },
+      {
+        "id": 272,
+        "weightKg": 0.244,
+        "volumeM3": 0.002,
+        "profitCzk": 489.58
+      },
+      {
+        "id": 783,
+        "weightKg": 4.248,
+        "volumeM3": 0.001,
+        "profitCzk": 1332.96
+      },
+      {
+        "id": 977,
+        "weightKg": 4.056,
+        "volumeM3": 0.0013,
+        "profitCzk": 1294.93
+      },
+      {
+        "id": 294,
+        "weightKg": 5.037,
+        "volumeM3": 0.0034,
+        "profitCzk": 1959.41
+      },
+      {
+        "id": 24,
+        "weightKg": 7.563,
+        "volumeM3": 0.001,
+        "profitCzk": 2044.06
+      },
+      {
+        "id": 311,
+        "weightKg": 4.509,
+        "volumeM3": 0.0024,
+        "profitCzk": 1565.52
+      },
+      {
+        "id": 50,
+        "weightKg": 1.102,
+        "volumeM3": 0.0014,
+        "profitCzk": 531.21
+      },
+      {
+        "id": 703,
+        "weightKg": 8.7,
+        "volumeM3": 0.0011,
+        "profitCzk": 2258.90
+      },
+      {
+        "id": 780,
+        "weightKg": 4.937,
+        "volumeM3": 0.0013,
+        "profitCzk": 1383.02
+      },
+      {
+        "id": 941,
+        "weightKg": 6.372,
+        "volumeM3": 0.0011,
+        "profitCzk": 1673.88
+      },
+      {
+        "id": 589,
+        "weightKg": 2.588,
+        "volumeM3": 0.0065,
+        "profitCzk": 1740.86
+      },
+      {
+        "id": 232,
+        "weightKg": 5.504,
+        "volumeM3": 0.0039,
+        "profitCzk": 1910.17
+      },
+      {
+        "id": 273,
+        "weightKg": 3.822,
+        "volumeM3": 0.0045,
+        "profitCzk": 1625.19
+      },
+      {
+        "id": 300,
+        "weightKg": 2.634,
+        "volumeM3": 0.0035,
+        "profitCzk": 1171.35
+      },
+      {
+        "id": 578,
+        "weightKg": 8.05,
+        "volumeM3": 0.0016,
+        "profitCzk": 2011.51
+      },
+      {
+        "id": 626,
+        "weightKg": 7.532,
+        "volumeM3": 0.0022,
+        "profitCzk": 1905.37
+      },
+      {
+        "id": 334,
+        "weightKg": 3.133,
+        "volumeM3": 0.0011,
+        "profitCzk": 788.92
+      },
+      {
+        "id": 538,
+        "weightKg": 11.573,
+        "volumeM3": 0.0021,
+        "profitCzk": 2561.63
+      },
+      {
+        "id": 564,
+        "weightKg": 3.607,
+        "volumeM3": 0.008,
+        "profitCzk": 1907.63
+      },
+      {
+        "id": 980,
+        "weightKg": 11.334,
+        "volumeM3": 0.0012,
+        "profitCzk": 2355.80
+      },
+      {
+        "id": 968,
+        "weightKg": 1.815,
+        "volumeM3": 0.0013,
+        "profitCzk": 533.51
+      },
+      {
+        "id": 619,
+        "weightKg": 0.109,
+        "volumeM3": 0.011,
+        "profitCzk": 1645.88
+      },
+      {
+        "id": 960,
+        "weightKg": 8.598,
+        "volumeM3": 0.0027,
+        "profitCzk": 2005.54
+      },
+      {
+        "id": 653,
+        "weightKg": 1.586,
+        "volumeM3": 0.0088,
+        "profitCzk": 1524.71
+      },
+      {
+        "id": 26,
+        "weightKg": 12.894,
+        "volumeM3": 0.0016,
+        "profitCzk": 2480.79
+      },
+      {
+        "id": 745,
+        "weightKg": 2.983,
+        "volumeM3": 0.0097,
+        "profitCzk": 1850.80
+      },
+      {
+        "id": 25,
+        "weightKg": 0.105,
+        "volumeM3": 0.001,
+        "profitCzk": 147.30
+      },
+      {
+        "id": 984,
+        "weightKg": 9.383,
+        "volumeM3": 0.0077,
+        "profitCzk": 2495.00
+      },
+      {
+        "id": 797,
+        "weightKg": 0.877,
+        "volumeM3": 0.0152,
+        "profitCzk": 2053.04
+      },
+      {
+        "id": 678,
+        "weightKg": 3.661,
+        "volumeM3": 0.0117,
+        "profitCzk": 2052.13
+      },
+      {
+        "id": 328,
+        "weightKg": 9.323,
+        "volumeM3": 0.001,
+        "profitCzk": 1597.88
+      },
+      {
+        "id": 935,
+        "weightKg": 0.194,
+        "volumeM3": 0.0132,
+        "profitCzk": 1656.38
+      },
+      {
+        "id": 237,
+        "weightKg": 5.663,
+        "volumeM3": 0.0071,
+        "profitCzk": 1716.57
+      },
+      {
+        "id": 867,
+        "weightKg": 10.598,
+        "volumeM3": 0.0027,
+        "profitCzk": 1893.31
+      },
+      {
+        "id": 858,
+        "weightKg": 11.607,
+        "volumeM3": 0.0067,
+        "profitCzk": 2491.75
+      },
+      {
+        "id": 971,
+        "weightKg": 12.019,
+        "volumeM3": 0.0018,
+        "profitCzk": 1941.27
+      },
+      {
+        "id": 100,
+        "weightKg": 12.498,
+        "volumeM3": 0.0069,
+        "profitCzk": 2539.16
+      },
+      {
+        "id": 562,
+        "weightKg": 17.52,
+        "volumeM3": 0.0042,
+        "profitCzk": 2857.25
+      },
+      {
+        "id": 448,
+        "weightKg": 10.273,
+        "volumeM3": 0.0089,
+        "profitCzk": 2354.33
+      },
+      {
+        "id": 795,
+        "weightKg": 5.936,
+        "volumeM3": 0.0057,
+        "profitCzk": 1389.37
+      },
+      {
+        "id": 481,
+        "weightKg": 11.641,
+        "volumeM3": 0.0097,
+        "profitCzk": 2553.04
+      },
+      {
+        "id": 214,
+        "weightKg": 19.99,
+        "volumeM3": 0.001,
+        "profitCzk": 2747.53
+      },
+      {
+        "id": 850,
+        "weightKg": 12.222,
+        "volumeM3": 0.0102,
+        "profitCzk": 2600.60
+      },
+      {
+        "id": 584,
+        "weightKg": 18.516,
+        "volumeM3": 0.001,
+        "profitCzk": 2479.99
+      },
+      {
+        "id": 520,
+        "weightKg": 2.177,
+        "volumeM3": 0.0013,
+        "profitCzk": 406.25
+      },
+      {
+        "id": 83,
+        "weightKg": 2.998,
+        "volumeM3": 0.0178,
+        "profitCzk": 2083.73
+      },
+      {
+        "id": 895,
+        "weightKg": 0.13,
+        "volumeM3": 0.007,
+        "profitCzk": 689.96
+      },
+      {
+        "id": 735,
+        "weightKg": 22.105,
+        "volumeM3": 0.0012,
+        "profitCzk": 2806.80
+      },
+      {
+        "id": 310,
+        "weightKg": 23.494,
+        "volumeM3": 0.0014,
+        "profitCzk": 2968.60
+      },
+      {
+        "id": 415,
+        "weightKg": 9.492,
+        "volumeM3": 0.0011,
+        "profitCzk": 1244.26
+      },
+      {
+        "id": 127,
+        "weightKg": 10.802,
+        "volumeM3": 0.0093,
+        "profitCzk": 2157.86
+      },
+      {
+        "id": 668,
+        "weightKg": 20.386,
+        "volumeM3": 0.0034,
+        "profitCzk": 2735.45
+      },
+      {
+        "id": 863,
+        "weightKg": 17.163,
+        "volumeM3": 0.001,
+        "profitCzk": 2111.11
+      },
+      {
+        "id": 774,
+        "weightKg": 25.692,
+        "volumeM3": 0.0027,
+        "profitCzk": 3266.54
+      },
+      {
+        "id": 409,
+        "weightKg": 3.35,
+        "volumeM3": 0.0105,
+        "profitCzk": 1360.07
+      },
+      {
+        "id": 277,
+        "weightKg": 3.841,
+        "volumeM3": 0.0119,
+        "profitCzk": 1542.27
+      },
+      {
+        "id": 318,
+        "weightKg": 9.712,
+        "volumeM3": 0.0129,
+        "profitCzk": 2294.06
+      },
+      {
+        "id": 990,
+        "weightKg": 4.542,
+        "volumeM3": 0.0047,
+        "profitCzk": 939.21
+      },
+      {
+        "id": 408,
+        "weightKg": 15.036,
+        "volumeM3": 0.0055,
+        "profitCzk": 2204.45
+      },
+      {
+        "id": 667,
+        "weightKg": 27.841,
+        "volumeM3": 0.002,
+        "profitCzk": 3300.40
+      },
+      {
+        "id": 979,
+        "weightKg": 15.031,
+        "volumeM3": 0.0116,
+        "profitCzk": 2688.22
+      },
+      {
+        "id": 881,
+        "weightKg": 4.692,
+        "volumeM3": 0.0194,
+        "profitCzk": 2206.83
+      },
+      {
+        "id": 203,
+        "weightKg": 0.15,
+        "volumeM3": 0.0167,
+        "profitCzk": 1460.03
+      },
+      {
+        "id": 505,
+        "weightKg": 29.386,
+        "volumeM3": 0.0013,
+        "profitCzk": 3338.86
+      },
+      {
+        "id": 438,
+        "weightKg": 9.213,
+        "volumeM3": 0.0129,
+        "profitCzk": 2110.41
+      },
+      {
+        "id": 974,
+        "weightKg": 21.163,
+        "volumeM3": 0.0082,
+        "profitCzk": 3006.18
+      },
+      {
+        "id": 388,
+        "weightKg": 1.627,
+        "volumeM3": 0.0219,
+        "profitCzk": 2047.34
+      },
+      {
+        "id": 951,
+        "weightKg": 15.355,
+        "volumeM3": 0.0049,
+        "profitCzk": 2045.63
+      },
+      {
+        "id": 9,
+        "weightKg": 15.222,
+        "volumeM3": 0.0119,
+        "profitCzk": 2613.37
+      },
+      {
+        "id": 454,
+        "weightKg": 23.541,
+        "volumeM3": 0.0011,
+        "profitCzk": 2562.42
+      },
+      {
+        "id": 700,
+        "weightKg": 9.335,
+        "volumeM3": 0.016,
+        "profitCzk": 2252.17
+      },
+      {
+        "id": 905,
+        "weightKg": 14.391,
+        "volumeM3": 0.0011,
+        "profitCzk": 1564.85
+      },
+      {
+        "id": 313,
+        "weightKg": 7.194,
+        "volumeM3": 0.0028,
+        "profitCzk": 961.90
+      },
+      {
+        "id": 28,
+        "weightKg": 11.468,
+        "volumeM3": 0.002,
+        "profitCzk": 1333.53
+      },
+      {
+        "id": 959,
+        "weightKg": 8.618,
+        "volumeM3": 0.0073,
+        "profitCzk": 1466.24
+      },
+      {
+        "id": 910,
+        "weightKg": 27.759,
+        "volumeM3": 0.006,
+        "profitCzk": 3316.72
+      },
+      {
+        "id": 12,
+        "weightKg": 20.257,
+        "volumeM3": 0.001,
+        "profitCzk": 2094.36
+      },
+      {
+        "id": 657,
+        "weightKg": 14.151,
+        "volumeM3": 0.0012,
+        "profitCzk": 1490.14
+      },
+      {
+        "id": 235,
+        "weightKg": 20.244,
+        "volumeM3": 0.0081,
+        "profitCzk": 2625.16
+      },
+      {
+        "id": 292,
+        "weightKg": 18.948,
+        "volumeM3": 0.0113,
+        "profitCzk": 2711.30
+      },
+      {
+        "id": 147,
+        "weightKg": 0.5,
+        "volumeM3": 0.0127,
+        "profitCzk": 999.91
+      },
+      {
+        "id": 238,
+        "weightKg": 1.93,
+        "volumeM3": 0.0105,
+        "profitCzk": 968.93
+      },
+      {
+        "id": 792,
+        "weightKg": 20.032,
+        "volumeM3": 0.0014,
+        "profitCzk": 2001.28
+      },
+      {
+        "id": 183,
+        "weightKg": 22.274,
+        "volumeM3": 0.002,
+        "profitCzk": 2253.41
+      },
+      {
+        "id": 289,
+        "weightKg": 16.046,
+        "volumeM3": 0.012,
+        "profitCzk": 2405.78
+      },
+      {
+        "id": 146,
+        "weightKg": 0.602,
+        "volumeM3": 0.0208,
+        "profitCzk": 1591.67
+      },
+      {
+        "id": 204,
+        "weightKg": 15.168,
+        "volumeM3": 0.0011,
+        "profitCzk": 1500.80
+      },
+      {
+        "id": 791,
+        "weightKg": 0.231,
+        "volumeM3": 0.0193,
+        "profitCzk": 1431.52
+      },
+      {
+        "id": 417,
+        "weightKg": 3.684,
+        "volumeM3": 0.004,
+        "profitCzk": 633.57
+      },
+      {
+        "id": 536,
+        "weightKg": 21.576,
+        "volumeM3": 0.0108,
+        "profitCzk": 2767.42
+      },
+      {
+        "id": 929,
+        "weightKg": 10.785,
+        "volumeM3": 0.0112,
+        "profitCzk": 1798.70
+      },
+      {
+        "id": 54,
+        "weightKg": 15.278,
+        "volumeM3": 0.0084,
+        "profitCzk": 1992.18
+      },
+      {
+        "id": 256,
+        "weightKg": 13.513,
+        "volumeM3": 0.0131,
+        "profitCzk": 2158.33
+      },
+      {
+        "id": 104,
+        "weightKg": 5.591,
+        "volumeM3": 0.02,
+        "profitCzk": 1926.09
+      },
+      {
+        "id": 843,
+        "weightKg": 11.624,
+        "volumeM3": 0.0217,
+        "profitCzk": 2589.83
+      },
+      {
+        "id": 605,
+        "weightKg": 16.328,
+        "volumeM3": 0.0038,
+        "profitCzk": 1731.72
+      },
+      {
+        "id": 386,
+        "weightKg": 18.66,
+        "volumeM3": 0.0179,
+        "profitCzk": 2930.89
+      },
+      {
+        "id": 143,
+        "weightKg": 28.562,
+        "volumeM3": 0.0097,
+        "profitCzk": 3227.45
+      },
+      {
+        "id": 770,
+        "weightKg": 1.404,
+        "volumeM3": 0.0038,
+        "profitCzk": 390.80
+      },
+      {
+        "id": 432,
+        "weightKg": 0.235,
+        "volumeM3": 0.0108,
+        "profitCzk": 774.62
+      },
+      {
+        "id": 348,
+        "weightKg": 17.193,
+        "volumeM3": 0.0059,
+        "profitCzk": 1935.27
+      },
+      {
+        "id": 715,
+        "weightKg": 1.142,
+        "volumeM3": 0.0112,
+        "profitCzk": 878.04
+      },
+      {
+        "id": 347,
+        "weightKg": 24.728,
+        "volumeM3": 0.0124,
+        "profitCzk": 3017.31
+      },
+      {
+        "id": 528,
+        "weightKg": 18.329,
+        "volumeM3": 0.0149,
+        "profitCzk": 2625.13
+      },
+      {
+        "id": 14,
+        "weightKg": 0.765,
+        "volumeM3": 0.0013,
+        "profitCzk": 155.87
+      },
+      {
+        "id": 112,
+        "weightKg": 5.378,
+        "volumeM3": 0.0144,
+        "profitCzk": 1444.68
+      },
+      {
+        "id": 676,
+        "weightKg": 3.31,
+        "volumeM3": 0.0021,
+        "profitCzk": 424.57
+      },
+      {
+        "id": 261,
+        "weightKg": 20.277,
+        "volumeM3": 0.0101,
+        "profitCzk": 2414.57
+      },
+      {
+        "id": 125,
+        "weightKg": 0.114,
+        "volumeM3": 0.0287,
+        "profitCzk": 1929.43
+      },
+      {
+        "id": 345,
+        "weightKg": 1.969,
+        "volumeM3": 0.0163,
+        "profitCzk": 1250.24
+      },
+      {
+        "id": 416,
+        "weightKg": 1.726,
+        "volumeM3": 0.0114,
+        "profitCzk": 902.10
+      },
+      {
+        "id": 307,
+        "weightKg": 0.658,
+        "volumeM3": 0.0186,
+        "profitCzk": 1276.22
+      },
+      {
+        "id": 882,
+        "weightKg": 11.131,
+        "volumeM3": 0.022,
+        "profitCzk": 2358.82
+      },
+      {
+        "id": 904,
+        "weightKg": 8.63,
+        "volumeM3": 0.0265,
+        "profitCzk": 2431.65
+      },
+      {
+        "id": 111,
+        "weightKg": 22.185,
+        "volumeM3": 0.0019,
+        "profitCzk": 1949.42
+      },
+      {
+        "id": 123,
+        "weightKg": 4.354,
+        "volumeM3": 0.01,
+        "profitCzk": 1004.26
+      },
+      {
+        "id": 955,
+        "weightKg": 17.999,
+        "volumeM3": 0.0094,
+        "profitCzk": 2065.55
+      },
+      {
+        "id": 789,
+        "weightKg": 2.206,
+        "volumeM3": 0.0066,
+        "profitCzk": 599.15
+      },
+      {
+        "id": 940,
+        "weightKg": 14.591,
+        "volumeM3": 0.0013,
+        "profitCzk": 1263.90
+      },
+      {
+        "id": 224,
+        "weightKg": 11.769,
+        "volumeM3": 0.0151,
+        "profitCzk": 1907.38
+      },
+      {
+        "id": 523,
+        "weightKg": 7.194,
+        "volumeM3": 0.0233,
+        "profitCzk": 2049.70
+      },
+      {
+        "id": 633,
+        "weightKg": 8.846,
+        "volumeM3": 0.016,
+        "profitCzk": 1719.41
+      },
+      {
+        "id": 522,
+        "weightKg": 3.456,
+        "volumeM3": 0.0294,
+        "profitCzk": 2130.09
+      },
+      {
+        "id": 325,
+        "weightKg": 11.582,
+        "volumeM3": 0.0011,
+        "profitCzk": 994.97
+      },
+      {
+        "id": 410,
+        "weightKg": 5.74,
+        "volumeM3": 0.0276,
+        "profitCzk": 2189.07
+      },
+      {
+        "id": 731,
+        "weightKg": 10.035,
+        "volumeM3": 0.0144,
+        "profitCzk": 1691.88
+      },
+      {
+        "id": 931,
+        "weightKg": 0.148,
+        "volumeM3": 0.0165,
+        "profitCzk": 1037.46
+      },
+      {
+        "id": 602,
+        "weightKg": 10.379,
+        "volumeM3": 0.0138,
+        "profitCzk": 1675.37
+      },
+      {
+        "id": 369,
+        "weightKg": 25.801,
+        "volumeM3": 0.0022,
+        "profitCzk": 2167.69
+      },
+      {
+        "id": 430,
+        "weightKg": 10.27,
+        "volumeM3": 0.0023,
+        "profitCzk": 947.22
+      },
+      {
+        "id": 919,
+        "weightKg": 28.776,
+        "volumeM3": 0.0121,
+        "profitCzk": 2989.16
+      },
+      {
+        "id": 479,
+        "weightKg": 16.915,
+        "volumeM3": 0.0058,
+        "profitCzk": 1673.67
+      },
+      {
+        "id": 373,
+        "weightKg": 27.573,
+        "volumeM3": 0.0059,
+        "profitCzk": 2509.73
+      },
+      {
+        "id": 253,
+        "weightKg": 7.819,
+        "volumeM3": 0.0071,
+        "profitCzk": 1041.74
+      },
+      {
+        "id": 428,
+        "weightKg": 1.185,
+        "volumeM3": 0.0049,
+        "profitCzk": 389.62
+      },
+      {
+        "id": 157,
+        "weightKg": 23.154,
+        "volumeM3": 0.011,
+        "profitCzk": 2439.56
+      },
+      {
+        "id": 85,
+        "weightKg": 27.434,
+        "volumeM3": 0.0041,
+        "profitCzk": 2333.46
+      },
+      {
+        "id": 646,
+        "weightKg": 27.914,
+        "volumeM3": 0.0177,
+        "profitCzk": 3147.84
+      },
+      {
+        "id": 553,
+        "weightKg": 11.275,
+        "volumeM3": 0.0065,
+        "profitCzk": 1231.80
+      },
+      {
+        "id": 888,
+        "weightKg": 0.134,
+        "volumeM3": 0.0133,
+        "profitCzk": 788.28
+      },
+      {
+        "id": 853,
+        "weightKg": 22.309,
+        "volumeM3": 0.0231,
+        "profitCzk": 2996.04
+      },
+      {
+        "id": 630,
+        "weightKg": 25.953,
+        "volumeM3": 0.0019,
+        "profitCzk": 2023.24
+      },
+      {
+        "id": 692,
+        "weightKg": 8.07,
+        "volumeM3": 0.0113,
+        "profitCzk": 1242.54
+      },
+      {
+        "id": 365,
+        "weightKg": 11.09,
+        "volumeM3": 0.0068,
+        "profitCzk": 1201.51
+      },
+      {
+        "id": 689,
+        "weightKg": 24.532,
+        "volumeM3": 0.0253,
+        "profitCzk": 3239.89
+      },
+      {
+        "id": 728,
+        "weightKg": 21.63,
+        "volumeM3": 0.0188,
+        "profitCzk": 2628.34
+      },
+      {
+        "id": 177,
+        "weightKg": 7.114,
+        "volumeM3": 0.002,
+        "profitCzk": 620.20
+      },
+      {
+        "id": 975,
+        "weightKg": 15.127,
+        "volumeM3": 0.0272,
+        "profitCzk": 2600.45
+      },
+      {
+        "id": 136,
+        "weightKg": 21.596,
+        "volumeM3": 0.0184,
+        "profitCzk": 2564.08
+      },
+      {
+        "id": 722,
+        "weightKg": 17.971,
+        "volumeM3": 0.0162,
+        "profitCzk": 2178.71
+      },
+      {
+        "id": 796,
+        "weightKg": 20.599,
+        "volumeM3": 0.001,
+        "profitCzk": 1510.20
+      },
+      {
+        "id": 675,
+        "weightKg": 24.115,
+        "volumeM3": 0.0015,
+        "profitCzk": 1776.78
+      },
+      {
+        "id": 421,
+        "weightKg": 1.695,
+        "volumeM3": 0.0057,
+        "profitCzk": 429.94
+      },
+      {
+        "id": 846,
+        "weightKg": 2.043,
+        "volumeM3": 0.0356,
+        "profitCzk": 2084.29
+      },
+      {
+        "id": 339,
+        "weightKg": 26.075,
+        "volumeM3": 0.0175,
+        "profitCzk": 2700.64
+      },
+      {
+        "id": 880,
+        "weightKg": 1.166,
+        "volumeM3": 0.0046,
+        "profitCzk": 323.32
+      },
+      {
+        "id": 710,
+        "weightKg": 11.482,
+        "volumeM3": 0.0018,
+        "profitCzk": 860.14
+      },
+      {
+        "id": 406,
+        "weightKg": 0.184,
+        "volumeM3": 0.0341,
+        "profitCzk": 1792.09
+      },
+      {
+        "id": 472,
+        "weightKg": 28.39,
+        "volumeM3": 0.006,
+        "profitCzk": 2193.42
+      },
+      {
+        "id": 761,
+        "weightKg": 18.172,
+        "volumeM3": 0.0265,
+        "profitCzk": 2574.90
+      },
+      {
+        "id": 716,
+        "weightKg": 5.491,
+        "volumeM3": 0.0309,
+        "profitCzk": 1952.51
+      },
+      {
+        "id": 385,
+        "weightKg": 16.978,
+        "volumeM3": 0.0308,
+        "profitCzk": 2697.32
+      },
+      {
+        "id": 434,
+        "weightKg": 12.767,
+        "volumeM3": 0.005,
+        "profitCzk": 1091.46
+      },
+      {
+        "id": 338,
+        "weightKg": 22.928,
+        "volumeM3": 0.0016,
+        "profitCzk": 1579.68
+      },
+      {
+        "id": 524,
+        "weightKg": 3.974,
+        "volumeM3": 0.0234,
+        "profitCzk": 1443.61
+      },
+      {
+        "id": 497,
+        "weightKg": 17.347,
+        "volumeM3": 0.0239,
+        "profitCzk": 2319.77
+      },
+      {
+        "id": 215,
+        "weightKg": 8.723,
+        "volumeM3": 0.0224,
+        "profitCzk": 1687.29
+      },
+      {
+        "id": 94,
+        "weightKg": 3.636,
+        "volumeM3": 0.0248,
+        "profitCzk": 1473.43
+      },
+      {
+        "id": 777,
+        "weightKg": 5.531,
+        "volumeM3": 0.0363,
+        "profitCzk": 2157.69
+      },
+      {
+        "id": 491,
+        "weightKg": 28.394,
+        "volumeM3": 0.0039,
+        "profitCzk": 1979.01
+      },
+      {
+        "id": 149,
+        "weightKg": 15.163,
+        "volumeM3": 0.039,
+        "profitCzk": 2867.45
+      },
+      {
+        "id": 817,
+        "weightKg": 0.402,
+        "volumeM3": 0.035,
+        "profitCzk": 1721.87
+      },
+      {
+        "id": 500,
+        "weightKg": 11.679,
+        "volumeM3": 0.0041,
+        "profitCzk": 917.47
+      },
+      {
+        "id": 848,
+        "weightKg": 27.926,
+        "volumeM3": 0.0031,
+        "profitCzk": 1861.65
+      },
+      {
+        "id": 841,
+        "weightKg": 18.353,
+        "volumeM3": 0.0203,
+        "profitCzk": 2101.48
+      },
+      {
+        "id": 252,
+        "weightKg": 26.098,
+        "volumeM3": 0.0283,
+        "profitCzk": 2959.01
+      },
+      {
+        "id": 947,
+        "weightKg": 4.791,
+        "volumeM3": 0.0314,
+        "profitCzk": 1793.13
+      },
+      {
+        "id": 970,
+        "weightKg": 21.7,
+        "volumeM3": 0.0231,
+        "profitCzk": 2420.14
+      },
+      {
+        "id": 181,
+        "weightKg": 22.282,
+        "volumeM3": 0.0019,
+        "profitCzk": 1438.15
+      },
+      {
+        "id": 443,
+        "weightKg": 13.881,
+        "volumeM3": 0.0085,
+        "profitCzk": 1242.63
+      },
+      {
+        "id": 943,
+        "weightKg": 8.146,
+        "volumeM3": 0.0204,
+        "profitCzk": 1456.59
+      },
+      {
+        "id": 906,
+        "weightKg": 6.123,
+        "volumeM3": 0.001,
+        "profitCzk": 415.40
+      },
+      {
+        "id": 558,
+        "weightKg": 0.784,
+        "volumeM3": 0.0318,
+        "profitCzk": 1539.42
+      },
+      {
+        "id": 685,
+        "weightKg": 8.465,
+        "volumeM3": 0.0023,
+        "profitCzk": 611.70
+      },
+      {
+        "id": 343,
+        "weightKg": 10.437,
+        "volumeM3": 0.0264,
+        "profitCzk": 1856.17
+      },
+      {
+        "id": 825,
+        "weightKg": 21.765,
+        "volumeM3": 0.0405,
+        "profitCzk": 3187.68
+      },
+      {
+        "id": 764,
+        "weightKg": 1.423,
+        "volumeM3": 0.0394,
+        "profitCzk": 1923.04
+      },
+      {
+        "id": 381,
+        "weightKg": 14.637,
+        "volumeM3": 0.0019,
+        "profitCzk": 949.22
+      },
+      {
+        "id": 304,
+        "weightKg": 10.41,
+        "volumeM3": 0.0036,
+        "profitCzk": 778.50
+      },
+      {
+        "id": 601,
+        "weightKg": 7.504,
+        "volumeM3": 0.041,
+        "profitCzk": 2331.26
+      },
+      {
+        "id": 440,
+        "weightKg": 0.101,
+        "volumeM3": 0.0358,
+        "profitCzk": 1648.37
+      },
+      {
+        "id": 151,
+        "weightKg": 0.158,
+        "volumeM3": 0.0411,
+        "profitCzk": 1889.28
+      },
+      {
+        "id": 934,
+        "weightKg": 1.298,
+        "volumeM3": 0.0115,
+        "profitCzk": 601.06
+      },
+      {
+        "id": 762,
+        "weightKg": 23.838,
+        "volumeM3": 0.0035,
+        "profitCzk": 1545.74
+      },
+      {
+        "id": 419,
+        "weightKg": 29.316,
+        "volumeM3": 0.0251,
+        "profitCzk": 2818.84
+      },
+      {
+        "id": 97,
+        "weightKg": 21.326,
+        "volumeM3": 0.0432,
+        "profitCzk": 3157.00
+      },
+      {
+        "id": 468,
+        "weightKg": 14.21,
+        "volumeM3": 0.03,
+        "profitCzk": 2151.47
+      },
+      {
+        "id": 512,
+        "weightKg": 18.207,
+        "volumeM3": 0.0249,
+        "profitCzk": 2133.79
+      },
+      {
+        "id": 771,
+        "weightKg": 20.269,
+        "volumeM3": 0.0215,
+        "profitCzk": 2068.95
+      },
+      {
+        "id": 810,
+        "weightKg": 6.463,
+        "volumeM3": 0.0191,
+        "profitCzk": 1191.74
+      },
+      {
+        "id": 535,
+        "weightKg": 20.561,
+        "volumeM3": 0.0265,
+        "profitCzk": 2292.64
+      },
+      {
+        "id": 435,
+        "weightKg": 4.798,
+        "volumeM3": 0.0403,
+        "profitCzk": 2018.80
+      },
+      {
+        "id": 671,
+        "weightKg": 9.669,
+        "volumeM3": 0.0074,
+        "profitCzk": 847.84
+      },
+      {
+        "id": 872,
+        "weightKg": 17.496,
+        "volumeM3": 0.0102,
+        "profitCzk": 1394.55
+      },
+      {
+        "id": 604,
+        "weightKg": 13.802,
+        "volumeM3": 0.0234,
+        "profitCzk": 1757.37
+      },
+      {
+        "id": 736,
+        "weightKg": 1.733,
+        "volumeM3": 0.0141,
+        "profitCzk": 694.02
+      },
+      {
+        "id": 469,
+        "weightKg": 21.885,
+        "volumeM3": 0.0124,
+        "profitCzk": 1709.22
+      },
+      {
+        "id": 96,
+        "weightKg": 13.33,
+        "volumeM3": 0.0059,
+        "profitCzk": 966.63
+      },
+      {
+        "id": 620,
+        "weightKg": 2.299,
+        "volumeM3": 0.0415,
+        "profitCzk": 1856.58
+      },
+      {
+        "id": 638,
+        "weightKg": 0.154,
+        "volumeM3": 0.0277,
+        "profitCzk": 1162.56
+      },
+      {
+        "id": 62,
+        "weightKg": 23.813,
+        "volumeM3": 0.0159,
+        "profitCzk": 1914.46
+      },
+      {
+        "id": 290,
+        "weightKg": 24.387,
+        "volumeM3": 0.0302,
+        "profitCzk": 2533.31
+      },
+      {
+        "id": 210,
+        "weightKg": 21.364,
+        "volumeM3": 0.003,
+        "profitCzk": 1246.18
+      },
+      {
+        "id": 833,
+        "weightKg": 5.234,
+        "volumeM3": 0.0233,
+        "profitCzk": 1233.94
+      },
+      {
+        "id": 753,
+        "weightKg": 21.196,
+        "volumeM3": 0.009,
+        "profitCzk": 1464.76
+      },
+      {
+        "id": 665,
+        "weightKg": 0.695,
+        "volumeM3": 0.0479,
+        "profitCzk": 1974.75
+      },
+      {
+        "id": 206,
+        "weightKg": 25.591,
+        "volumeM3": 0.0017,
+        "profitCzk": 1386.73
+      },
+      {
+        "id": 323,
+        "weightKg": 6.292,
+        "volumeM3": 0.0083,
+        "profitCzk": 658.79
+      },
+      {
+        "id": 873,
+        "weightKg": 28.442,
+        "volumeM3": 0.0303,
+        "profitCzk": 2662.77
+      },
+      {
+        "id": 86,
+        "weightKg": 23.288,
+        "volumeM3": 0.0497,
+        "profitCzk": 3155.79
+      },
+      {
+        "id": 914,
+        "weightKg": 17.144,
+        "volumeM3": 0.037,
+        "profitCzk": 2329.74
+      },
+      {
+        "id": 228,
+        "weightKg": 5.59,
+        "volumeM3": 0.0059,
+        "profitCzk": 514.95
+      },
+      {
+        "id": 563,
+        "weightKg": 6.273,
+        "volumeM3": 0.0311,
+        "profitCzk": 1535.91
+      },
+      {
+        "id": 837,
+        "weightKg": 7.664,
+        "volumeM3": 0.021,
+        "profitCzk": 1207.30
+      },
+      {
+        "id": 199,
+        "weightKg": 23.441,
+        "volumeM3": 0.0235,
+        "profitCzk": 2081.14
+      },
+      {
+        "id": 1,
+        "weightKg": 8.271,
+        "volumeM3": 0.0152,
+        "profitCzk": 993.75
+      },
+      {
+        "id": 352,
+        "weightKg": 20.848,
+        "volumeM3": 0.0205,
+        "profitCzk": 1785.20
+      },
+      {
+        "id": 964,
+        "weightKg": 2.606,
+        "volumeM3": 0.0391,
+        "profitCzk": 1604.34
+      },
+      {
+        "id": 353,
+        "weightKg": 18.941,
+        "volumeM3": 0.0283,
+        "profitCzk": 1974.22
+      },
+      {
+        "id": 431,
+        "weightKg": 0.569,
+        "volumeM3": 0.0491,
+        "profitCzk": 1860.16
+      },
+      {
+        "id": 958,
+        "weightKg": 0.851,
+        "volumeM3": 0.0459,
+        "profitCzk": 1742.61
+      },
+      {
+        "id": 543,
+        "weightKg": 0.163,
+        "volumeM3": 0.0185,
+        "profitCzk": 689.82
+      },
+      {
+        "id": 439,
+        "weightKg": 10.409,
+        "volumeM3": 0.0018,
+        "profitCzk": 554.70
+      },
+      {
+        "id": 645,
+        "weightKg": 0.747,
+        "volumeM3": 0.0504,
+        "profitCzk": 1886.63
+      },
+      {
+        "id": 870,
+        "weightKg": 9.585,
+        "volumeM3": 0.0022,
+        "profitCzk": 526.16
+      },
+      {
+        "id": 370,
+        "weightKg": 8.933,
+        "volumeM3": 0.051,
+        "profitCzk": 2271.28
+      },
+      {
+        "id": 263,
+        "weightKg": 20.677,
+        "volumeM3": 0.0137,
+        "profitCzk": 1454.41
+      },
+      {
+        "id": 212,
+        "weightKg": 14.372,
+        "volumeM3": 0.0513,
+        "profitCzk": 2525.13
+      },
+      {
+        "id": 49,
+        "weightKg": 11.792,
+        "volumeM3": 0.0195,
+        "profitCzk": 1251.61
+      },
+      {
+        "id": 231,
+        "weightKg": 19.998,
+        "volumeM3": 0.0303,
+        "profitCzk": 2013.34
+      },
+      {
+        "id": 299,
+        "weightKg": 17.679,
+        "volumeM3": 0.0323,
+        "profitCzk": 1946.04
+      },
+      {
+        "id": 765,
+        "weightKg": 29.237,
+        "volumeM3": 0.0576,
+        "profitCzk": 3366.04
+      },
+      {
+        "id": 424,
+        "weightKg": 0.229,
+        "volumeM3": 0.0326,
+        "profitCzk": 1154.11
+      },
+      {
+        "id": 802,
+        "weightKg": 9.556,
+        "volumeM3": 0.0355,
+        "profitCzk": 1672.18
+      },
+      {
+        "id": 266,
+        "weightKg": 2.39,
+        "volumeM3": 0.0201,
+        "profitCzk": 810.00
+      },
+      {
+        "id": 35,
+        "weightKg": 18.11,
+        "volumeM3": 0.012,
+        "profitCzk": 1221.18
+      },
+      {
+        "id": 0,
+        "weightKg": 13.446,
+        "volumeM3": 0.0109,
+        "profitCzk": 966.57
+      },
+      {
+        "id": 611,
+        "weightKg": 9.615,
+        "volumeM3": 0.0567,
+        "profitCzk": 2360.27
+      },
+      {
+        "id": 192,
+        "weightKg": 26.919,
+        "volumeM3": 0.0434,
+        "profitCzk": 2656.40
+      },
+      {
+        "id": 301,
+        "weightKg": 24.487,
+        "volumeM3": 0.0285,
+        "profitCzk": 2036.00
+      },
+      {
+        "id": 99,
+        "weightKg": 3.784,
+        "volumeM3": 0.0131,
+        "profitCzk": 605.01
+      },
+      {
+        "id": 82,
+        "weightKg": 29.96,
+        "volumeM3": 0.0641,
+        "profitCzk": 3407.32
+      },
+      {
+        "id": 672,
+        "weightKg": 13.904,
+        "volumeM3": 0.0238,
+        "profitCzk": 1380.83
+      },
+      {
+        "id": 651,
+        "weightKg": 29.836,
+        "volumeM3": 0.0485,
+        "profitCzk": 2875.57
+      },
+      {
+        "id": 337,
+        "weightKg": 13.977,
+        "volumeM3": 0.0041,
+        "profitCzk": 722.95
+      },
+      {
+        "id": 426,
+        "weightKg": 21.272,
+        "volumeM3": 0.0117,
+        "profitCzk": 1277.11
+      },
+      {
+        "id": 921,
+        "weightKg": 27.68,
+        "volumeM3": 0.0688,
+        "profitCzk": 3380.22
+      },
+      {
+        "id": 711,
+        "weightKg": 7.954,
+        "volumeM3": 0.0466,
+        "profitCzk": 1835.56
+      },
+      {
+        "id": 38,
+        "weightKg": 15.383,
+        "volumeM3": 0.0428,
+        "profitCzk": 2008.56
+      },
+      {
+        "id": 471,
+        "weightKg": 0.365,
+        "volumeM3": 0.0666,
+        "profitCzk": 2157.86
+      },
+      {
+        "id": 107,
+        "weightKg": 14.614,
+        "volumeM3": 0.0264,
+        "profitCzk": 1441.47
+      },
+      {
+        "id": 384,
+        "weightKg": 28.315,
+        "volumeM3": 0.0189,
+        "profitCzk": 1759.10
+      },
+      {
+        "id": 255,
+        "weightKg": 13.813,
+        "volumeM3": 0.0238,
+        "profitCzk": 1322.54
+      },
+      {
+        "id": 153,
+        "weightKg": 3.07,
+        "volumeM3": 0.0295,
+        "profitCzk": 1066.94
+      },
+      {
+        "id": 720,
+        "weightKg": 9.54,
+        "volumeM3": 0.0081,
+        "profitCzk": 644.53
+      },
+      {
+        "id": 828,
+        "weightKg": 3.732,
+        "volumeM3": 0.066,
+        "profitCzk": 2246.77
+      },
+      {
+        "id": 179,
+        "weightKg": 15.916,
+        "volumeM3": 0.0675,
+        "profitCzk": 2783.79
+      },
+      {
+        "id": 484,
+        "weightKg": 11.194,
+        "volumeM3": 0.0237,
+        "profitCzk": 1202.03
+      },
+      {
+        "id": 533,
+        "weightKg": 0.141,
+        "volumeM3": 0.0309,
+        "profitCzk": 969.92
+      },
+      {
+        "id": 358,
+        "weightKg": 10.708,
+        "volumeM3": 0.0501,
+        "profitCzk": 1986.62
+      },
+      {
+        "id": 883,
+        "weightKg": 8.963,
+        "volumeM3": 0.0371,
+        "profitCzk": 1507.21
+      },
+      {
+        "id": 697,
+        "weightKg": 20.675,
+        "volumeM3": 0.0472,
+        "profitCzk": 2248.19
+      },
+      {
+        "id": 928,
+        "weightKg": 6.286,
+        "volumeM3": 0.0178,
+        "profitCzk": 771.50
+      },
+      {
+        "id": 78,
+        "weightKg": 0.193,
+        "volumeM3": 0.0239,
+        "profitCzk": 718.16
+      },
+      {
+        "id": 160,
+        "weightKg": 4.13,
+        "volumeM3": 0.0108,
+        "profitCzk": 476.87
+      },
+      {
+        "id": 583,
+        "weightKg": 0.928,
+        "volumeM3": 0.0704,
+        "profitCzk": 2123.75
+      },
+      {
+        "id": 924,
+        "weightKg": 11.681,
+        "volumeM3": 0.0062,
+        "profitCzk": 624.21
+      },
+      {
+        "id": 519,
+        "weightKg": 1.71,
+        "volumeM3": 0.01,
+        "profitCzk": 360.65
+      },
+      {
+        "id": 557,
+        "weightKg": 16.494,
+        "volumeM3": 0.0827,
+        "profitCzk": 3050.17
+      },
+      {
+        "id": 527,
+        "weightKg": 1.508,
+        "volumeM3": 0.0017,
+        "profitCzk": 105.92
+      },
+      {
+        "id": 3,
+        "weightKg": 17.427,
+        "volumeM3": 0.0285,
+        "profitCzk": 1480.58
+      },
+      {
+        "id": 890,
+        "weightKg": 22.523,
+        "volumeM3": 0.0448,
+        "profitCzk": 2139.66
+      },
+      {
+        "id": 593,
+        "weightKg": 17.485,
+        "volumeM3": 0.0607,
+        "profitCzk": 2414.71
+      },
+      {
+        "id": 565,
+        "weightKg": 11.636,
+        "volumeM3": 0.0137,
+        "profitCzk": 818.49
+      },
+      {
+        "id": 670,
+        "weightKg": 14.657,
+        "volumeM3": 0.0812,
+        "profitCzk": 2866.64
+      },
+      {
+        "id": 733,
+        "weightKg": 20.783,
+        "volumeM3": 0.0864,
+        "profitCzk": 3238.05
+      },
+      {
+        "id": 898,
+        "weightKg": 0.603,
+        "volumeM3": 0.016,
+        "profitCzk": 479.38
+      },
+      {
+        "id": 957,
+        "weightKg": 8.136,
+        "volumeM3": 0.0131,
+        "profitCzk": 670.56
+      },
+      {
+        "id": 508,
+        "weightKg": 25.948,
+        "volumeM3": 0.015,
+        "profitCzk": 1370.29
+      },
+      {
+        "id": 480,
+        "weightKg": 28.211,
+        "volumeM3": 0.0469,
+        "profitCzk": 2353.79
+      },
+      {
+        "id": 832,
+        "weightKg": 12.641,
+        "volumeM3": 0.0494,
+        "profitCzk": 1853.54
+      },
+      {
+        "id": 521,
+        "weightKg": 15.67,
+        "volumeM3": 0.0345,
+        "profitCzk": 1532.70
+      },
+      {
+        "id": 923,
+        "weightKg": 19.678,
+        "volumeM3": 0.0195,
+        "profitCzk": 1253.32
+      },
+      {
+        "id": 418,
+        "weightKg": 29.987,
+        "volumeM3": 0.0745,
+        "profitCzk": 3164.62
+      },
+      {
+        "id": 17,
+        "weightKg": 12.661,
+        "volumeM3": 0.0113,
+        "profitCzk": 767.09
+      },
+      {
+        "id": 874,
+        "weightKg": 14.912,
+        "volumeM3": 0.0652,
+        "profitCzk": 2350.04
+      },
+      {
+        "id": 725,
+        "weightKg": 6.942,
+        "volumeM3": 0.0806,
+        "profitCzk": 2462.25
+      },
+      {
+        "id": 574,
+        "weightKg": 0.78,
+        "volumeM3": 0.026,
+        "profitCzk": 741.01
+      },
+      {
+        "id": 403,
+        "weightKg": 8.53,
+        "volumeM3": 0.0767,
+        "profitCzk": 2392.00
+      },
+      {
+        "id": 11,
+        "weightKg": 0.152,
+        "volumeM3": 0.0484,
+        "profitCzk": 1326.14
+      },
+      {
+        "id": 836,
+        "weightKg": 21.439,
+        "volumeM3": 0.0309,
+        "profitCzk": 1583.44
+      },
+      {
+        "id": 572,
+        "weightKg": 1.943,
+        "volumeM3": 0.0271,
+        "profitCzk": 802.82
+      },
+      {
+        "id": 363,
+        "weightKg": 10.363,
+        "volumeM3": 0.0878,
+        "profitCzk": 2738.95
+      },
+      {
+        "id": 221,
+        "weightKg": 16.418,
+        "volumeM3": 0.0205,
+        "profitCzk": 1120.88
+      },
+      {
+        "id": 405,
+        "weightKg": 28.251,
+        "volumeM3": 0.0882,
+        "profitCzk": 3334.96
+      },
+      {
+        "id": 801,
+        "weightKg": 21.477,
+        "volumeM3": 0.032,
+        "profitCzk": 1586.51
+      },
+      {
+        "id": 911,
+        "weightKg": 0.612,
+        "volumeM3": 0.0135,
+        "profitCzk": 380.27
+      },
+      {
+        "id": 267,
+        "weightKg": 10.997,
+        "volumeM3": 0.043,
+        "profitCzk": 1512.99
+      },
+      {
+        "id": 486,
+        "weightKg": 8.678,
+        "volumeM3": 0.0852,
+        "profitCzk": 2539.88
+      },
+      {
+        "id": 506,
+        "weightKg": 1.055,
+        "volumeM3": 0.0115,
+        "profitCzk": 335.46
+      },
+      {
+        "id": 869,
+        "weightKg": 24.706,
+        "volumeM3": 0.0646,
+        "profitCzk": 2505.71
+      },
+      {
+        "id": 437,
+        "weightKg": 6.354,
+        "volumeM3": 0.0118,
+        "profitCzk": 510.86
+      },
+      {
+        "id": 741,
+        "weightKg": 29.254,
+        "volumeM3": 0.0582,
+        "profitCzk": 2432.38
+      },
+      {
+        "id": 114,
+        "weightKg": 6.462,
+        "volumeM3": 0.0486,
+        "profitCzk": 1445.13
+      },
+      {
+        "id": 169,
+        "weightKg": 24.873,
+        "volumeM3": 0.0933,
+        "profitCzk": 3175.00
+      },
+      {
+        "id": 265,
+        "weightKg": 13.54,
+        "volumeM3": 0.1001,
+        "profitCzk": 2975.64
+      },
+      {
+        "id": 839,
+        "weightKg": 7.932,
+        "volumeM3": 0.0566,
+        "profitCzk": 1685.12
+      },
+      {
+        "id": 485,
+        "weightKg": 9.495,
+        "volumeM3": 0.0341,
+        "profitCzk": 1149.52
+      },
+      {
+        "id": 366,
+        "weightKg": 0.754,
+        "volumeM3": 0.0292,
+        "profitCzk": 744.01
+      },
+      {
+        "id": 465,
+        "weightKg": 6.635,
+        "volumeM3": 0.0978,
+        "profitCzk": 2594.69
+      },
+      {
+        "id": 868,
+        "weightKg": 1.594,
+        "volumeM3": 0.0839,
+        "profitCzk": 2093.61
+      },
+      {
+        "id": 89,
+        "weightKg": 23.826,
+        "volumeM3": 0.0853,
+        "profitCzk": 2805.02
+      },
+      {
+        "id": 862,
+        "weightKg": 29.543,
+        "volumeM3": 0.1145,
+        "profitCzk": 3677.69
+      },
+      {
+        "id": 357,
+        "weightKg": 13.193,
+        "volumeM3": 0.039,
+        "profitCzk": 1342.22
+      },
+      {
+        "id": 490,
+        "weightKg": 25.787,
+        "volumeM3": 0.0258,
+        "profitCzk": 1381.93
+      },
+      {
+        "id": 58,
+        "weightKg": 0.592,
+        "volumeM3": 0.0067,
+        "profitCzk": 67.48
+      }
+    ],
+    "packageCount": 351,
+    "volumeUtilization": 0.9998571428571432,
+    "weightUtilization": 0.7224470909090916
+  },
+  {
+    "id": 1,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.017200000000002075,
+    "remainingWeightKg": 4654.349999999997,
+    "totalProfit": 152967.66,
+    "packages": [
+      {
+        "id": 132,
+        "weightKg": 23.774,
+        "volumeM3": 0.0629,
+        "profitCzk": 2193.55
+      },
+      {
+        "id": 659,
+        "weightKg": 0.122,
+        "volumeM3": 0.0624,
+        "profitCzk": 1456.29
+      },
+      {
+        "id": 279,
+        "weightKg": 20.58,
+        "volumeM3": 0.0958,
+        "profitCzk": 2836.80
+      },
+      {
+        "id": 155,
+        "weightKg": 20.63,
+        "volumeM3": 0.1038,
+        "profitCzk": 3022.81
+      },
+      {
+        "id": 658,
+        "weightKg": 1.157,
+        "volumeM3": 0.0922,
+        "profitCzk": 2175.62
+      },
+      {
+        "id": 400,
+        "weightKg": 0.796,
+        "volumeM3": 0.0962,
+        "profitCzk": 2251.75
+      },
+      {
+        "id": 359,
+        "weightKg": 8.076,
+        "volumeM3": 0.0673,
+        "profitCzk": 1762.84
+      },
+      {
+        "id": 897,
+        "weightKg": 26.635,
+        "volumeM3": 0.1227,
+        "profitCzk": 3528.17
+      },
+      {
+        "id": 526,
+        "weightKg": 9.741,
+        "volumeM3": 0.0622,
+        "profitCzk": 1676.32
+      },
+      {
+        "id": 511,
+        "weightKg": 21.76,
+        "volumeM3": 0.121,
+        "profitCzk": 3299.25
+      },
+      {
+        "id": 798,
+        "weightKg": 29.405,
+        "volumeM3": 0.0565,
+        "profitCzk": 2081.59
+      },
+      {
+        "id": 695,
+        "weightKg": 0.124,
+        "volumeM3": 0.093,
+        "profitCzk": 2057.28
+      },
+      {
+        "id": 173,
+        "weightKg": 8.879,
+        "volumeM3": 0.1146,
+        "profitCzk": 2761.69
+      },
+      {
+        "id": 316,
+        "weightKg": 6.59,
+        "volumeM3": 0.0935,
+        "profitCzk": 2226.74
+      },
+      {
+        "id": 945,
+        "weightKg": 7.919,
+        "volumeM3": 0.0568,
+        "profitCzk": 1421.93
+      },
+      {
+        "id": 4,
+        "weightKg": 7.743,
+        "volumeM3": 0.0522,
+        "profitCzk": 1314.02
+      },
+      {
+        "id": 691,
+        "weightKg": 26.026,
+        "volumeM3": 0.0621,
+        "profitCzk": 1997.06
+      },
+      {
+        "id": 972,
+        "weightKg": 18.895,
+        "volumeM3": 0.1208,
+        "profitCzk": 3025.94
+      },
+      {
+        "id": 392,
+        "weightKg": 4.015,
+        "volumeM3": 0.0726,
+        "profitCzk": 1615.53
+      },
+      {
+        "id": 178,
+        "weightKg": 0.991,
+        "volumeM3": 0.0262,
+        "profitCzk": 565.97
+      },
+      {
+        "id": 176,
+        "weightKg": 13.178,
+        "volumeM3": 0.0388,
+        "profitCzk": 1134.90
+      },
+      {
+        "id": 391,
+        "weightKg": 2.005,
+        "volumeM3": 0.0736,
+        "profitCzk": 1542.63
+      },
+      {
+        "id": 342,
+        "weightKg": 5.313,
+        "volumeM3": 0.1072,
+        "profitCzk": 2299.27
+      },
+      {
+        "id": 245,
+        "weightKg": 0.353,
+        "volumeM3": 0.0885,
+        "profitCzk": 1792.02
+      },
+      {
+        "id": 158,
+        "weightKg": 11.363,
+        "volumeM3": 0.1065,
+        "profitCzk": 2422.93
+      },
+      {
+        "id": 775,
+        "weightKg": 1.062,
+        "volumeM3": 0.0398,
+        "profitCzk": 821.70
+      },
+      {
+        "id": 361,
+        "weightKg": 25.881,
+        "volumeM3": 0.1285,
+        "profitCzk": 3210.48
+      },
+      {
+        "id": 248,
+        "weightKg": 22.88,
+        "volumeM3": 0.1381,
+        "profitCzk": 3320.42
+      },
+      {
+        "id": 29,
+        "weightKg": 0.702,
+        "volumeM3": 0.0963,
+        "profitCzk": 1913.55
+      },
+      {
+        "id": 412,
+        "weightKg": 0.149,
+        "volumeM3": 0.0924,
+        "profitCzk": 1812.49
+      },
+      {
+        "id": 884,
+        "weightKg": 2.741,
+        "volumeM3": 0.0644,
+        "profitCzk": 1313.23
+      },
+      {
+        "id": 395,
+        "weightKg": 28.131,
+        "volumeM3": 0.0683,
+        "profitCzk": 1979.16
+      },
+      {
+        "id": 165,
+        "weightKg": 3.525,
+        "volumeM3": 0.0415,
+        "profitCzk": 872.01
+      },
+      {
+        "id": 826,
+        "weightKg": 29.027,
+        "volumeM3": 0.113,
+        "profitCzk": 2824.66
+      },
+      {
+        "id": 422,
+        "weightKg": 27.543,
+        "volumeM3": 0.1375,
+        "profitCzk": 3250.20
+      },
+      {
+        "id": 302,
+        "weightKg": 18.882,
+        "volumeM3": 0.0443,
+        "profitCzk": 1284.88
+      },
+      {
+        "id": 23,
+        "weightKg": 19.131,
+        "volumeM3": 0.0972,
+        "profitCzk": 2281.98
+      },
+      {
+        "id": 694,
+        "weightKg": 12.754,
+        "volumeM3": 0.0958,
+        "profitCzk": 2101.98
+      },
+      {
+        "id": 592,
+        "weightKg": 10.997,
+        "volumeM3": 0.1103,
+        "profitCzk": 2328.98
+      },
+      {
+        "id": 367,
+        "weightKg": 3.169,
+        "volumeM3": 0.1325,
+        "profitCzk": 2548.36
+      },
+      {
+        "id": 717,
+        "weightKg": 5.574,
+        "volumeM3": 0.0454,
+        "profitCzk": 977.46
+      },
+      {
+        "id": 609,
+        "weightKg": 2.816,
+        "volumeM3": 0.0637,
+        "profitCzk": 1250.62
+      },
+      {
+        "id": 475,
+        "weightKg": 2.382,
+        "volumeM3": 0.0513,
+        "profitCzk": 1009.39
+      },
+      {
+        "id": 399,
+        "weightKg": 0.614,
+        "volumeM3": 0.1118,
+        "profitCzk": 2045.74
+      },
+      {
+        "id": 930,
+        "weightKg": 19.158,
+        "volumeM3": 0.1357,
+        "profitCzk": 2904.91
+      },
+      {
+        "id": 830,
+        "weightKg": 9.745,
+        "volumeM3": 0.0905,
+        "profitCzk": 1864.34
+      },
+      {
+        "id": 758,
+        "weightKg": 9.439,
+        "volumeM3": 0.0565,
+        "profitCzk": 1230.62
+      },
+      {
+        "id": 312,
+        "weightKg": 8.345,
+        "volumeM3": 0.1274,
+        "profitCzk": 2473.87
+      },
+      {
+        "id": 834,
+        "weightKg": 11.31,
+        "volumeM3": 0.0777,
+        "profitCzk": 1646.25
+      },
+      {
+        "id": 962,
+        "weightKg": 1.31,
+        "volumeM3": 0.1004,
+        "profitCzk": 1824.19
+      },
+      {
+        "id": 812,
+        "weightKg": 11.12,
+        "volumeM3": 0.0806,
+        "profitCzk": 1687.11
+      },
+      {
+        "id": 580,
+        "weightKg": 0.249,
+        "volumeM3": 0.022,
+        "profitCzk": 396.86
+      },
+      {
+        "id": 616,
+        "weightKg": 9.097,
+        "volumeM3": 0.1429,
+        "profitCzk": 2737.36
+      },
+      {
+        "id": 280,
+        "weightKg": 8.427,
+        "volumeM3": 0.1406,
+        "profitCzk": 2673.21
+      },
+      {
+        "id": 937,
+        "weightKg": 2.623,
+        "volumeM3": 0.073,
+        "profitCzk": 1346.40
+      },
+      {
+        "id": 375,
+        "weightKg": 23.367,
+        "volumeM3": 0.1022,
+        "profitCzk": 2309.58
+      },
+      {
+        "id": 838,
+        "weightKg": 17.97,
+        "volumeM3": 0.1311,
+        "profitCzk": 2683.53
+      },
+      {
+        "id": 998,
+        "weightKg": 0.794,
+        "volumeM3": 0.0395,
+        "profitCzk": 705.02
+      },
+      {
+        "id": 680,
+        "weightKg": 2.504,
+        "volumeM3": 0.0386,
+        "profitCzk": 726.62
+      },
+      {
+        "id": 666,
+        "weightKg": 4.609,
+        "volumeM3": 0.0494,
+        "profitCzk": 954.15
+      },
+      {
+        "id": 362,
+        "weightKg": 5.35,
+        "volumeM3": 0.03,
+        "profitCzk": 626.02
+      },
+      {
+        "id": 73,
+        "weightKg": 12.129,
+        "volumeM3": 0.1262,
+        "profitCzk": 2406.82
+      },
+      {
+        "id": 708,
+        "weightKg": 22.848,
+        "volumeM3": 0.0897,
+        "profitCzk": 2015.27
+      },
+      {
+        "id": 27,
+        "weightKg": 25.903,
+        "volumeM3": 0.1071,
+        "profitCzk": 2374.74
+      },
+      {
+        "id": 285,
+        "weightKg": 10.983,
+        "volumeM3": 0.0879,
+        "profitCzk": 1720.39
+      },
+      {
+        "id": 297,
+        "weightKg": 0.103,
+        "volumeM3": 0.0851,
+        "profitCzk": 1435.51
+      },
+      {
+        "id": 591,
+        "weightKg": 11.759,
+        "volumeM3": 0.1047,
+        "profitCzk": 2006.09
+      },
+      {
+        "id": 327,
+        "weightKg": 7.381,
+        "volumeM3": 0.1567,
+        "profitCzk": 2774.12
+      },
+      {
+        "id": 981,
+        "weightKg": 26.371,
+        "volumeM3": 0.1375,
+        "profitCzk": 2850.38
+      },
+      {
+        "id": 815,
+        "weightKg": 8.245,
+        "volumeM3": 0.1011,
+        "profitCzk": 1848.07
+      },
+      {
+        "id": 501,
+        "weightKg": 0.222,
+        "volumeM3": 0.0414,
+        "profitCzk": 688.90
+      },
+      {
+        "id": 673,
+        "weightKg": 12.104,
+        "volumeM3": 0.1385,
+        "profitCzk": 2533.71
+      },
+      {
+        "id": 894,
+        "weightKg": 29.874,
+        "volumeM3": 0.1126,
+        "profitCzk": 2478.35
+      },
+      {
+        "id": 162,
+        "weightKg": 3.795,
+        "volumeM3": 0.1105,
+        "profitCzk": 1897.09
+      },
+      {
+        "id": 79,
+        "weightKg": 0.98,
+        "volumeM3": 0.0434,
+        "profitCzk": 729.91
+      },
+      {
+        "id": 264,
+        "weightKg": 28.201,
+        "volumeM3": 0.1396,
+        "profitCzk": 2828.82
+      },
+      {
+        "id": 148,
+        "weightKg": 4.47,
+        "volumeM3": 0.1598,
+        "profitCzk": 2666.69
+      },
+      {
+        "id": 816,
+        "weightKg": 0.835,
+        "volumeM3": 0.0814,
+        "profitCzk": 1312.57
+      }
+    ],
+    "packageCount": 78,
+    "volumeUtilization": 0.9975428571428568,
+    "weightUtilization": 0.15375454545454603
+  },
+  {
+    "id": 2,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.008700000000000013,
+    "remainingWeightKg": 4751.531,
+    "totalProfit": 117316.26,
+    "packages": [
+      {
+        "id": 590,
+        "weightKg": 23.424,
+        "volumeM3": 0.1059,
+        "profitCzk": 2186.11
+      },
+      {
+        "id": 80,
+        "weightKg": 23.363,
+        "volumeM3": 0.1112,
+        "profitCzk": 2244.50
+      },
+      {
+        "id": 387,
+        "weightKg": 17.945,
+        "volumeM3": 0.0517,
+        "profitCzk": 1183.72
+      },
+      {
+        "id": 566,
+        "weightKg": 8.693,
+        "volumeM3": 0.1396,
+        "profitCzk": 2392.14
+      },
+      {
+        "id": 31,
+        "weightKg": 24.711,
+        "volumeM3": 0.1728,
+        "profitCzk": 3228.40
+      },
+      {
+        "id": 396,
+        "weightKg": 29.304,
+        "volumeM3": 0.1355,
+        "profitCzk": 2730.66
+      },
+      {
+        "id": 67,
+        "weightKg": 1.174,
+        "volumeM3": 0.0393,
+        "profitCzk": 643.62
+      },
+      {
+        "id": 652,
+        "weightKg": 5.576,
+        "volumeM3": 0.0442,
+        "profitCzk": 809.05
+      },
+      {
+        "id": 44,
+        "weightKg": 0.437,
+        "volumeM3": 0.0525,
+        "profitCzk": 836.14
+      },
+      {
+        "id": 478,
+        "weightKg": 22.507,
+        "volumeM3": 0.0604,
+        "profitCzk": 1399.46
+      },
+      {
+        "id": 452,
+        "weightKg": 15.706,
+        "volumeM3": 0.1221,
+        "profitCzk": 2215.90
+      },
+      {
+        "id": 298,
+        "weightKg": 0.274,
+        "volumeM3": 0.1083,
+        "profitCzk": 1685.91
+      },
+      {
+        "id": 65,
+        "weightKg": 3.55,
+        "volumeM3": 0.1388,
+        "profitCzk": 2207.25
+      },
+      {
+        "id": 950,
+        "weightKg": 8.951,
+        "volumeM3": 0.0693,
+        "profitCzk": 1242.33
+      },
+      {
+        "id": 561,
+        "weightKg": 21.806,
+        "volumeM3": 0.1229,
+        "profitCzk": 2319.17
+      },
+      {
+        "id": 349,
+        "weightKg": 16.333,
+        "volumeM3": 0.1918,
+        "profitCzk": 3245.34
+      },
+      {
+        "id": 317,
+        "weightKg": 23.368,
+        "volumeM3": 0.1096,
+        "profitCzk": 2126.49
+      },
+      {
+        "id": 239,
+        "weightKg": 12.842,
+        "volumeM3": 0.049,
+        "profitCzk": 995.67
+      },
+      {
+        "id": 776,
+        "weightKg": 0.217,
+        "volumeM3": 0.1641,
+        "profitCzk": 2499.88
+      },
+      {
+        "id": 462,
+        "weightKg": 0.836,
+        "volumeM3": 0.1511,
+        "profitCzk": 2310.37
+      },
+      {
+        "id": 608,
+        "weightKg": 3.889,
+        "volumeM3": 0.1171,
+        "profitCzk": 1838.08
+      },
+      {
+        "id": 581,
+        "weightKg": 14.044,
+        "volumeM3": 0.127,
+        "profitCzk": 2179.00
+      },
+      {
+        "id": 767,
+        "weightKg": 13.298,
+        "volumeM3": 0.0362,
+        "profitCzk": 798.73
+      },
+      {
+        "id": 916,
+        "weightKg": 27.329,
+        "volumeM3": 0.0969,
+        "profitCzk": 1979.00
+      },
+      {
+        "id": 781,
+        "weightKg": 24.204,
+        "volumeM3": 0.1599,
+        "profitCzk": 2834.45
+      },
+      {
+        "id": 556,
+        "weightKg": 13.859,
+        "volumeM3": 0.1534,
+        "profitCzk": 2535.45
+      },
+      {
+        "id": 142,
+        "weightKg": 21.706,
+        "volumeM3": 0.0767,
+        "profitCzk": 1533.12
+      },
+      {
+        "id": 211,
+        "weightKg": 0.981,
+        "volumeM3": 0.0742,
+        "profitCzk": 1106.62
+      },
+      {
+        "id": 254,
+        "weightKg": 22.516,
+        "volumeM3": 0.0676,
+        "profitCzk": 1409.56
+      },
+      {
+        "id": 757,
+        "weightKg": 7.26,
+        "volumeM3": 0.1791,
+        "profitCzk": 2757.47
+      },
+      {
+        "id": 804,
+        "weightKg": 15.313,
+        "volumeM3": 0.1841,
+        "profitCzk": 2967.82
+      },
+      {
+        "id": 600,
+        "weightKg": 5.591,
+        "volumeM3": 0.1224,
+        "profitCzk": 1885.55
+      },
+      {
+        "id": 942,
+        "weightKg": 3.407,
+        "volumeM3": 0.1703,
+        "profitCzk": 2536.07
+      },
+      {
+        "id": 814,
+        "weightKg": 29.617,
+        "volumeM3": 0.102,
+        "profitCzk": 2027.53
+      },
+      {
+        "id": 529,
+        "weightKg": 16.546,
+        "volumeM3": 0.1984,
+        "profitCzk": 3166.38
+      },
+      {
+        "id": 986,
+        "weightKg": 0.491,
+        "volumeM3": 0.1415,
+        "profitCzk": 2047.09
+      },
+      {
+        "id": 63,
+        "weightKg": 8.89,
+        "volumeM3": 0.1903,
+        "profitCzk": 2903.32
+      },
+      {
+        "id": 537,
+        "weightKg": 29.717,
+        "volumeM3": 0.2211,
+        "profitCzk": 3720.49
+      },
+      {
+        "id": 105,
+        "weightKg": 9.29,
+        "volumeM3": 0.1452,
+        "profitCzk": 2249.82
+      },
+      {
+        "id": 441,
+        "weightKg": 0.849,
+        "volumeM3": 0.1578,
+        "profitCzk": 2276.23
+      },
+      {
+        "id": 270,
+        "weightKg": 21.816,
+        "volumeM3": 0.1298,
+        "profitCzk": 2256.13
+      },
+      {
+        "id": 360,
+        "weightKg": 29.447,
+        "volumeM3": 0.2322,
+        "profitCzk": 3858.02
+      },
+      {
+        "id": 748,
+        "weightKg": 3.709,
+        "volumeM3": 0.1447,
+        "profitCzk": 2137.08
+      },
+      {
+        "id": 223,
+        "weightKg": 27.191,
+        "volumeM3": 0.1435,
+        "profitCzk": 2543.21
+      },
+      {
+        "id": 516,
+        "weightKg": 2.409,
+        "volumeM3": 0.1199,
+        "profitCzk": 1755.65
+      },
+      {
+        "id": 222,
+        "weightKg": 11.551,
+        "volumeM3": 0.1456,
+        "profitCzk": 2284.26
+      },
+      {
+        "id": 330,
+        "weightKg": 18.317,
+        "volumeM3": 0.1834,
+        "profitCzk": 2944.29
+      },
+      {
+        "id": 189,
+        "weightKg": 0.292,
+        "volumeM3": 0.1303,
+        "profitCzk": 1857.99
+      },
+      {
+        "id": 747,
+        "weightKg": 24.09,
+        "volumeM3": 0.1957,
+        "profitCzk": 3216.83
+      },
+      {
+        "id": 612,
+        "weightKg": 0.208,
+        "volumeM3": 0.1244,
+        "profitCzk": 1766.59
+      },
+      {
+        "id": 892,
+        "weightKg": 6.198,
+        "volumeM3": 0.0496,
+        "profitCzk": 801.54
+      },
+      {
+        "id": 918,
+        "weightKg": 29.293,
+        "volumeM3": 0.1512,
+        "profitCzk": 2627.34
+      },
+      {
+        "id": 247,
+        "weightKg": 3,
+        "volumeM3": 0.0668,
+        "profitCzk": 983.24
+      },
+      {
+        "id": 925,
+        "weightKg": 9.886,
+        "volumeM3": 0.0415,
+        "profitCzk": 750.35
+      },
+      {
+        "id": 30,
+        "weightKg": 8.574,
+        "volumeM3": 0.0811,
+        "profitCzk": 1275.66
+      },
+      {
+        "id": 213,
+        "weightKg": 17.146,
+        "volumeM3": 0.0825,
+        "profitCzk": 1445.93
+      },
+      {
+        "id": 187,
+        "weightKg": 0.781,
+        "volumeM3": 0.0319,
+        "profitCzk": 454.99
+      },
+      {
+        "id": 332,
+        "weightKg": 4.747,
+        "volumeM3": 0.0759,
+        "profitCzk": 1103.27
+      }
+    ],
+    "packageCount": 58,
+    "volumeUtilization": 0.9987571428571429,
+    "weightUtilization": 0.13608527272727278
+  },
+  {
+    "id": 3,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.0011000000000008087,
+    "remainingWeightKg": 4965.975999999999,
+    "totalProfit": 98313.90,
+    "packages": [
+      {
+        "id": 596,
+        "weightKg": 15.506,
+        "volumeM3": 0.1289,
+        "profitCzk": 2043.47
+      },
+      {
+        "id": 288,
+        "weightKg": 18.877,
+        "volumeM3": 0.125,
+        "profitCzk": 2047.30
+      },
+      {
+        "id": 621,
+        "weightKg": 0.39,
+        "volumeM3": 0.107,
+        "profitCzk": 1466.84
+      },
+      {
+        "id": 246,
+        "weightKg": 0.137,
+        "volumeM3": 0.1853,
+        "profitCzk": 2526.77
+      },
+      {
+        "id": 433,
+        "weightKg": 28.291,
+        "volumeM3": 0.1821,
+        "profitCzk": 2942.08
+      },
+      {
+        "id": 909,
+        "weightKg": 8.283,
+        "volumeM3": 0.1431,
+        "profitCzk": 2071.75
+      },
+      {
+        "id": 701,
+        "weightKg": 13.169,
+        "volumeM3": 0.2057,
+        "profitCzk": 2998.33
+      },
+      {
+        "id": 969,
+        "weightKg": 1.092,
+        "volumeM3": 0.1551,
+        "profitCzk": 2101.98
+      },
+      {
+        "id": 907,
+        "weightKg": 0.147,
+        "volumeM3": 0.0549,
+        "profitCzk": 736.42
+      },
+      {
+        "id": 628,
+        "weightKg": 8.507,
+        "volumeM3": 0.0914,
+        "profitCzk": 1362.72
+      },
+      {
+        "id": 119,
+        "weightKg": 12.097,
+        "volumeM3": 0.2053,
+        "profitCzk": 2909.95
+      },
+      {
+        "id": 296,
+        "weightKg": 8.902,
+        "volumeM3": 0.1566,
+        "profitCzk": 2209.13
+      },
+      {
+        "id": 570,
+        "weightKg": 27.194,
+        "volumeM3": 0.246,
+        "profitCzk": 3659.50
+      },
+      {
+        "id": 769,
+        "weightKg": 22.655,
+        "volumeM3": 0.1298,
+        "profitCzk": 2068.30
+      },
+      {
+        "id": 102,
+        "weightKg": 12.419,
+        "volumeM3": 0.2134,
+        "profitCzk": 2985.90
+      },
+      {
+        "id": 799,
+        "weightKg": 11.823,
+        "volumeM3": 0.1964,
+        "profitCzk": 2747.92
+      },
+      {
+        "id": 499,
+        "weightKg": 28.816,
+        "volumeM3": 0.1669,
+        "profitCzk": 2630.12
+      },
+      {
+        "id": 106,
+        "weightKg": 5.16,
+        "volumeM3": 0.2149,
+        "profitCzk": 2854.84
+      },
+      {
+        "id": 946,
+        "weightKg": 21.675,
+        "volumeM3": 0.0803,
+        "profitCzk": 1389.35
+      },
+      {
+        "id": 407,
+        "weightKg": 17.768,
+        "volumeM3": 0.2586,
+        "profitCzk": 3608.70
+      },
+      {
+        "id": 477,
+        "weightKg": 2.477,
+        "volumeM3": 0.1565,
+        "profitCzk": 2041.00
+      },
+      {
+        "id": 532,
+        "weightKg": 24.055,
+        "volumeM3": 0.1189,
+        "profitCzk": 1907.90
+      },
+      {
+        "id": 257,
+        "weightKg": 13.305,
+        "volumeM3": 0.1914,
+        "profitCzk": 2649.29
+      },
+      {
+        "id": 548,
+        "weightKg": 0.159,
+        "volumeM3": 0.1834,
+        "profitCzk": 2325.93
+      },
+      {
+        "id": 851,
+        "weightKg": 28.656,
+        "volumeM3": 0.2068,
+        "profitCzk": 3072.63
+      },
+      {
+        "id": 938,
+        "weightKg": 1.801,
+        "volumeM3": 0.2026,
+        "profitCzk": 2585.52
+      },
+      {
+        "id": 759,
+        "weightKg": 10.566,
+        "volumeM3": 0.2054,
+        "profitCzk": 2752.58
+      },
+      {
+        "id": 218,
+        "weightKg": 4.188,
+        "volumeM3": 0.1128,
+        "profitCzk": 1470.91
+      },
+      {
+        "id": 190,
+        "weightKg": 23.517,
+        "volumeM3": 0.1616,
+        "profitCzk": 2380.82
+      },
+      {
+        "id": 683,
+        "weightKg": 23.875,
+        "volumeM3": 0.1073,
+        "profitCzk": 1711.08
+      },
+      {
+        "id": 459,
+        "weightKg": 20.086,
+        "volumeM3": 0.166,
+        "profitCzk": 2378.36
+      },
+      {
+        "id": 321,
+        "weightKg": 16.361,
+        "volumeM3": 0.2261,
+        "profitCzk": 3064.56
+      },
+      {
+        "id": 322,
+        "weightKg": 4.439,
+        "volumeM3": 0.0216,
+        "profitCzk": 337.12
+      },
+      {
+        "id": 282,
+        "weightKg": 19.264,
+        "volumeM3": 0.2179,
+        "profitCzk": 2989.95
+      },
+      {
+        "id": 461,
+        "weightKg": 18.53,
+        "volumeM3": 0.2067,
+        "profitCzk": 2836.07
+      },
+      {
+        "id": 973,
+        "weightKg": 4.687,
+        "volumeM3": 0.1646,
+        "profitCzk": 2100.46
+      },
+      {
+        "id": 688,
+        "weightKg": 17.368,
+        "volumeM3": 0.2284,
+        "profitCzk": 3082.46
+      },
+      {
+        "id": 504,
+        "weightKg": 0.341,
+        "volumeM3": 0.0902,
+        "profitCzk": 1115.02
+      },
+      {
+        "id": 305,
+        "weightKg": 12.57,
+        "volumeM3": 0.2168,
+        "profitCzk": 2860.05
+      },
+      {
+        "id": 997,
+        "weightKg": 11.541,
+        "volumeM3": 0.176,
+        "profitCzk": 2340.92
+      },
+      {
+        "id": 109,
+        "weightKg": 3.11,
+        "volumeM3": 0.1743,
+        "profitCzk": 2186.26
+      },
+      {
+        "id": 309,
+        "weightKg": 0.118,
+        "volumeM3": 0.0794,
+        "profitCzk": 975.59
+      },
+      {
+        "id": 315,
+        "weightKg": 4.205,
+        "volumeM3": 0.09,
+        "profitCzk": 1164.73
+      },
+      {
+        "id": 496,
+        "weightKg": 5.897,
+        "volumeM3": 0.0475,
+        "profitCzk": 623.32
+      }
+    ],
+    "packageCount": 44,
+    "volumeUtilization": 0.999842857142857,
+    "weightUtilization": 0.09709527272727292
+  },
+  {
+    "id": 4,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.008500000000000354,
+    "remainingWeightKg": 5025.772999999997,
+    "totalProfit": 88311.35,
+    "packages": [
+      {
+        "id": 896,
+        "weightKg": 10.826,
+        "volumeM3": 0.2256,
+        "profitCzk": 2928.39
+      },
+      {
+        "id": 607,
+        "weightKg": 8.864,
+        "volumeM3": 0.1635,
+        "profitCzk": 2137.77
+      },
+      {
+        "id": 182,
+        "weightKg": 9.846,
+        "volumeM3": 0.226,
+        "profitCzk": 2906.55
+      },
+      {
+        "id": 845,
+        "weightKg": 0.234,
+        "volumeM3": 0.1033,
+        "profitCzk": 1257.31
+      },
+      {
+        "id": 356,
+        "weightKg": 1.592,
+        "volumeM3": 0.1951,
+        "profitCzk": 2387.29
+      },
+      {
+        "id": 587,
+        "weightKg": 0.247,
+        "volumeM3": 0.0889,
+        "profitCzk": 1079.77
+      },
+      {
+        "id": 48,
+        "weightKg": 2.435,
+        "volumeM3": 0.1494,
+        "profitCzk": 1844.86
+      },
+      {
+        "id": 687,
+        "weightKg": 9.885,
+        "volumeM3": 0.2063,
+        "profitCzk": 2642.17
+      },
+      {
+        "id": 225,
+        "weightKg": 23.246,
+        "volumeM3": 0.0961,
+        "profitCzk": 1513.86
+      },
+      {
+        "id": 467,
+        "weightKg": 11.903,
+        "volumeM3": 0.184,
+        "profitCzk": 2387.52
+      },
+      {
+        "id": 93,
+        "weightKg": 14.142,
+        "volumeM3": 0.1369,
+        "profitCzk": 1855.53
+      },
+      {
+        "id": 6,
+        "weightKg": 19.918,
+        "volumeM3": 0.1672,
+        "profitCzk": 2299.75
+      },
+      {
+        "id": 202,
+        "weightKg": 1.384,
+        "volumeM3": 0.0872,
+        "profitCzk": 1061.43
+      },
+      {
+        "id": 756,
+        "weightKg": 20.769,
+        "volumeM3": 0.1987,
+        "profitCzk": 2684.14
+      },
+      {
+        "id": 842,
+        "weightKg": 22.988,
+        "volumeM3": 0.1367,
+        "profitCzk": 1978.22
+      },
+      {
+        "id": 560,
+        "weightKg": 18.448,
+        "volumeM3": 0.0898,
+        "profitCzk": 1345.28
+      },
+      {
+        "id": 713,
+        "weightKg": 15.844,
+        "volumeM3": 0.2378,
+        "profitCzk": 3044.17
+      },
+      {
+        "id": 551,
+        "weightKg": 0.28,
+        "volumeM3": 0.151,
+        "profitCzk": 1775.14
+      },
+      {
+        "id": 690,
+        "weightKg": 1.986,
+        "volumeM3": 0.1819,
+        "profitCzk": 2156.56
+      },
+      {
+        "id": 515,
+        "weightKg": 10.146,
+        "volumeM3": 0.2248,
+        "profitCzk": 2768.51
+      },
+      {
+        "id": 115,
+        "weightKg": 15.37,
+        "volumeM3": 0.0865,
+        "profitCzk": 1229.36
+      },
+      {
+        "id": 161,
+        "weightKg": 0.458,
+        "volumeM3": 0.1229,
+        "profitCzk": 1424.54
+      },
+      {
+        "id": 613,
+        "weightKg": 1.863,
+        "volumeM3": 0.164,
+        "profitCzk": 1914.23
+      },
+      {
+        "id": 168,
+        "weightKg": 16.667,
+        "volumeM3": 0.1827,
+        "profitCzk": 2343.33
+      },
+      {
+        "id": 901,
+        "weightKg": 0.296,
+        "volumeM3": 0.2307,
+        "profitCzk": 2655.32
+      },
+      {
+        "id": 818,
+        "weightKg": 0.376,
+        "volumeM3": 0.1188,
+        "profitCzk": 1363.38
+      },
+      {
+        "id": 669,
+        "weightKg": 28.176,
+        "volumeM3": 0.3278,
+        "profitCzk": 4156.06
+      },
+      {
+        "id": 540,
+        "weightKg": 7.245,
+        "volumeM3": 0.1767,
+        "profitCzk": 2117.54
+      },
+      {
+        "id": 229,
+        "weightKg": 24.553,
+        "volumeM3": 0.3219,
+        "profitCzk": 4014.56
+      },
+      {
+        "id": 599,
+        "weightKg": 17.264,
+        "volumeM3": 0.1122,
+        "profitCzk": 1524.26
+      },
+      {
+        "id": 460,
+        "weightKg": 28.431,
+        "volumeM3": 0.2097,
+        "profitCzk": 2792.16
+      },
+      {
+        "id": 732,
+        "weightKg": 14.801,
+        "volumeM3": 0.2547,
+        "profitCzk": 3101.96
+      },
+      {
+        "id": 514,
+        "weightKg": 1.389,
+        "volumeM3": 0.0927,
+        "profitCzk": 1067.33
+      },
+      {
+        "id": 849,
+        "weightKg": 0.997,
+        "volumeM3": 0.0733,
+        "profitCzk": 841.88
+      },
+      {
+        "id": 996,
+        "weightKg": 8.845,
+        "volumeM3": 0.0934,
+        "profitCzk": 1178.90
+      },
+      {
+        "id": 324,
+        "weightKg": 27.28,
+        "volumeM3": 0.331,
+        "profitCzk": 4118.92
+      },
+      {
+        "id": 37,
+        "weightKg": 29.229,
+        "volumeM3": 0.294,
+        "profitCzk": 3691.31
+      },
+      {
+        "id": 681,
+        "weightKg": 17.751,
+        "volumeM3": 0.158,
+        "profitCzk": 2005.96
+      },
+      {
+        "id": 137,
+        "weightKg": 28.02,
+        "volumeM3": 0.3254,
+        "profitCzk": 4007.92
+      },
+      {
+        "id": 545,
+        "weightKg": 0.233,
+        "volumeM3": 0.0649,
+        "profitCzk": 708.21
+      }
+    ],
+    "packageCount": 40,
+    "volumeUtilization": 0.9987857142857143,
+    "weightUtilization": 0.08622309090909142
+  },
+  {
+    "id": 5,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.009599999999998471,
+    "remainingWeightKg": 5014.218000000001,
+    "totalProfit": 80250.95,
+    "packages": [
+      {
+        "id": 577,
+        "weightKg": 11.113,
+        "volumeM3": 0.1715,
+        "profitCzk": 2058.23
+      },
+      {
+        "id": 163,
+        "weightKg": 0.808,
+        "volumeM3": 0.1973,
+        "profitCzk": 2187.01
+      },
+      {
+        "id": 693,
+        "weightKg": 22.118,
+        "volumeM3": 0.3358,
+        "profitCzk": 4006.37
+      },
+      {
+        "id": 552,
+        "weightKg": 20.269,
+        "volumeM3": 0.3179,
+        "profitCzk": 3776.55
+      },
+      {
+        "id": 133,
+        "weightKg": 22.149,
+        "volumeM3": 0.3165,
+        "profitCzk": 3749.36
+      },
+      {
+        "id": 707,
+        "weightKg": 23.18,
+        "volumeM3": 0.2126,
+        "profitCzk": 2612.42
+      },
+      {
+        "id": 965,
+        "weightKg": 6.241,
+        "volumeM3": 0.1365,
+        "profitCzk": 1558.51
+      },
+      {
+        "id": 120,
+        "weightKg": 7.727,
+        "volumeM3": 0.0536,
+        "profitCzk": 684.41
+      },
+      {
+        "id": 53,
+        "weightKg": 2.698,
+        "volumeM3": 0.1575,
+        "profitCzk": 1726.28
+      },
+      {
+        "id": 936,
+        "weightKg": 3.782,
+        "volumeM3": 0.0874,
+        "profitCzk": 988.28
+      },
+      {
+        "id": 509,
+        "weightKg": 3.062,
+        "volumeM3": 0.1232,
+        "profitCzk": 1361.60
+      },
+      {
+        "id": 122,
+        "weightKg": 25.379,
+        "volumeM3": 0.1626,
+        "profitCzk": 2073.71
+      },
+      {
+        "id": 436,
+        "weightKg": 14.539,
+        "volumeM3": 0.3287,
+        "profitCzk": 3687.68
+      },
+      {
+        "id": 738,
+        "weightKg": 26.521,
+        "volumeM3": 0.2141,
+        "profitCzk": 2621.78
+      },
+      {
+        "id": 249,
+        "weightKg": 27.658,
+        "volumeM3": 0.1622,
+        "profitCzk": 2087.94
+      },
+      {
+        "id": 200,
+        "weightKg": 15.835,
+        "volumeM3": 0.1212,
+        "profitCzk": 1489.54
+      },
+      {
+        "id": 915,
+        "weightKg": 2.388,
+        "volumeM3": 0.084,
+        "profitCzk": 916.43
+      },
+      {
+        "id": 575,
+        "weightKg": 0.587,
+        "volumeM3": 0.08,
+        "profitCzk": 850.15
+      },
+      {
+        "id": 709,
+        "weightKg": 1.553,
+        "volumeM3": 0.1782,
+        "profitCzk": 1895.17
+      },
+      {
+        "id": 995,
+        "weightKg": 16.829,
+        "volumeM3": 0.3256,
+        "profitCzk": 3639.86
+      },
+      {
+        "id": 152,
+        "weightKg": 25.784,
+        "volumeM3": 0.3889,
+        "profitCzk": 4385.84
+      },
+      {
+        "id": 455,
+        "weightKg": 16.017,
+        "volumeM3": 0.1557,
+        "profitCzk": 1829.47
+      },
+      {
+        "id": 871,
+        "weightKg": 0.221,
+        "volumeM3": 0.1397,
+        "profitCzk": 1454.30
+      },
+      {
+        "id": 242,
+        "weightKg": 15.171,
+        "volumeM3": 0.3275,
+        "profitCzk": 3595.39
+      },
+      {
+        "id": 610,
+        "weightKg": 17.515,
+        "volumeM3": 0.3582,
+        "profitCzk": 3943.23
+      },
+      {
+        "id": 413,
+        "weightKg": 19.3,
+        "volumeM3": 0.2736,
+        "profitCzk": 3086.84
+      },
+      {
+        "id": 243,
+        "weightKg": 1.026,
+        "volumeM3": 0.1042,
+        "profitCzk": 1091.53
+      },
+      {
+        "id": 637,
+        "weightKg": 21.48,
+        "volumeM3": 0.1352,
+        "profitCzk": 1675.61
+      },
+      {
+        "id": 295,
+        "weightKg": 21.833,
+        "volumeM3": 0.1727,
+        "profitCzk": 2065.67
+      },
+      {
+        "id": 714,
+        "weightKg": 6.964,
+        "volumeM3": 0.2571,
+        "profitCzk": 2730.52
+      },
+      {
+        "id": 446,
+        "weightKg": 18.276,
+        "volumeM3": 0.3157,
+        "profitCzk": 3478.88
+      },
+      {
+        "id": 625,
+        "weightKg": 22.275,
+        "volumeM3": 0.1362,
+        "profitCzk": 1686.16
+      },
+      {
+        "id": 617,
+        "weightKg": 3.508,
+        "volumeM3": 0.1353,
+        "profitCzk": 1427.34
+      },
+      {
+        "id": 425,
+        "weightKg": 1.173,
+        "volumeM3": 0.0798,
+        "profitCzk": 829.60
+      },
+      {
+        "id": 639,
+        "weightKg": 29.096,
+        "volumeM3": 0.1621,
+        "profitCzk": 2021.67
+      },
+      {
+        "id": 922,
+        "weightKg": 11.707,
+        "volumeM3": 0.0821,
+        "profitCzk": 977.62
+      }
+    ],
+    "packageCount": 36,
+    "volumeUtilization": 0.9986285714285716,
+    "weightUtilization": 0.08832399999999985
+  },
+  {
+    "id": 6,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.010800000000001114,
+    "remainingWeightKg": 5083.0199999999995,
+    "totalProfit": 73759.11,
+    "packages": [
+      {
+        "id": 320,
+        "weightKg": 8.425,
+        "volumeM3": 0.2954,
+        "profitCzk": 3106.10
+      },
+      {
+        "id": 679,
+        "weightKg": 0.279,
+        "volumeM3": 0.1068,
+        "profitCzk": 1085.61
+      },
+      {
+        "id": 2,
+        "weightKg": 15.791,
+        "volumeM3": 0.1323,
+        "profitCzk": 1542.97
+      },
+      {
+        "id": 976,
+        "weightKg": 5.671,
+        "volumeM3": 0.2492,
+        "profitCzk": 2593.31
+      },
+      {
+        "id": 513,
+        "weightKg": 28.044,
+        "volumeM3": 0.1583,
+        "profitCzk": 1959.85
+      },
+      {
+        "id": 635,
+        "weightKg": 3.707,
+        "volumeM3": 0.1678,
+        "profitCzk": 1740.64
+      },
+      {
+        "id": 623,
+        "weightKg": 12.434,
+        "volumeM3": 0.2294,
+        "profitCzk": 2471.30
+      },
+      {
+        "id": 772,
+        "weightKg": 29.224,
+        "volumeM3": 0.3059,
+        "profitCzk": 3453.19
+      },
+      {
+        "id": 495,
+        "weightKg": 24.292,
+        "volumeM3": 0.2269,
+        "profitCzk": 2591.78
+      },
+      {
+        "id": 134,
+        "weightKg": 26.606,
+        "volumeM3": 0.3294,
+        "profitCzk": 3647.68
+      },
+      {
+        "id": 982,
+        "weightKg": 27.795,
+        "volumeM3": 0.2171,
+        "profitCzk": 2522.12
+      },
+      {
+        "id": 150,
+        "weightKg": 7.031,
+        "volumeM3": 0.1922,
+        "profitCzk": 1997.67
+      },
+      {
+        "id": 684,
+        "weightKg": 10.624,
+        "volumeM3": 0.2852,
+        "profitCzk": 2963.73
+      },
+      {
+        "id": 389,
+        "weightKg": 15.034,
+        "volumeM3": 0.1211,
+        "profitCzk": 1390.17
+      },
+      {
+        "id": 985,
+        "weightKg": 14.522,
+        "volumeM3": 0.2707,
+        "profitCzk": 2863.32
+      },
+      {
+        "id": 10,
+        "weightKg": 14.442,
+        "volumeM3": 0.1341,
+        "profitCzk": 1506.33
+      },
+      {
+        "id": 268,
+        "weightKg": 4.548,
+        "volumeM3": 0.0718,
+        "profitCzk": 762.39
+      },
+      {
+        "id": 188,
+        "weightKg": 12.689,
+        "volumeM3": 0.1972,
+        "profitCzk": 2090.62
+      },
+      {
+        "id": 991,
+        "weightKg": 24.774,
+        "volumeM3": 0.3036,
+        "profitCzk": 3261.33
+      },
+      {
+        "id": 926,
+        "weightKg": 10.844,
+        "volumeM3": 0.215,
+        "profitCzk": 2225.62
+      },
+      {
+        "id": 34,
+        "weightKg": 0.418,
+        "volumeM3": 0.103,
+        "profitCzk": 1005.16
+      },
+      {
+        "id": 175,
+        "weightKg": 6.847,
+        "volumeM3": 0.1385,
+        "profitCzk": 1419.64
+      },
+      {
+        "id": 718,
+        "weightKg": 12.356,
+        "volumeM3": 0.2298,
+        "profitCzk": 2357.28
+      },
+      {
+        "id": 654,
+        "weightKg": 7.518,
+        "volumeM3": 0.2764,
+        "profitCzk": 2745.04
+      },
+      {
+        "id": 763,
+        "weightKg": 17.969,
+        "volumeM3": 0.2081,
+        "profitCzk": 2214.97
+      },
+      {
+        "id": 768,
+        "weightKg": 29.317,
+        "volumeM3": 0.2873,
+        "profitCzk": 3111.53
+      },
+      {
+        "id": 329,
+        "weightKg": 10.235,
+        "volumeM3": 0.3341,
+        "profitCzk": 3314.11
+      },
+      {
+        "id": 987,
+        "weightKg": 3.458,
+        "volumeM3": 0.282,
+        "profitCzk": 2723.49
+      },
+      {
+        "id": 402,
+        "weightKg": 1.67,
+        "volumeM3": 0.2589,
+        "profitCzk": 2480.00
+      },
+      {
+        "id": 507,
+        "weightKg": 0.1,
+        "volumeM3": 0.2863,
+        "profitCzk": 2713.51
+      },
+      {
+        "id": 966,
+        "weightKg": 7.811,
+        "volumeM3": 0.1643,
+        "profitCzk": 1647.17
+      },
+      {
+        "id": 994,
+        "weightKg": 12.448,
+        "volumeM3": 0.0894,
+        "profitCzk": 990.96
+      },
+      {
+        "id": 380,
+        "weightKg": 10.057,
+        "volumeM3": 0.1217,
+        "profitCzk": 1260.52
+      }
+    ],
+    "packageCount": 33,
+    "volumeUtilization": 0.9984571428571427,
+    "weightUtilization": 0.07581454545454558
+  },
+  {
+    "id": 7,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.001300000000000294,
+    "remainingWeightKg": 5185.192,
+    "totalProfit": 67735.66,
+    "packages": [
+      {
+        "id": 573,
+        "weightKg": 8.385,
+        "volumeM3": 0.2848,
+        "profitCzk": 2792.59
+      },
+      {
+        "id": 344,
+        "weightKg": 23.606,
+        "volumeM3": 0.3825,
+        "profitCzk": 3883.83
+      },
+      {
+        "id": 886,
+        "weightKg": 28.393,
+        "volumeM3": 0.3103,
+        "profitCzk": 3249.98
+      },
+      {
+        "id": 464,
+        "weightKg": 6.937,
+        "volumeM3": 0.0993,
+        "profitCzk": 1013.17
+      },
+      {
+        "id": 857,
+        "weightKg": 1.671,
+        "volumeM3": 0.0339,
+        "profitCzk": 337.35
+      },
+      {
+        "id": 197,
+        "weightKg": 25.243,
+        "volumeM3": 0.1829,
+        "profitCzk": 2011.37
+      },
+      {
+        "id": 790,
+        "weightKg": 0.554,
+        "volumeM3": 0.3177,
+        "profitCzk": 2968.24
+      },
+      {
+        "id": 84,
+        "weightKg": 10.616,
+        "volumeM3": 0.1884,
+        "profitCzk": 1877.65
+      },
+      {
+        "id": 474,
+        "weightKg": 4.211,
+        "volumeM3": 0.0534,
+        "profitCzk": 545.12
+      },
+      {
+        "id": 893,
+        "weightKg": 16.776,
+        "volumeM3": 0.3438,
+        "profitCzk": 3384.76
+      },
+      {
+        "id": 567,
+        "weightKg": 16.853,
+        "volumeM3": 0.1943,
+        "profitCzk": 1997.26
+      },
+      {
+        "id": 164,
+        "weightKg": 3.831,
+        "volumeM3": 0.332,
+        "profitCzk": 3109.85
+      },
+      {
+        "id": 932,
+        "weightKg": 4.304,
+        "volumeM3": 0.3161,
+        "profitCzk": 2965.61
+      },
+      {
+        "id": 36,
+        "weightKg": 1.491,
+        "volumeM3": 0.1757,
+        "profitCzk": 1634.06
+      },
+      {
+        "id": 721,
+        "weightKg": 17.651,
+        "volumeM3": 0.4227,
+        "profitCzk": 4095.43
+      },
+      {
+        "id": 95,
+        "weightKg": 12.488,
+        "volumeM3": 0.1839,
+        "profitCzk": 1827.98
+      },
+      {
+        "id": 354,
+        "weightKg": 19.206,
+        "volumeM3": 0.3554,
+        "profitCzk": 3473.72
+      },
+      {
+        "id": 908,
+        "weightKg": 26.049,
+        "volumeM3": 0.427,
+        "profitCzk": 4190.49
+      },
+      {
+        "id": 69,
+        "weightKg": 5.387,
+        "volumeM3": 0.3245,
+        "profitCzk": 3005.81
+      },
+      {
+        "id": 483,
+        "weightKg": 1.436,
+        "volumeM3": 0.1232,
+        "profitCzk": 1130.29
+      },
+      {
+        "id": 835,
+        "weightKg": 0.317,
+        "volumeM3": 0.0913,
+        "profitCzk": 827.23
+      },
+      {
+        "id": 326,
+        "weightKg": 21.258,
+        "volumeM3": 0.294,
+        "profitCzk": 2889.14
+      },
+      {
+        "id": 498,
+        "weightKg": 6.927,
+        "volumeM3": 0.2189,
+        "profitCzk": 2043.01
+      },
+      {
+        "id": 554,
+        "weightKg": 0.294,
+        "volumeM3": 0.3218,
+        "profitCzk": 2888.39
+      },
+      {
+        "id": 8,
+        "weightKg": 20.018,
+        "volumeM3": 0.1465,
+        "profitCzk": 1538.78
+      },
+      {
+        "id": 429,
+        "weightKg": 14.5,
+        "volumeM3": 0.2876,
+        "profitCzk": 2732.78
+      },
+      {
+        "id": 135,
+        "weightKg": 0.338,
+        "volumeM3": 0.3185,
+        "profitCzk": 2844.25
+      },
+      {
+        "id": 755,
+        "weightKg": 10.554,
+        "volumeM3": 0.1019,
+        "profitCzk": 1027.49
+      },
+      {
+        "id": 377,
+        "weightKg": 3.529,
+        "volumeM3": 0.0688,
+        "profitCzk": 646.71
+      },
+      {
+        "id": 186,
+        "weightKg": 0.557,
+        "volumeM3": 0.0372,
+        "profitCzk": 307.63
+      },
+      {
+        "id": 588,
+        "weightKg": 1.428,
+        "volumeM3": 0.0604,
+        "profitCzk": 495.69
+      }
+    ],
+    "packageCount": 31,
+    "volumeUtilization": 0.9998142857142857,
+    "weightUtilization": 0.05723781818181817
+  },
+  {
+    "id": 8,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.015600000000000266,
+    "remainingWeightKg": 5242.964999999999,
+    "totalProfit": 64278.78,
+    "packages": [
+      {
+        "id": 840,
+        "weightKg": 17.925,
+        "volumeM3": 0.2488,
+        "profitCzk": 2418.39
+      },
+      {
+        "id": 865,
+        "weightKg": 0.13,
+        "volumeM3": 0.1841,
+        "profitCzk": 1639.56
+      },
+      {
+        "id": 618,
+        "weightKg": 12.138,
+        "volumeM3": 0.3937,
+        "profitCzk": 3635.12
+      },
+      {
+        "id": 636,
+        "weightKg": 26.396,
+        "volumeM3": 0.2994,
+        "profitCzk": 2957.76
+      },
+      {
+        "id": 216,
+        "weightKg": 16.052,
+        "volumeM3": 0.173,
+        "profitCzk": 1718.04
+      },
+      {
+        "id": 19,
+        "weightKg": 5.384,
+        "volumeM3": 0.2501,
+        "profitCzk": 2281.79
+      },
+      {
+        "id": 641,
+        "weightKg": 5.657,
+        "volumeM3": 0.2543,
+        "profitCzk": 2318.33
+      },
+      {
+        "id": 442,
+        "weightKg": 18.371,
+        "volumeM3": 0.4424,
+        "profitCzk": 4129.10
+      },
+      {
+        "id": 953,
+        "weightKg": 9.917,
+        "volumeM3": 0.2622,
+        "profitCzk": 2435.69
+      },
+      {
+        "id": 209,
+        "weightKg": 2.132,
+        "volumeM3": 0.2283,
+        "profitCzk": 2041.75
+      },
+      {
+        "id": 876,
+        "weightKg": 0.109,
+        "volumeM3": 0.1739,
+        "profitCzk": 1536.76
+      },
+      {
+        "id": 627,
+        "weightKg": 0.148,
+        "volumeM3": 0.2838,
+        "profitCzk": 2504.91
+      },
+      {
+        "id": 787,
+        "weightKg": 0.241,
+        "volumeM3": 0.3252,
+        "profitCzk": 2862.98
+      },
+      {
+        "id": 240,
+        "weightKg": 0.103,
+        "volumeM3": 0.2557,
+        "profitCzk": 2249.79
+      },
+      {
+        "id": 274,
+        "weightKg": 1.139,
+        "volumeM3": 0.3533,
+        "profitCzk": 3110.43
+      },
+      {
+        "id": 879,
+        "weightKg": 6.608,
+        "volumeM3": 0.2455,
+        "profitCzk": 2225.71
+      },
+      {
+        "id": 889,
+        "weightKg": 25.835,
+        "volumeM3": 0.4497,
+        "profitCzk": 4213.07
+      },
+      {
+        "id": 902,
+        "weightKg": 0.135,
+        "volumeM3": 0.2016,
+        "profitCzk": 1760.87
+      },
+      {
+        "id": 319,
+        "weightKg": 25.435,
+        "volumeM3": 0.294,
+        "profitCzk": 2846.60
+      },
+      {
+        "id": 60,
+        "weightKg": 4.98,
+        "volumeM3": 0.1752,
+        "profitCzk": 1582.17
+      },
+      {
+        "id": 70,
+        "weightKg": 18.235,
+        "volumeM3": 0.4545,
+        "profitCzk": 4162.69
+      },
+      {
+        "id": 752,
+        "weightKg": 13.376,
+        "volumeM3": 0.3118,
+        "profitCzk": 2855.77
+      },
+      {
+        "id": 634,
+        "weightKg": 15.829,
+        "volumeM3": 0.4108,
+        "profitCzk": 3739.45
+      },
+      {
+        "id": 39,
+        "weightKg": 29.395,
+        "volumeM3": 0.2124,
+        "profitCzk": 2164.84
+      },
+      {
+        "id": 276,
+        "weightKg": 1.365,
+        "volumeM3": 0.1007,
+        "profitCzk": 887.21
+      }
+    ],
+    "packageCount": 25,
+    "volumeUtilization": 0.9977714285714285,
+    "weightUtilization": 0.04673363636363648
+  },
+  {
+    "id": 9,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.010200000000000847,
+    "remainingWeightKg": 5166.245,
+    "totalProfit": 62685.12,
+    "packages": [
+      {
+        "id": 655,
+        "weightKg": 17.766,
+        "volumeM3": 0.3213,
+        "profitCzk": 2979.27
+      },
+      {
+        "id": 788,
+        "weightKg": 2.313,
+        "volumeM3": 0.3066,
+        "profitCzk": 2656.72
+      },
+      {
+        "id": 729,
+        "weightKg": 22.131,
+        "volumeM3": 0.3807,
+        "profitCzk": 3502.95
+      },
+      {
+        "id": 751,
+        "weightKg": 0.234,
+        "volumeM3": 0.1821,
+        "profitCzk": 1562.66
+      },
+      {
+        "id": 371,
+        "weightKg": 17.42,
+        "volumeM3": 0.3228,
+        "profitCzk": 2951.12
+      },
+      {
+        "id": 698,
+        "weightKg": 3.46,
+        "volumeM3": 0.2536,
+        "profitCzk": 2205.74
+      },
+      {
+        "id": 71,
+        "weightKg": 6.61,
+        "volumeM3": 0.3969,
+        "profitCzk": 3461.34
+      },
+      {
+        "id": 568,
+        "weightKg": 28.125,
+        "volumeM3": 0.3293,
+        "profitCzk": 3112.24
+      },
+      {
+        "id": 546,
+        "weightKg": 16.039,
+        "volumeM3": 0.4547,
+        "profitCzk": 4049.28
+      },
+      {
+        "id": 586,
+        "weightKg": 28.495,
+        "volumeM3": 0.3536,
+        "profitCzk": 3317.36
+      },
+      {
+        "id": 13,
+        "weightKg": 19.485,
+        "volumeM3": 0.2805,
+        "profitCzk": 2591.37
+      },
+      {
+        "id": 743,
+        "weightKg": 6.787,
+        "volumeM3": 0.3024,
+        "profitCzk": 2623.88
+      },
+      {
+        "id": 444,
+        "weightKg": 24.344,
+        "volumeM3": 0.3791,
+        "profitCzk": 3446.89
+      },
+      {
+        "id": 81,
+        "weightKg": 6.257,
+        "volumeM3": 0.2918,
+        "profitCzk": 2518.17
+      },
+      {
+        "id": 579,
+        "weightKg": 18.751,
+        "volumeM3": 0.3909,
+        "profitCzk": 3479.88
+      },
+      {
+        "id": 401,
+        "weightKg": 25.763,
+        "volumeM3": 0.2674,
+        "profitCzk": 2510.25
+      },
+      {
+        "id": 531,
+        "weightKg": 6.26,
+        "volumeM3": 0.2478,
+        "profitCzk": 2138.40
+      },
+      {
+        "id": 571,
+        "weightKg": 11.628,
+        "volumeM3": 0.3431,
+        "profitCzk": 2980.06
+      },
+      {
+        "id": 51,
+        "weightKg": 26.153,
+        "volumeM3": 0.4875,
+        "profitCzk": 4335.49
+      },
+      {
+        "id": 647,
+        "weightKg": 19.464,
+        "volumeM3": 0.2046,
+        "profitCzk": 1908.50
+      },
+      {
+        "id": 727,
+        "weightKg": 24.773,
+        "volumeM3": 0.317,
+        "profitCzk": 2898.52
+      },
+      {
+        "id": 42,
+        "weightKg": 1.497,
+        "volumeM3": 0.1761,
+        "profitCzk": 1455.03
+      }
+    ],
+    "packageCount": 22,
+    "volumeUtilization": 0.9985428571428571,
+    "weightUtilization": 0.06068272727272728
+  },
+  {
+    "id": 10,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.0069000000000001074,
+    "remainingWeightKg": 5237.1759999999995,
+    "totalProfit": 58940.35,
+    "packages": [
+      {
+        "id": 140,
+        "weightKg": 9.997,
+        "volumeM3": 0.4219,
+        "profitCzk": 3603.58
+      },
+      {
+        "id": 103,
+        "weightKg": 3.894,
+        "volumeM3": 0.1899,
+        "profitCzk": 1614.45
+      },
+      {
+        "id": 108,
+        "weightKg": 8.832,
+        "volumeM3": 0.3308,
+        "profitCzk": 2825.76
+      },
+      {
+        "id": 808,
+        "weightKg": 29.737,
+        "volumeM3": 0.4628,
+        "profitCzk": 4134.40
+      },
+      {
+        "id": 250,
+        "weightKg": 0.151,
+        "volumeM3": 0.2986,
+        "profitCzk": 2440.76
+      },
+      {
+        "id": 510,
+        "weightKg": 17.035,
+        "volumeM3": 0.1997,
+        "profitCzk": 1805.58
+      },
+      {
+        "id": 820,
+        "weightKg": 10.009,
+        "volumeM3": 0.1516,
+        "profitCzk": 1337.92
+      },
+      {
+        "id": 749,
+        "weightKg": 0.382,
+        "volumeM3": 0.2031,
+        "profitCzk": 1655.70
+      },
+      {
+        "id": 794,
+        "weightKg": 1.894,
+        "volumeM3": 0.2386,
+        "profitCzk": 1959.36
+      },
+      {
+        "id": 46,
+        "weightKg": 0.153,
+        "volumeM3": 0.3535,
+        "profitCzk": 2862.68
+      },
+      {
+        "id": 582,
+        "weightKg": 18.374,
+        "volumeM3": 0.2608,
+        "profitCzk": 2290.16
+      },
+      {
+        "id": 615,
+        "weightKg": 2.926,
+        "volumeM3": 0.2626,
+        "profitCzk": 2146.05
+      },
+      {
+        "id": 550,
+        "weightKg": 9.196,
+        "volumeM3": 0.2896,
+        "profitCzk": 2424.47
+      },
+      {
+        "id": 230,
+        "weightKg": 27.402,
+        "volumeM3": 0.4897,
+        "profitCzk": 4168.25
+      },
+      {
+        "id": 32,
+        "weightKg": 0.111,
+        "volumeM3": 0.3889,
+        "profitCzk": 3089.64
+      },
+      {
+        "id": 15,
+        "weightKg": 18.368,
+        "volumeM3": 0.1968,
+        "profitCzk": 1748.53
+      },
+      {
+        "id": 739,
+        "weightKg": 15.384,
+        "volumeM3": 0.4211,
+        "profitCzk": 3496.10
+      },
+      {
+        "id": 64,
+        "weightKg": 20.319,
+        "volumeM3": 0.2797,
+        "profitCzk": 2423.44
+      },
+      {
+        "id": 824,
+        "weightKg": 13.731,
+        "volumeM3": 0.4971,
+        "profitCzk": 4080.37
+      },
+      {
+        "id": 68,
+        "weightKg": 20.878,
+        "volumeM3": 0.2054,
+        "profitCzk": 1833.23
+      },
+      {
+        "id": 131,
+        "weightKg": 15.596,
+        "volumeM3": 0.4063,
+        "profitCzk": 3356.76
+      },
+      {
+        "id": 773,
+        "weightKg": 10.641,
+        "volumeM3": 0.2457,
+        "profitCzk": 2034.33
+      },
+      {
+        "id": 844,
+        "weightKg": 6.27,
+        "volumeM3": 0.1627,
+        "profitCzk": 1334.77
+      },
+      {
+        "id": 41,
+        "weightKg": 1.544,
+        "volumeM3": 0.0362,
+        "profitCzk": 274.06
+      }
+    ],
+    "packageCount": 24,
+    "volumeUtilization": 0.9990142857142857,
+    "weightUtilization": 0.04778618181818195
+  },
+  {
+    "id": 11,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.0016999999999995213,
+    "remainingWeightKg": 5303.744000000001,
+    "totalProfit": 55787.27,
+    "packages": [
+      {
+        "id": 76,
+        "weightKg": 8.493,
+        "volumeM3": 0.3114,
+        "profitCzk": 2527.41
+      },
+      {
+        "id": 993,
+        "weightKg": 4.961,
+        "volumeM3": 0.2791,
+        "profitCzk": 2232.52
+      },
+      {
+        "id": 233,
+        "weightKg": 17.199,
+        "volumeM3": 0.4217,
+        "profitCzk": 3466.27
+      },
+      {
+        "id": 992,
+        "weightKg": 18.902,
+        "volumeM3": 0.407,
+        "profitCzk": 3364.17
+      },
+      {
+        "id": 195,
+        "weightKg": 11.272,
+        "volumeM3": 0.1697,
+        "profitCzk": 1435.22
+      },
+      {
+        "id": 126,
+        "weightKg": 20.556,
+        "volumeM3": 0.3413,
+        "profitCzk": 2855.61
+      },
+      {
+        "id": 262,
+        "weightKg": 10.615,
+        "volumeM3": 0.1291,
+        "profitCzk": 1106.57
+      },
+      {
+        "id": 878,
+        "weightKg": 0.498,
+        "volumeM3": 0.2758,
+        "profitCzk": 2142.78
+      },
+      {
+        "id": 813,
+        "weightKg": 4.146,
+        "volumeM3": 0.3869,
+        "profitCzk": 3039.46
+      },
+      {
+        "id": 208,
+        "weightKg": 7.234,
+        "volumeM3": 0.4685,
+        "profitCzk": 3695.86
+      },
+      {
+        "id": 656,
+        "weightKg": 1.522,
+        "volumeM3": 0.4012,
+        "profitCzk": 3115.16
+      },
+      {
+        "id": 61,
+        "weightKg": 0.567,
+        "volumeM3": 0.4148,
+        "profitCzk": 3202.47
+      },
+      {
+        "id": 145,
+        "weightKg": 9.278,
+        "volumeM3": 0.2162,
+        "profitCzk": 1755.68
+      },
+      {
+        "id": 821,
+        "weightKg": 14.018,
+        "volumeM3": 0.4204,
+        "profitCzk": 3367.86
+      },
+      {
+        "id": 341,
+        "weightKg": 0.535,
+        "volumeM3": 0.228,
+        "profitCzk": 1749.38
+      },
+      {
+        "id": 423,
+        "weightKg": 0.718,
+        "volumeM3": 0.4326,
+        "profitCzk": 3315.27
+      },
+      {
+        "id": 534,
+        "weightKg": 22.168,
+        "volumeM3": 0.313,
+        "profitCzk": 2608.03
+      },
+      {
+        "id": 963,
+        "weightKg": 4.26,
+        "volumeM3": 0.2947,
+        "profitCzk": 2287.02
+      },
+      {
+        "id": 283,
+        "weightKg": 0.653,
+        "volumeM3": 0.1812,
+        "profitCzk": 1386.25
+      },
+      {
+        "id": 117,
+        "weightKg": 24.707,
+        "volumeM3": 0.4416,
+        "profitCzk": 3566.08
+      },
+      {
+        "id": 585,
+        "weightKg": 0.103,
+        "volumeM3": 0.1792,
+        "profitCzk": 1347.59
+      },
+      {
+        "id": 760,
+        "weightKg": 12.249,
+        "volumeM3": 0.2018,
+        "profitCzk": 1621.22
+      },
+      {
+        "id": 603,
+        "weightKg": 1.602,
+        "volumeM3": 0.0831,
+        "profitCzk": 599.39
+      }
+    ],
+    "packageCount": 23,
+    "volumeUtilization": 0.9997571428571429,
+    "weightUtilization": 0.03568290909090899
+  },
+  {
+    "id": 12,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.011999999999998665,
+    "remainingWeightKg": 5368.484,
+    "totalProfit": 52609.34,
+    "packages": [
+      {
+        "id": 470,
+        "weightKg": 0.261,
+        "volumeM3": 0.4096,
+        "profitCzk": 3079.40
+      },
+      {
+        "id": 130,
+        "weightKg": 8.511,
+        "volumeM3": 0.3098,
+        "profitCzk": 2408.42
+      },
+      {
+        "id": 912,
+        "weightKg": 7.543,
+        "volumeM3": 0.4206,
+        "profitCzk": 3230.76
+      },
+      {
+        "id": 806,
+        "weightKg": 4.082,
+        "volumeM3": 0.345,
+        "profitCzk": 2614.25
+      },
+      {
+        "id": 847,
+        "weightKg": 13.321,
+        "volumeM3": 0.29,
+        "profitCzk": 2285.74
+      },
+      {
+        "id": 57,
+        "weightKg": 8.917,
+        "volumeM3": 0.4492,
+        "profitCzk": 3416.66
+      },
+      {
+        "id": 649,
+        "weightKg": 2.163,
+        "volumeM3": 0.3573,
+        "profitCzk": 2664.50
+      },
+      {
+        "id": 306,
+        "weightKg": 2.797,
+        "volumeM3": 0.4418,
+        "profitCzk": 3291.03
+      },
+      {
+        "id": 368,
+        "weightKg": 0.23,
+        "volumeM3": 0.0893,
+        "profitCzk": 661.87
+      },
+      {
+        "id": 453,
+        "weightKg": 3.474,
+        "volumeM3": 0.1895,
+        "profitCzk": 1430.46
+      },
+      {
+        "id": 702,
+        "weightKg": 3.543,
+        "volumeM3": 0.2197,
+        "profitCzk": 1653.07
+      },
+      {
+        "id": 286,
+        "weightKg": 5.301,
+        "volumeM3": 0.3629,
+        "profitCzk": 2721.33
+      },
+      {
+        "id": 226,
+        "weightKg": 10.54,
+        "volumeM3": 0.4527,
+        "profitCzk": 3409.65
+      },
+      {
+        "id": 726,
+        "weightKg": 10.896,
+        "volumeM3": 0.2355,
+        "profitCzk": 1817.15
+      },
+      {
+        "id": 404,
+        "weightKg": 2.457,
+        "volumeM3": 0.2329,
+        "profitCzk": 1719.25
+      },
+      {
+        "id": 875,
+        "weightKg": 5.79,
+        "volumeM3": 0.4614,
+        "profitCzk": 3403.47
+      },
+      {
+        "id": 308,
+        "weightKg": 0.659,
+        "volumeM3": 0.3977,
+        "profitCzk": 2891.82
+      },
+      {
+        "id": 335,
+        "weightKg": 12.793,
+        "volumeM3": 0.4314,
+        "profitCzk": 3244.02
+      },
+      {
+        "id": 193,
+        "weightKg": 0.452,
+        "volumeM3": 0.4089,
+        "profitCzk": 2958.57
+      },
+      {
+        "id": 18,
+        "weightKg": 11.028,
+        "volumeM3": 0.1338,
+        "profitCzk": 1064.88
+      },
+      {
+        "id": 829,
+        "weightKg": 11.075,
+        "volumeM3": 0.1905,
+        "profitCzk": 1473.12
+      },
+      {
+        "id": 414,
+        "weightKg": 4.224,
+        "volumeM3": 0.1054,
+        "profitCzk": 797.05
+      },
+      {
+        "id": 854,
+        "weightKg": 0.205,
+        "volumeM3": 0.026,
+        "profitCzk": 182.54
+      },
+      {
+        "id": 489,
+        "weightKg": 1.254,
+        "volumeM3": 0.0271,
+        "profitCzk": 190.33
+      }
+    ],
+    "packageCount": 24,
+    "volumeUtilization": 0.9982857142857144,
+    "weightUtilization": 0.023911999999999933
+  },
+  {
+    "id": 13,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.03470000000000134,
+    "remainingWeightKg": 5299.224999999999,
+    "totalProfit": 51010.47,
+    "packages": [
+      {
+        "id": 885,
+        "weightKg": 6.009,
+        "volumeM3": 0.3951,
+        "profitCzk": 2890.70
+      },
+      {
+        "id": 530,
+        "weightKg": 10.859,
+        "volumeM3": 0.1498,
+        "profitCzk": 1172.00
+      },
+      {
+        "id": 47,
+        "weightKg": 1.795,
+        "volumeM3": 0.4291,
+        "profitCzk": 3070.17
+      },
+      {
+        "id": 549,
+        "weightKg": 2.806,
+        "volumeM3": 0.3485,
+        "profitCzk": 2503.68
+      },
+      {
+        "id": 793,
+        "weightKg": 5.27,
+        "volumeM3": 0.4863,
+        "profitCzk": 3503.99
+      },
+      {
+        "id": 900,
+        "weightKg": 10.455,
+        "volumeM3": 0.2315,
+        "profitCzk": 1738.82
+      },
+      {
+        "id": 91,
+        "weightKg": 26.552,
+        "volumeM3": 0.2833,
+        "profitCzk": 2248.56
+      },
+      {
+        "id": 291,
+        "weightKg": 6.781,
+        "volumeM3": 0.3407,
+        "profitCzk": 2476.89
+      },
+      {
+        "id": 234,
+        "weightKg": 27.448,
+        "volumeM3": 0.3035,
+        "profitCzk": 2397.15
+      },
+      {
+        "id": 447,
+        "weightKg": 3.277,
+        "volumeM3": 0.4991,
+        "profitCzk": 3557.49
+      },
+      {
+        "id": 118,
+        "weightKg": 1.399,
+        "volumeM3": 0.4487,
+        "profitCzk": 3184.22
+      },
+      {
+        "id": 205,
+        "weightKg": 1.616,
+        "volumeM3": 0.2389,
+        "profitCzk": 1701.94
+      },
+      {
+        "id": 542,
+        "weightKg": 15.717,
+        "volumeM3": 0.4106,
+        "profitCzk": 3040.16
+      },
+      {
+        "id": 220,
+        "weightKg": 7.962,
+        "volumeM3": 0.448,
+        "profitCzk": 3226.76
+      },
+      {
+        "id": 803,
+        "weightKg": 4.374,
+        "volumeM3": 0.3976,
+        "profitCzk": 2839.17
+      },
+      {
+        "id": 517,
+        "weightKg": 10.36,
+        "volumeM3": 0.3214,
+        "profitCzk": 2351.17
+      },
+      {
+        "id": 350,
+        "weightKg": 0.303,
+        "volumeM3": 0.1076,
+        "profitCzk": 758.33
+      },
+      {
+        "id": 754,
+        "weightKg": 9.445,
+        "volumeM3": 0.2898,
+        "profitCzk": 2118.06
+      },
+      {
+        "id": 954,
+        "weightKg": 22.996,
+        "volumeM3": 0.3466,
+        "profitCzk": 2634.70
+      },
+      {
+        "id": 457,
+        "weightKg": 19.037,
+        "volumeM3": 0.3264,
+        "profitCzk": 2431.24
+      },
+      {
+        "id": 661,
+        "weightKg": 2.514,
+        "volumeM3": 0.0978,
+        "profitCzk": 697.97
+      },
+      {
+        "id": 899,
+        "weightKg": 3.8,
+        "volumeM3": 0.065,
+        "profitCzk": 467.30
+      }
+    ],
+    "packageCount": 22,
+    "volumeUtilization": 0.9950428571428569,
+    "weightUtilization": 0.03650454545454551
+  },
+  {
+    "id": 14,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.022400000000000003,
+    "remainingWeightKg": 5309.2210000000005,
+    "totalProfit": 48390.73,
+    "packages": [
+      {
+        "id": 887,
+        "weightKg": 0.107,
+        "volumeM3": 0.3961,
+        "profitCzk": 2733.67
+      },
+      {
+        "id": 961,
+        "weightKg": 4.533,
+        "volumeM3": 0.4751,
+        "profitCzk": 3308.70
+      },
+      {
+        "id": 170,
+        "weightKg": 0.471,
+        "volumeM3": 0.1127,
+        "profitCzk": 779.44
+      },
+      {
+        "id": 644,
+        "weightKg": 0.159,
+        "volumeM3": 0.4587,
+        "profitCzk": 3136.25
+      },
+      {
+        "id": 785,
+        "weightKg": 15.087,
+        "volumeM3": 0.2737,
+        "profitCzk": 1998.39
+      },
+      {
+        "id": 364,
+        "weightKg": 1.436,
+        "volumeM3": 0.372,
+        "profitCzk": 2531.95
+      },
+      {
+        "id": 251,
+        "weightKg": 15.212,
+        "volumeM3": 0.2783,
+        "profitCzk": 2011.09
+      },
+      {
+        "id": 650,
+        "weightKg": 17.12,
+        "volumeM3": 0.3796,
+        "profitCzk": 2709.71
+      },
+      {
+        "id": 236,
+        "weightKg": 8.86,
+        "volumeM3": 0.1208,
+        "profitCzk": 889.70
+      },
+      {
+        "id": 518,
+        "weightKg": 1.575,
+        "volumeM3": 0.193,
+        "profitCzk": 1311.09
+      },
+      {
+        "id": 827,
+        "weightKg": 0.226,
+        "volumeM3": 0.3668,
+        "profitCzk": 2465.72
+      },
+      {
+        "id": 260,
+        "weightKg": 13.335,
+        "volumeM3": 0.2816,
+        "profitCzk": 2000.75
+      },
+      {
+        "id": 949,
+        "weightKg": 2.334,
+        "volumeM3": 0.3215,
+        "profitCzk": 2168.30
+      },
+      {
+        "id": 933,
+        "weightKg": 18.517,
+        "volumeM3": 0.2142,
+        "profitCzk": 1587.77
+      },
+      {
+        "id": 482,
+        "weightKg": 2.363,
+        "volumeM3": 0.0746,
+        "profitCzk": 515.12
+      },
+      {
+        "id": 420,
+        "weightKg": 7.303,
+        "volumeM3": 0.4047,
+        "profitCzk": 2745.88
+      },
+      {
+        "id": 159,
+        "weightKg": 6.257,
+        "volumeM3": 0.2301,
+        "profitCzk": 1576.72
+      },
+      {
+        "id": 917,
+        "weightKg": 18.224,
+        "volumeM3": 0.4078,
+        "profitCzk": 2852.67
+      },
+      {
+        "id": 742,
+        "weightKg": 16.102,
+        "volumeM3": 0.3478,
+        "profitCzk": 2431.00
+      },
+      {
+        "id": 66,
+        "weightKg": 1.926,
+        "volumeM3": 0.3945,
+        "profitCzk": 2612.83
+      },
+      {
+        "id": 811,
+        "weightKg": 15.278,
+        "volumeM3": 0.2152,
+        "profitCzk": 1535.90
+      },
+      {
+        "id": 241,
+        "weightKg": 15.707,
+        "volumeM3": 0.4963,
+        "profitCzk": 3367.73
+      },
+      {
+        "id": 927,
+        "weightKg": 8.647,
+        "volumeM3": 0.1625,
+        "profitCzk": 1120.35
+      }
+    ],
+    "packageCount": 23,
+    "volumeUtilization": 0.9968,
+    "weightUtilization": 0.034687090909090834
+  },
+  {
+    "id": 15,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.010500000000000315,
+    "remainingWeightKg": 5307.947999999999,
+    "totalProfit": 45998.45,
+    "packages": [
+      {
+        "id": 952,
+        "weightKg": 16.659,
+        "volumeM3": 0.2759,
+        "profitCzk": 1937.79
+      },
+      {
+        "id": 595,
+        "weightKg": 0.845,
+        "volumeM3": 0.3382,
+        "profitCzk": 2211.95
+      },
+      {
+        "id": 956,
+        "weightKg": 7.368,
+        "volumeM3": 0.2648,
+        "profitCzk": 1773.08
+      },
+      {
+        "id": 750,
+        "weightKg": 1.922,
+        "volumeM3": 0.4863,
+        "profitCzk": 3148.64
+      },
+      {
+        "id": 948,
+        "weightKg": 3.674,
+        "volumeM3": 0.1297,
+        "profitCzk": 862.29
+      },
+      {
+        "id": 624,
+        "weightKg": 17.345,
+        "volumeM3": 0.4961,
+        "profitCzk": 3323.07
+      },
+      {
+        "id": 541,
+        "weightKg": 0.215,
+        "volumeM3": 0.3938,
+        "profitCzk": 2527.13
+      },
+      {
+        "id": 466,
+        "weightKg": 2.112,
+        "volumeM3": 0.3646,
+        "profitCzk": 2342.73
+      },
+      {
+        "id": 59,
+        "weightKg": 1.089,
+        "volumeM3": 0.4422,
+        "profitCzk": 2824.79
+      },
+      {
+        "id": 172,
+        "weightKg": 2.696,
+        "volumeM3": 0.2607,
+        "profitCzk": 1680.17
+      },
+      {
+        "id": 631,
+        "weightKg": 23.657,
+        "volumeM3": 0.4721,
+        "profitCzk": 3178.29
+      },
+      {
+        "id": 594,
+        "weightKg": 29.701,
+        "volumeM3": 0.4722,
+        "profitCzk": 3223.09
+      },
+      {
+        "id": 333,
+        "weightKg": 28.051,
+        "volumeM3": 0.4896,
+        "profitCzk": 3316.23
+      },
+      {
+        "id": 823,
+        "weightKg": 17.582,
+        "volumeM3": 0.4817,
+        "profitCzk": 3178.14
+      },
+      {
+        "id": 351,
+        "weightKg": 12.554,
+        "volumeM3": 0.2783,
+        "profitCzk": 1852.63
+      },
+      {
+        "id": 712,
+        "weightKg": 0.288,
+        "volumeM3": 0.4895,
+        "profitCzk": 3076.33
+      },
+      {
+        "id": 259,
+        "weightKg": 5.486,
+        "volumeM3": 0.3612,
+        "profitCzk": 2307.96
+      },
+      {
+        "id": 156,
+        "weightKg": 18.45,
+        "volumeM3": 0.3961,
+        "profitCzk": 2617.98
+      },
+      {
+        "id": 807,
+        "weightKg": 2.358,
+        "volumeM3": 0.0965,
+        "profitCzk": 616.16
+      }
+    ],
+    "packageCount": 19,
+    "volumeUtilization": 0.9984999999999999,
+    "weightUtilization": 0.034918545454545535
+  },
+  {
+    "id": 16,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.06429999999999989,
+    "remainingWeightKg": 5308.238000000001,
+    "totalProfit": 43549.65,
+    "packages": [
+      {
+        "id": 988,
+        "weightKg": 0.103,
+        "volumeM3": 0.119,
+        "profitCzk": 740.98
+      },
+      {
+        "id": 779,
+        "weightKg": 1.183,
+        "volumeM3": 0.3116,
+        "profitCzk": 1937.31
+      },
+      {
+        "id": 184,
+        "weightKg": 24.475,
+        "volumeM3": 0.3766,
+        "profitCzk": 2515.19
+      },
+      {
+        "id": 198,
+        "weightKg": 19.828,
+        "volumeM3": 0.3912,
+        "profitCzk": 2557.42
+      },
+      {
+        "id": 314,
+        "weightKg": 0.566,
+        "volumeM3": 0.4865,
+        "profitCzk": 2988.84
+      },
+      {
+        "id": 487,
+        "weightKg": 2.95,
+        "volumeM3": 0.3097,
+        "profitCzk": 1918.30
+      },
+      {
+        "id": 121,
+        "weightKg": 0.456,
+        "volumeM3": 0.4094,
+        "profitCzk": 2506.64
+      },
+      {
+        "id": 372,
+        "weightKg": 11.755,
+        "volumeM3": 0.3794,
+        "profitCzk": 2407.04
+      },
+      {
+        "id": 116,
+        "weightKg": 1.161,
+        "volumeM3": 0.3179,
+        "profitCzk": 1944.40
+      },
+      {
+        "id": 492,
+        "weightKg": 11.263,
+        "volumeM3": 0.2813,
+        "profitCzk": 1799.12
+      },
+      {
+        "id": 674,
+        "weightKg": 24.954,
+        "volumeM3": 0.4603,
+        "profitCzk": 2988.18
+      },
+      {
+        "id": 629,
+        "weightKg": 10.041,
+        "volumeM3": 0.4322,
+        "profitCzk": 2697.95
+      },
+      {
+        "id": 724,
+        "weightKg": 5.128,
+        "volumeM3": 0.1027,
+        "profitCzk": 661.22
+      },
+      {
+        "id": 219,
+        "weightKg": 14.803,
+        "volumeM3": 0.2147,
+        "profitCzk": 1410.91
+      },
+      {
+        "id": 800,
+        "weightKg": 17.401,
+        "volumeM3": 0.4305,
+        "profitCzk": 2733.88
+      },
+      {
+        "id": 191,
+        "weightKg": 7.198,
+        "volumeM3": 0.1291,
+        "profitCzk": 829.32
+      },
+      {
+        "id": 939,
+        "weightKg": 0.101,
+        "volumeM3": 0.1286,
+        "profitCzk": 771.41
+      },
+      {
+        "id": 258,
+        "weightKg": 0.513,
+        "volumeM3": 0.245,
+        "profitCzk": 1471.33
+      },
+      {
+        "id": 786,
+        "weightKg": 0.114,
+        "volumeM3": 0.3277,
+        "profitCzk": 1952.13
+      },
+      {
+        "id": 411,
+        "weightKg": 17.266,
+        "volumeM3": 0.4548,
+        "profitCzk": 2837.31
+      },
+      {
+        "id": 778,
+        "weightKg": 15.389,
+        "volumeM3": 0.4735,
+        "profitCzk": 2932.87
+      },
+      {
+        "id": 166,
+        "weightKg": 5.114,
+        "volumeM3": 0.154,
+        "profitCzk": 947.90
+      }
+    ],
+    "packageCount": 22,
+    "volumeUtilization": 0.9908142857142858,
+    "weightUtilization": 0.034865818181818
+  },
+  {
+    "id": 17,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.003599999999999687,
+    "remainingWeightKg": 5332.835000000001,
+    "totalProfit": 41202.11,
+    "packages": [
+      {
+        "id": 379,
+        "weightKg": 21.625,
+        "volumeM3": 0.3722,
+        "profitCzk": 2375.95
+      },
+      {
+        "id": 75,
+        "weightKg": 8.223,
+        "volumeM3": 0.2602,
+        "profitCzk": 1601.08
+      },
+      {
+        "id": 303,
+        "weightKg": 9.35,
+        "volumeM3": 0.3279,
+        "profitCzk": 2006.29
+      },
+      {
+        "id": 640,
+        "weightKg": 1.714,
+        "volumeM3": 0.156,
+        "profitCzk": 929.63
+      },
+      {
+        "id": 891,
+        "weightKg": 13.253,
+        "volumeM3": 0.3084,
+        "profitCzk": 1910.55
+      },
+      {
+        "id": 174,
+        "weightKg": 0.799,
+        "volumeM3": 0.1987,
+        "profitCzk": 1170.05
+      },
+      {
+        "id": 456,
+        "weightKg": 8.481,
+        "volumeM3": 0.4568,
+        "profitCzk": 2737.74
+      },
+      {
+        "id": 55,
+        "weightKg": 4.682,
+        "volumeM3": 0.3882,
+        "profitCzk": 2294.59
+      },
+      {
+        "id": 782,
+        "weightKg": 1.216,
+        "volumeM3": 0.0765,
+        "profitCzk": 451.29
+      },
+      {
+        "id": 281,
+        "weightKg": 0.155,
+        "volumeM3": 0.4777,
+        "profitCzk": 2747.62
+      },
+      {
+        "id": 864,
+        "weightKg": 2.258,
+        "volumeM3": 0.0781,
+        "profitCzk": 464.28
+      },
+      {
+        "id": 734,
+        "weightKg": 18.138,
+        "volumeM3": 0.4628,
+        "profitCzk": 2769.56
+      },
+      {
+        "id": 72,
+        "weightKg": 0.829,
+        "volumeM3": 0.1733,
+        "profitCzk": 992.95
+      },
+      {
+        "id": 547,
+        "weightKg": 1.827,
+        "volumeM3": 0.3999,
+        "profitCzk": 2274.88
+      },
+      {
+        "id": 340,
+        "weightKg": 1.566,
+        "volumeM3": 0.3194,
+        "profitCzk": 1815.70
+      },
+      {
+        "id": 154,
+        "weightKg": 20.734,
+        "volumeM3": 0.3806,
+        "profitCzk": 2296.81
+      },
+      {
+        "id": 903,
+        "weightKg": 3.366,
+        "volumeM3": 0.493,
+        "profitCzk": 2805.13
+      },
+      {
+        "id": 227,
+        "weightKg": 4.308,
+        "volumeM3": 0.1413,
+        "profitCzk": 825.39
+      },
+      {
+        "id": 87,
+        "weightKg": 23.329,
+        "volumeM3": 0.3969,
+        "profitCzk": 2398.75
+      },
+      {
+        "id": 110,
+        "weightKg": 6.196,
+        "volumeM3": 0.4899,
+        "profitCzk": 2787.88
+      },
+      {
+        "id": 458,
+        "weightKg": 1.309,
+        "volumeM3": 0.2319,
+        "profitCzk": 1299.65
+      },
+      {
+        "id": 664,
+        "weightKg": 12.839,
+        "volumeM3": 0.2754,
+        "profitCzk": 1592.90
+      },
+      {
+        "id": 920,
+        "weightKg": 0.968,
+        "volumeM3": 0.1313,
+        "profitCzk": 653.44
+      }
+    ],
+    "packageCount": 23,
+    "volumeUtilization": 0.9994857142857143,
+    "weightUtilization": 0.030393636363636234
+  },
+  {
+    "id": 18,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.024399999999999422,
+    "remainingWeightKg": 5349.9079999999985,
+    "totalProfit": 38353.11,
+    "packages": [
+      {
+        "id": 861,
+        "weightKg": 25.597,
+        "volumeM3": 0.4843,
+        "profitCzk": 2875.86
+      },
+      {
+        "id": 139,
+        "weightKg": 2.294,
+        "volumeM3": 0.337,
+        "profitCzk": 1853.54
+      },
+      {
+        "id": 355,
+        "weightKg": 8.134,
+        "volumeM3": 0.3161,
+        "profitCzk": 1772.99
+      },
+      {
+        "id": 271,
+        "weightKg": 2.977,
+        "volumeM3": 0.3554,
+        "profitCzk": 1943.83
+      },
+      {
+        "id": 632,
+        "weightKg": 21.999,
+        "volumeM3": 0.4256,
+        "profitCzk": 2450.63
+      },
+      {
+        "id": 90,
+        "weightKg": 12.948,
+        "volumeM3": 0.4848,
+        "profitCzk": 2700.54
+      },
+      {
+        "id": 569,
+        "weightKg": 9.408,
+        "volumeM3": 0.4291,
+        "profitCzk": 2363.83
+      },
+      {
+        "id": 56,
+        "weightKg": 3.725,
+        "volumeM3": 0.4645,
+        "profitCzk": 2512.51
+      },
+      {
+        "id": 194,
+        "weightKg": 6.438,
+        "volumeM3": 0.3205,
+        "profitCzk": 1754.42
+      },
+      {
+        "id": 217,
+        "weightKg": 16.639,
+        "volumeM3": 0.4611,
+        "profitCzk": 2572.12
+      },
+      {
+        "id": 719,
+        "weightKg": 6.481,
+        "volumeM3": 0.3115,
+        "profitCzk": 1704.76
+      },
+      {
+        "id": 284,
+        "weightKg": 17.695,
+        "volumeM3": 0.427,
+        "profitCzk": 2396.50
+      },
+      {
+        "id": 275,
+        "weightKg": 8.627,
+        "volumeM3": 0.2421,
+        "profitCzk": 1348.46
+      },
+      {
+        "id": 503,
+        "weightKg": 0.104,
+        "volumeM3": 0.4509,
+        "profitCzk": 2379.15
+      },
+      {
+        "id": 730,
+        "weightKg": 0.559,
+        "volumeM3": 0.1912,
+        "profitCzk": 1011.81
+      },
+      {
+        "id": 488,
+        "weightKg": 0.16,
+        "volumeM3": 0.3136,
+        "profitCzk": 1649.48
+      },
+      {
+        "id": 16,
+        "weightKg": 1.968,
+        "volumeM3": 0.2987,
+        "profitCzk": 1581.63
+      },
+      {
+        "id": 913,
+        "weightKg": 3.694,
+        "volumeM3": 0.4973,
+        "profitCzk": 2632.28
+      },
+      {
+        "id": 449,
+        "weightKg": 0.645,
+        "volumeM3": 0.1649,
+        "profitCzk": 848.77
+      }
+    ],
+    "packageCount": 19,
+    "volumeUtilization": 0.9965142857142858,
+    "weightUtilization": 0.02728945454545484
+  },
+  {
+    "id": 19,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.05749999999999933,
+    "remainingWeightKg": 5395.668,
+    "totalProfit": 35625.02,
+    "packages": [
+      {
+        "id": 831,
+        "weightKg": 0.806,
+        "volumeM3": 0.3141,
+        "profitCzk": 1650.10
+      },
+      {
+        "id": 45,
+        "weightKg": 16.97,
+        "volumeM3": 0.3413,
+        "profitCzk": 1899.87
+      },
+      {
+        "id": 74,
+        "weightKg": 0.469,
+        "volumeM3": 0.3252,
+        "profitCzk": 1701.93
+      },
+      {
+        "id": 502,
+        "weightKg": 3.517,
+        "volumeM3": 0.2031,
+        "profitCzk": 1068.83
+      },
+      {
+        "id": 525,
+        "weightKg": 0.302,
+        "volumeM3": 0.3159,
+        "profitCzk": 1625.05
+      },
+      {
+        "id": 374,
+        "weightKg": 0.273,
+        "volumeM3": 0.2038,
+        "profitCzk": 1047.58
+      },
+      {
+        "id": 101,
+        "weightKg": 1.071,
+        "volumeM3": 0.2156,
+        "profitCzk": 1107.14
+      },
+      {
+        "id": 445,
+        "weightKg": 10.734,
+        "volumeM3": 0.2355,
+        "profitCzk": 1267.37
+      },
+      {
+        "id": 201,
+        "weightKg": 0.711,
+        "volumeM3": 0.4765,
+        "profitCzk": 2423.31
+      },
+      {
+        "id": 805,
+        "weightKg": 10.459,
+        "volumeM3": 0.3397,
+        "profitCzk": 1782.61
+      },
+      {
+        "id": 706,
+        "weightKg": 1.038,
+        "volumeM3": 0.2682,
+        "profitCzk": 1356.27
+      },
+      {
+        "id": 704,
+        "weightKg": 14.205,
+        "volumeM3": 0.4188,
+        "profitCzk": 2191.51
+      },
+      {
+        "id": 686,
+        "weightKg": 17.972,
+        "volumeM3": 0.4302,
+        "profitCzk": 2270.21
+      },
+      {
+        "id": 141,
+        "weightKg": 0.207,
+        "volumeM3": 0.3588,
+        "profitCzk": 1788.90
+      },
+      {
+        "id": 331,
+        "weightKg": 7.34,
+        "volumeM3": 0.4603,
+        "profitCzk": 2338.49
+      },
+      {
+        "id": 378,
+        "weightKg": 2.289,
+        "volumeM3": 0.2252,
+        "profitCzk": 1133.95
+      },
+      {
+        "id": 744,
+        "weightKg": 0.666,
+        "volumeM3": 0.2962,
+        "profitCzk": 1473.90
+      },
+      {
+        "id": 967,
+        "weightKg": 9.967,
+        "volumeM3": 0.3048,
+        "profitCzk": 1570.78
+      },
+      {
+        "id": 33,
+        "weightKg": 3.412,
+        "volumeM3": 0.253,
+        "profitCzk": 1263.54
+      },
+      {
+        "id": 167,
+        "weightKg": 0.707,
+        "volumeM3": 0.4292,
+        "profitCzk": 2101.79
+      },
+      {
+        "id": 450,
+        "weightKg": 0.14,
+        "volumeM3": 0.116,
+        "profitCzk": 565.44
+      },
+      {
+        "id": 476,
+        "weightKg": 0.234,
+        "volumeM3": 0.2695,
+        "profitCzk": 1308.18
+      },
+      {
+        "id": 544,
+        "weightKg": 0.843,
+        "volumeM3": 0.1416,
+        "profitCzk": 688.27
+      }
+    ],
+    "packageCount": 23,
+    "volumeUtilization": 0.9917857142857144,
+    "weightUtilization": 0.018969454545454623
+  },
+  {
+    "id": 20,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.030400000000001273,
+    "remainingWeightKg": 5402.471000000001,
+    "totalProfit": 32758.05,
+    "packages": [
+      {
+        "id": 376,
+        "weightKg": 11.167,
+        "volumeM3": 0.4894,
+        "profitCzk": 2445.00
+      },
+      {
+        "id": 451,
+        "weightKg": 3.806,
+        "volumeM3": 0.4654,
+        "profitCzk": 2269.73
+      },
+      {
+        "id": 171,
+        "weightKg": 13.995,
+        "volumeM3": 0.4495,
+        "profitCzk": 2254.14
+      },
+      {
+        "id": 737,
+        "weightKg": 10.411,
+        "volumeM3": 0.371,
+        "profitCzk": 1848.85
+      },
+      {
+        "id": 555,
+        "weightKg": 8.103,
+        "volumeM3": 0.3511,
+        "profitCzk": 1733.94
+      },
+      {
+        "id": 860,
+        "weightKg": 3.449,
+        "volumeM3": 0.2467,
+        "profitCzk": 1203.87
+      },
+      {
+        "id": 346,
+        "weightKg": 12.971,
+        "volumeM3": 0.4086,
+        "profitCzk": 2030.32
+      },
+      {
+        "id": 614,
+        "weightKg": 0.113,
+        "volumeM3": 0.1226,
+        "profitCzk": 584.92
+      },
+      {
+        "id": 819,
+        "weightKg": 1.109,
+        "volumeM3": 0.3615,
+        "profitCzk": 1721.74
+      },
+      {
+        "id": 877,
+        "weightKg": 5.041,
+        "volumeM3": 0.2338,
+        "profitCzk": 1136.48
+      },
+      {
+        "id": 740,
+        "weightKg": 1.672,
+        "volumeM3": 0.4185,
+        "profitCzk": 1950.26
+      },
+      {
+        "id": 494,
+        "weightKg": 2.487,
+        "volumeM3": 0.3663,
+        "profitCzk": 1708.54
+      },
+      {
+        "id": 138,
+        "weightKg": 5.991,
+        "volumeM3": 0.4113,
+        "profitCzk": 1932.72
+      },
+      {
+        "id": 394,
+        "weightKg": 3.857,
+        "volumeM3": 0.1217,
+        "profitCzk": 583.87
+      },
+      {
+        "id": 382,
+        "weightKg": 0.717,
+        "volumeM3": 0.1022,
+        "profitCzk": 471.67
+      },
+      {
+        "id": 576,
+        "weightKg": 0.671,
+        "volumeM3": 0.1412,
+        "profitCzk": 645.44
+      },
+      {
+        "id": 128,
+        "weightKg": 2.588,
+        "volumeM3": 0.1489,
+        "profitCzk": 686.95
+      },
+      {
+        "id": 989,
+        "weightKg": 0.34,
+        "volumeM3": 0.129,
+        "profitCzk": 577.08
+      },
+      {
+        "id": 5,
+        "weightKg": 2.125,
+        "volumeM3": 0.1346,
+        "profitCzk": 591.57
+      },
+      {
+        "id": 978,
+        "weightKg": 0.566,
+        "volumeM3": 0.4596,
+        "profitCzk": 1971.84
+      },
+      {
+        "id": 185,
+        "weightKg": 0.565,
+        "volumeM3": 0.4897,
+        "profitCzk": 2097.69
+      },
+      {
+        "id": 336,
+        "weightKg": 5.648,
+        "volumeM3": 0.4488,
+        "profitCzk": 1922.16
+      },
+      {
+        "id": 180,
+        "weightKg": 0.137,
+        "volumeM3": 0.0982,
+        "profitCzk": 389.27
+      }
+    ],
+    "packageCount": 23,
+    "volumeUtilization": 0.9956571428571427,
+    "weightUtilization": 0.017732545454545168
+  },
+  {
+    "id": 21,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 0.04710000000000027,
+    "remainingWeightKg": 5455.647,
+    "totalProfit": 27730.86,
+    "packages": [
+      {
+        "id": 463,
+        "weightKg": 1.363,
+        "volumeM3": 0.3821,
+        "profitCzk": 1608.14
+      },
+      {
+        "id": 852,
+        "weightKg": 0.217,
+        "volumeM3": 0.3456,
+        "profitCzk": 1446.76
+      },
+      {
+        "id": 92,
+        "weightKg": 3.573,
+        "volumeM3": 0.2166,
+        "profitCzk": 923.73
+      },
+      {
+        "id": 398,
+        "weightKg": 0.492,
+        "volumeM3": 0.324,
+        "profitCzk": 1351.52
+      },
+      {
+        "id": 766,
+        "weightKg": 3.272,
+        "volumeM3": 0.2863,
+        "profitCzk": 1205.95
+      },
+      {
+        "id": 52,
+        "weightKg": 0.647,
+        "volumeM3": 0.3904,
+        "profitCzk": 1585.14
+      },
+      {
+        "id": 383,
+        "weightKg": 0.506,
+        "volumeM3": 0.4821,
+        "profitCzk": 1953.72
+      },
+      {
+        "id": 705,
+        "weightKg": 0.345,
+        "volumeM3": 0.4248,
+        "profitCzk": 1710.17
+      },
+      {
+        "id": 88,
+        "weightKg": 2.762,
+        "volumeM3": 0.169,
+        "profitCzk": 693.08
+      },
+      {
+        "id": 784,
+        "weightKg": 3.338,
+        "volumeM3": 0.2683,
+        "profitCzk": 1093.47
+      },
+      {
+        "id": 129,
+        "weightKg": 0.1,
+        "volumeM3": 0.2125,
+        "profitCzk": 840.66
+      },
+      {
+        "id": 597,
+        "weightKg": 4.906,
+        "volumeM3": 0.3327,
+        "profitCzk": 1339.46
+      },
+      {
+        "id": 293,
+        "weightKg": 3.647,
+        "volumeM3": 0.2694,
+        "profitCzk": 1072.32
+      },
+      {
+        "id": 144,
+        "weightKg": 7.95,
+        "volumeM3": 0.469,
+        "profitCzk": 1874.31
+      },
+      {
+        "id": 696,
+        "weightKg": 2.01,
+        "volumeM3": 0.3334,
+        "profitCzk": 1299.56
+      },
+      {
+        "id": 287,
+        "weightKg": 0.223,
+        "volumeM3": 0.3686,
+        "profitCzk": 1418.44
+      },
+      {
+        "id": 859,
+        "weightKg": 0.105,
+        "volumeM3": 0.3338,
+        "profitCzk": 1278.94
+      },
+      {
+        "id": 390,
+        "weightKg": 4.554,
+        "volumeM3": 0.3014,
+        "profitCzk": 1158.38
+      },
+      {
+        "id": 746,
+        "weightKg": 0.513,
+        "volumeM3": 0.4908,
+        "profitCzk": 1848.21
+      },
+      {
+        "id": 866,
+        "weightKg": 3.357,
+        "volumeM3": 0.2669,
+        "profitCzk": 1011.34
+      },
+      {
+        "id": 269,
+        "weightKg": 0.223,
+        "volumeM3": 0.1767,
+        "profitCzk": 644.29
+      },
+      {
+        "id": 22,
+        "weightKg": 0.25,
+        "volumeM3": 0.1085,
+        "profitCzk": 373.27
+      }
+    ],
+    "packageCount": 22,
+    "volumeUtilization": 0.9932714285714286,
+    "weightUtilization": 0.008064181818181804
+  },
+  {
+    "id": 22,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 1.873299999999999,
+    "remainingWeightKg": 5486.073,
+    "totalProfit": 17366.53,
+    "packages": [
+      {
+        "id": 856,
+        "weightKg": 0.489,
+        "volumeM3": 0.2498,
+        "profitCzk": 899.79
+      },
+      {
+        "id": 663,
+        "weightKg": 2.101,
+        "volumeM3": 0.2591,
+        "profitCzk": 933.49
+      },
+      {
+        "id": 43,
+        "weightKg": 0.363,
+        "volumeM3": 0.4935,
+        "profitCzk": 1749.54
+      },
+      {
+        "id": 40,
+        "weightKg": 3.667,
+        "volumeM3": 0.4317,
+        "profitCzk": 1541.87
+      },
+      {
+        "id": 539,
+        "weightKg": 0.642,
+        "volumeM3": 0.4427,
+        "profitCzk": 1553.11
+      },
+      {
+        "id": 677,
+        "weightKg": 0.115,
+        "volumeM3": 0.2045,
+        "profitCzk": 708.35
+      },
+      {
+        "id": 244,
+        "weightKg": 1.515,
+        "volumeM3": 0.3487,
+        "profitCzk": 1197.81
+      },
+      {
+        "id": 77,
+        "weightKg": 1.279,
+        "volumeM3": 0.437,
+        "profitCzk": 1488.46
+      },
+      {
+        "id": 983,
+        "weightKg": 0.104,
+        "volumeM3": 0.2186,
+        "profitCzk": 733.49
+      },
+      {
+        "id": 642,
+        "weightKg": 1.574,
+        "volumeM3": 0.3803,
+        "profitCzk": 1278.05
+      },
+      {
+        "id": 473,
+        "weightKg": 0.163,
+        "volumeM3": 0.1647,
+        "profitCzk": 530.01
+      },
+      {
+        "id": 999,
+        "weightKg": 0.148,
+        "volumeM3": 0.4305,
+        "profitCzk": 1381.66
+      },
+      {
+        "id": 660,
+        "weightKg": 0.459,
+        "volumeM3": 0.4603,
+        "profitCzk": 1466.50
+      },
+      {
+        "id": 944,
+        "weightKg": 0.871,
+        "volumeM3": 0.3321,
+        "profitCzk": 1052.59
+      },
+      {
+        "id": 393,
+        "weightKg": 0.437,
+        "volumeM3": 0.2732,
+        "profitCzk": 851.81
+      }
+    ],
+    "packageCount": 15,
+    "volumeUtilization": 0.7323857142857144,
+    "weightUtilization": 0.0025321818181817113
+  },
+  {
+    "id": 23,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 24,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 25,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 26,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 27,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 28,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 29,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 30,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 31,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 32,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 33,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 34,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 35,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 36,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 37,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 38,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 39,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 40,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 41,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 42,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 43,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 44,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 45,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 46,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 47,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 48,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 49,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 50,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 51,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 52,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 53,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 54,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 55,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 56,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 57,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 58,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 59,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 60,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 61,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 62,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 63,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 64,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 65,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 66,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 67,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 68,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 69,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 70,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 71,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 72,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 73,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 74,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 75,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 76,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 77,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 78,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 79,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 80,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 81,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 82,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 83,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 84,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 85,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 86,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 87,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 88,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 89,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 90,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 91,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 92,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 93,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 94,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 95,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 96,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 97,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 98,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 99,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 100,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 101,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 102,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 103,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 104,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 105,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 106,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 107,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 108,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 109,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 110,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 111,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 112,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 113,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 114,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 115,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 116,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 117,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 118,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 119,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 120,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 121,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 122,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 123,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 124,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 125,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 126,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 127,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 128,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 129,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 130,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 131,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 132,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 133,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 134,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 135,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 136,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 137,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 138,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 139,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 140,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 141,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 142,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 143,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 144,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 145,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 146,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 147,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 148,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 149,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 150,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 151,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 152,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 153,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 154,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 155,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 156,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 157,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 158,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 159,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 160,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 161,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 162,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 163,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 164,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 165,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 166,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 167,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 168,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 169,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 170,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 171,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 172,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 173,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 174,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 175,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 176,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 177,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 178,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 179,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 180,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 181,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 182,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 183,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 184,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 185,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 186,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 187,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 188,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 189,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 190,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 191,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 192,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 193,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 194,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 195,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 196,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 197,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 198,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 199,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 200,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 201,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 202,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 203,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 204,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 205,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 206,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 207,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 208,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 209,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 210,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 211,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 212,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 213,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 214,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 215,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 216,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 217,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 218,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 219,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 220,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 221,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 222,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 223,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 224,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 225,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 226,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 227,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 228,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 229,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 230,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 231,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 232,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 233,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 234,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 235,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 236,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 237,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 238,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  },
+  {
+    "id": 239,
+    "maxVolumeM3": 7,
+    "maxWeightKg": 5500,
+    "remainingVolumeM3": 7,
+    "remainingWeightKg": 5500,
+    "totalProfit": 0,
+    "packages": [],
+    "packageCount": 0,
+    "volumeUtilization": 0,
+    "weightUtilization": 0
+  }
+]

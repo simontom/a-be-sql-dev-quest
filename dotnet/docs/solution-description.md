@@ -47,16 +47,18 @@ with sufficient remaining capacity. This greedy assignment is O(n × m) where n 
 
 ### Refinement: Time-Bounded Local Search
 
-After the greedy pass, a local search optimizer attempts profit-improving swaps:
+After the greedy pass, an optional local search optimizer attempts profit-improving swaps:
 - For each unassigned high-profit package, find a trip where replacing the lowest-profit assigned 
-  package yields a net profit gain while still respecting capacity constraints.
-- The search is time-bounded (configurable, default 100ms) to respect the strict time budget.
-- Typical improvement: 1-3% additional profit.
+  package yields a net profit gain while respecting 2D constraints.
+- **Empirical finding**: As shown in [profitability_analysis.md](file:///d:/Work/Coding/a-be-sql-dev-quest/dotnet/docs/profitability_analysis.md), the greedy phase already achieves **97.0% – 98.6% of the theoretical LP relaxation upper bound**. Consequently, local search yields negligible profit gain (+7.83 CZK on 200k packages) while consuming an extra ~100 ms of CPU time. In a production setting, greedy alone is the recommended configuration.
 
-### Low-Demand Mode (Tue/Thu)
+### Operational Demand Regimes (Tue/Thu vs Peak Days)
 
-When capacity is sufficient for all packages, a simple round-robin assignment is used — 
-no optimization needed. This is O(n).
+The assignment identifies two real-world operational regimes:
+1. **Low Demand (Tue/Thu)**: Fleet capacity exceeds demand; all packages fit naturally without contention. The greedy algorithm trivially assigns all valid packages with 100% service rate.
+2. **Peak Days (Mon, Wed, Fri, Sat, Sun)**: Demand exceeds capacity; profit-density maximization is crucial to select the highest-yield package subset.
+
+*(Note: While a round-robin mode was initially drafted for low-demand days, the universal greedy algorithm naturally and optimally handles both regimes without requiring separate business logic branching.)*
 
 ---
 
@@ -132,18 +134,30 @@ The greedy density heuristic was chosen because:
 
 **Target: < 1 second for 100K+ packages** ✅ Achieved with significant margin. Zero Gen2 garbage collection.
 
-### Quality Metrics (200K packages, 240 trips)
+### Profitability Analysis — Core Business Criterion (Výnosnost)
 
-| Metric | Value |
-|---|---|
-| Packages assigned | 66,295 / 200,000 (33.1%) |
-| Total profit | 117,771,012.94 CZK |
-| Average volume utilization | 94.0% |
-| Average weight utilization | 54.3% |
-| Trips fully utilized | 240/240 |
+The primary evaluation criterion of the assignment is the **achieved profitability (yield)** under demand pressure.
+Below is the empirical evaluation across heuristic baselines and the **theoretical upper bound (LP Relaxation)** for 200,000 packages (240 trips, 1,680 m³, 1,320,000 kg capacity):
 
-Volume is the binding constraint — trips are 94% full by volume but only 54% by weight, 
-which correctly reflects the package distribution (many small, light, high-value packages).
+| Strategy | Total Profit (CZK) | % of Theoretical LP Bound | Volume Util % | Weight Util % | Assigned Packages | Execution Time |
+|---|---|---|---|---|---|---|
+| **1. Baseline: Pure Profit (desc)** | 18,663,553.85 CZK | 15.29% | 100.0% | 8.5% | 4,648 | ~838 ms |
+| **2. Baseline: Profit / Weight** | 14,937,656.37 CZK | 12.24% | 100.0% | 0.1% | 7,325 | ~707 ms |
+| **3. Baseline: Profit / Volume** | 114,290,176.02 CZK | 93.62% | 83.6% | 56.1% | 64,299 | ~672 ms |
+| **4. Balanced Greedy: Profit / (0.5V + 0.5W)** ⭐ | **118,479,506.35 CZK** | **97.06%** | **93.8%** | **54.9%** | **66,532** | **~613 ms** |
+| **5. Tuned Ratio: Profit / (0.8V + 0.2W)** | 115,157,329.85 CZK | 94.33% | 85.4% | 55.8% | 64,767 | ~615 ms |
+| **6. Balanced + Local Search (100ms)** | 118,479,514.18 CZK | 97.06% | 93.8% | 54.9% | 66,532 | ~894 ms |
+| **7. Balanced + SLA/Aging Boost** | 101,850,935.40 CZK | 83.43% | 94.6% | 45.7% | 57,200 | ~798 ms |
+| **Theoretical Upper Bound (LP Relaxation)** | **122,074,375.83 CZK** | **100.00%** | *100.0%* | *—* | — | *exact bound* |
+
+> 📊 *For full multi-dataset results (100k & 200k), methodology, and detailed discussion, see [profitability_analysis.md](file:///d:/Work/Coding/a-be-sql-dev-quest/dotnet/docs/profitability_analysis.md).*
+
+#### Key Takeaways:
+1. **+534% Profit over Naive Baseline**: Sorting by pure profit selects large bulky items, producing only 18.66M CZK. Normalized multi-dimensional density scoring yields 118.48M CZK.
+2. **Proximity to Theoretical Optimum**: The chosen greedy strategy achieves **97.06% (200k) to 98.57% (100k)** of the theoretical LP relaxation upper bound, proving that complex metaheuristics cannot yield substantial profit gains on this distribution.
+3. **Empirical Justification for $\alpha = \beta = 0.5$**: Even though volume is the primary bottleneck, skewed weights (e.g. 0.8 / 0.2) reduce total profit by ~3.3M CZK because symmetric normalized costs prevent dense packages from prematurely exhausting trip weight limits.
+4. **Local Search Redundancy**: Because greedy packing is already within ~3% of the absolute upper bound, 1-for-1 swaps yield virtually zero marginal profit (+7.83 CZK on 200k packages), justifying omitting local search in production.
+5. **Cost of SLA Guarantees**: Enforcing mandatory delivery of flagged packages reduces gross profit by ~14% (from 118.5M to 101.9M CZK), providing transparent trade-off metrics for business operations.
 
 ---
 

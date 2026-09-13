@@ -57,3 +57,13 @@ Both Greedy Only and Round-Robin show **zero GC collections** — clean, predict
 > The **56.4 MB / heavy GC** from Local Search is a known issue. The `LocalSearchOptimizer`
 > rebuilds `Trip` objects on every swap instead of mutating in place. This should be fixed before
 > production use to avoid GC pauses under load.
+
+---
+
+## Business Metric: Profitability (Výnosnost)
+
+While runtime speed and memory diagnostics confirm that execution time is well within the 1-second limit (31–80 ms), the **primary business evaluation metric is total achieved profit**.
+
+For full empirical yield comparison across greedy variants, local search, SLA trade-offs, and comparison to the **LP Relaxation Upper Bound (proving 97.0% – 98.6% optimality)**, see:
+👉 **[Empirical Profitability & Strategy Comparison](file:///d:/Work/Coding/a-be-sql-dev-quest/dotnet/docs/profitability_analysis.md)**
+

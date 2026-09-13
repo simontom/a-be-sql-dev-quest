@@ -42,34 +42,29 @@ public class ProfitabilityAnalysisTests(ITestOutputHelper output)
         output.WriteLine($"[THEORETICAL UPPER BOUND] LP Relaxation: {lpBound:N2} CZK");
 
         // We will test several strategies:
-        var results = new List<StrategyResult>();
-
-        // A. Baseline 1: Pure Profit (sort by Profit descending)
-        results.Add(RunCustomGreedy("1. Baseline: Pure Profit (desc)", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk));
-
-        // B. Baseline 2: Profit / Weight
-        results.Add(RunCustomGreedy("2. Baseline: Profit / Weight", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk / (p.WeightKg / wMax)));
-
-        // C. Baseline 3: Profit / Volume
-        results.Add(RunCustomGreedy("3. Baseline: Profit / Volume", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk / (p.VolumeM3 / vMax)));
-
-        // D. Balanced Density: alpha=0.5, beta=0.5
-        results.Add(RunCustomGreedy("4. Balanced: Profit / (0.5V + 0.5W)", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk / (0.5 * (p.VolumeM3 / vMax) + 0.5 * (p.WeightKg / wMax))));
-
-        // E. Tuned Density: alpha=0.8, beta=0.2
-        results.Add(RunCustomGreedy("5. Tuned: Profit / (0.8V + 0.2W)", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk / (0.8 * (p.VolumeM3 / vMax) + 0.2 * (p.WeightKg / wMax))));
-
-        // F. Tuned Density: alpha=0.9, beta=0.1
-        results.Add(RunCustomGreedy("6. Tuned: Profit / (0.9V + 0.1W)", packages, tripCount, maxVol, maxWeight,
-            (p, vMax, wMax) => (double)p.ProfitCzk / (0.9 * (p.VolumeM3 / vMax) + 0.1 * (p.WeightKg / wMax))));
-
-        // G. Balanced + Local Search (100ms) on pure packages (isolating optimization gain)
-        results.Add(RunCustomGreedyWithLocalSearch("7. Balanced + Local Search (100ms)", packages, tripCount, maxVol, maxWeight, 100));
+        var results = new List<StrategyResult>
+        {
+            // A. Baseline 1: Pure Profit (sort by Profit descending)
+            RunCustomGreedy("1. Baseline: Pure Profit (desc)", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk),
+            // B. Baseline 2: Profit / Weight
+            RunCustomGreedy("2. Baseline: Profit / Weight", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk / (p.WeightKg / wMax)),
+            // C. Baseline 3: Profit / Volume
+            RunCustomGreedy("3. Baseline: Profit / Volume", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk / (p.VolumeM3 / vMax)),
+            // D. Balanced Density: alpha=0.5, beta=0.5
+            RunCustomGreedy("4. Balanced: Profit / (0.5V + 0.5W)", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk / (0.5 * (p.VolumeM3 / vMax) + 0.5 * (p.WeightKg / wMax))),
+            // E. Tuned Density: alpha=0.8, beta=0.2
+            RunCustomGreedy("5. Tuned: Profit / (0.8V + 0.2W)", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk / (0.8 * (p.VolumeM3 / vMax) + 0.2 * (p.WeightKg / wMax))),
+            // F. Tuned Density: alpha=0.9, beta=0.1
+            RunCustomGreedy("6. Tuned: Profit / (0.9V + 0.1W)", packages, tripCount, maxVol, maxWeight,
+                (p, vMax, wMax) => (double)p.ProfitCzk / (0.9 * (p.VolumeM3 / vMax) + 0.1 * (p.WeightKg / wMax))),
+            // G. Balanced + Local Search (100ms) on pure packages (isolating optimization gain)
+            RunCustomGreedyWithLocalSearch("7. Balanced + Local Search (100ms)", packages, tripCount, maxVol, maxWeight, 100)
+        };
 
         // H. Business SLA Mode: Balanced with Mandatory + Aging
         var defaultStrategy = new GreedyKnapsackStrategy();
@@ -92,15 +87,13 @@ public class ProfitabilityAnalysisTests(ITestOutputHelper output)
             slaResult.Trips.Average(t => t.WeightUtilization) * 100,
             swSla.ElapsedMilliseconds));
 
-        output.WriteLine(string.Format("{0,-36} | {1,18} | {2,10} | {3,10} | {4,10} | {5,8} | {6,10}",
-            "Strategy", "Profit (CZK)", "% of LP Bound", "Vol Util %", "Wt Util %", "Pkgs", "Time (ms)"));
+        output.WriteLine("{0,-36} | {1,18} | {2,10} | {3,10} | {4,10} | {5,8} | {6,10}", "Strategy", "Profit (CZK)", "% of LP Bound", "Vol Util %", "Wt Util %", "Pkgs", "Time (ms)");
         output.WriteLine(new string('-', 112));
 
         foreach (var r in results)
         {
             var pctOfLp = (double)(r.TotalProfit / lpBound) * 100.0;
-            output.WriteLine(string.Format("{0,-36} | {1,18:N2} | {2,9:F2}% | {3,9:F1}% | {4,9:F1}% | {5,8:N0} | {6,8}ms",
-                r.Name, r.TotalProfit, pctOfLp, r.VolumeUtilPct, r.WeightUtilPct, r.AssignedCount, r.ElapsedMs));
+            output.WriteLine("{0,-36} | {1,18:N2} | {2,9:F2}% | {3,9:F1}% | {4,9:F1}% | {5,8:N0} | {6,8}ms", r.Name, r.TotalProfit, pctOfLp, r.VolumeUtilPct, r.WeightUtilPct, r.AssignedCount, r.ElapsedMs);
         }
 
         output.WriteLine("");
@@ -131,7 +124,7 @@ public class ProfitabilityAnalysisTests(ITestOutputHelper output)
         Array.Sort(scored, (a, b) => b.Score.CompareTo(a.Score));
 
         var assignedCount = 0;
-        decimal totalProfit = 0m;
+        var totalProfit = 0m;
 
         for (var s = 0; s < scored.Length; s++)
         {
@@ -227,8 +220,8 @@ public class ProfitabilityAnalysisTests(ITestOutputHelper output)
             .OrderByDescending(x => x.Density)
             .ToArray();
 
-        double remainingVol = totalVolCap;
-        decimal totalProfitVol = 0m;
+        var remainingVol = totalVolCap;
+        var totalProfitVol = 0m;
 
         foreach (var item in sortedByVolDensity)
         {
@@ -253,8 +246,8 @@ public class ProfitabilityAnalysisTests(ITestOutputHelper output)
             .OrderByDescending(x => x.Density)
             .ToArray();
 
-        double remainingWeight = totalWeightCap;
-        decimal totalProfitWeight = 0m;
+        var remainingWeight = totalWeightCap;
+        var totalProfitWeight = 0m;
 
         foreach (var item in sortedByWeightDensity)
         {
